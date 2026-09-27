@@ -1,0 +1,143 @@
+Itemset,support,num_movies,is_maximal
+"music, documentation",0.016232084,94,TRUE
+"documentation, sport",0.010015541,58,TRUE
+"documentation, reality",0.008979451,52,TRUE
+"romance, comedy, family, drama",0.007597997,44,TRUE
+"comedy, reality",0.005698498,33,TRUE
+"romance, comedy, thriller, drama",0.005007771,29,TRUE
+"crime, documentation, drama",0.004489725,26,TRUE
+"european, crime, thriller, action, drama",0.004489725,26,TRUE
+"crime, documentation, history",0.004144362,23,TRUE
+"history, action, war, drama",0.00397168,23,TRUE
+"crime, thriller, action, scifi, drama",0.00397168,23,TRUE
+"thriller, romance, fantasy, drama",0.003798998,22,TRUE
+"fantasy, animation, thriller, action, scifi, drama",0.003798998,22,TRUE
+"reality, drama",0.003626317,21,TRUE
+"horror, comedy, thriller, drama",0.003626317,21,TRUE
+"comedy, crime, thriller, action, drama",0.003626317,21,TRUE
+"action, sport, drama",0.003453635,20,TRUE
+"comedy, sport, drama",0.003453635,20,TRUE
+"crime, documentation, thriller",0.003453635,20,TRUE
+"european, romance, comedy, drama",0.003453635,20,TRUE
+"music, comedy, family, drama",0.003453635,20,TRUE
+"european, horror, thriller, drama",0.003453635,20,TRUE
+"romance, reality",0.003280953,19,TRUE
+"comedy, documentation, drama",0.003280953,19,TRUE
+"documentation, war, history",0.003280953,19,TRUE
+"european, family, drama",0.003280953,19,TRUE
+"fantasy, family, comedy, animation, action, scifi, drama",0.003280953,19,TRUE
+"crime, sport",0.003108271,18,TRUE
+"documentation, history, drama",0.003108271,18,TRUE
+"comedy, romance, crime, drama",0.003108271,18,TRUE
+"romance, thriller, scifi, drama",0.003108271,18,TRUE
+"comedy, history, drama",0.00293559,17,TRUE
+"romance, sport, drama",0.00293559,17,TRUE
+"family, horror, fantasy",0.00293559,17,TRUE
+"thriller, action, war, drama",0.00293559,17,TRUE
+"thriller, comedy, fantasy, horror",0.00293559,17,TRUE
+"thriller, family, fantasy, drama",0.00293559,17,TRUE
+"european, fantasy, family, comedy, animation",0.00293559,17,TRUE
+"crime, family",0.002762908,16,TRUE
+"documentation, thriller, drama",0.002762908,16,TRUE
+"family, sport, drama",0.002762908,16,TRUE
+"romance, comedy, thriller, action",0.002762908,16,TRUE
+"family, romance, fantasy, drama",0.002762908,16,TRUE
+"fantasy, comedy, animation, thriller, action",0.002762908,16,TRUE
+"romance, crime, thriller, action, drama",0.002762908,16,TRUE
+"music, scifi",0.002590226,15,TRUE
+"music, thriller",0.002590226,15,TRUE
+"action, drama, western",0.002590226,15,TRUE
+"european, action, scifi",0.002590226,15,TRUE
+"music, animation, drama",0.002590226,15,TRUE
+"european, documentation, drama",0.002590226,15,TRUE
+"thriller, sport, drama",0.002590226,15,TRUE
+"crime, animation, action, drama",0.002590226,15,TRUE
+"horror, comedy, fantasy, action",0.002590226,15,TRUE
+"crime, fantasy, action, scifi",0.002590226,15,TRUE
+"family, thriller, action, drama",0.002590226,15,TRUE
+"romance, war, history, drama",0.002590226,15,TRUE
+"romance, horror, thriller, drama",0.002590226,15,TRUE
+"fantasy, comedy, romance, action, drama",0.002590226,15,TRUE
+"horror, crime, thriller, action, drama",0.002590226,15,TRUE
+"fantasy, comedy, animation, thriller, drama",0.002590226,15,TRUE
+"fantasy, animation, horror, action, scifi, drama",0.002590226,15,TRUE
+"family, documentation, drama",0.002417544,14,TRUE
+"horror, comedy, action, scifi",0.002417544,14,TRUE
+"romance, comedy, action, scifi",0.002417544,14,TRUE
+"european, family, fantasy, action",0.002417544,14,TRUE
+"comedy, romance, drama, music",0.002417544,14,TRUE
+"comedy, animation, thriller, action, drama",0.002417544,14,TRUE
+"comedy, animation, thriller, action, scifi",0.002417544,14,TRUE
+"fantasy, family, comedy, animation, music",0.002417544,14,TRUE
+"fantasy, family, comedy, animation, romance",0.002417544,14,TRUE
+"fantasy, horror, thriller, action, scifi, drama",0.002417544,14,TRUE
+"comedy, war",0.002244863,13,TRUE
+"music, reality",0.002244863,13,TRUE
+"thriller, history, action",0.002244863,13,TRUE
+"family, horror, animation",0.002244863,13,TRUE
+"crime, comedy, scifi",0.002244863,13,TRUE
+"horror, family, comedy",0.002244863,13,TRUE
+"romance, documentation, drama",0.002244863,13,TRUE
+"european, documentation, history",0.002244863,13,TRUE
+"european, horror, fantasy",0.002244863,13,TRUE
+"romance, horror, fantasy",0.002244863,13,TRUE
+"european, family, animation, action",0.002244863,13,TRUE
+"family, romance, animation, action",0.002244863,13,TRUE
+"horror, comedy, action, drama",0.002244863,13,TRUE
+"european, family, comedy, action",0.002244863,13,TRUE
+"romance, comedy, family, action",0.002244863,13,TRUE
+"horror, comedy, thriller, action",0.002244863,13,TRUE
+"thriller, family, fantasy, action",0.002244863,13,TRUE
+"family, thriller, action, scifi",0.002244863,13,TRUE
+"horror, comedy, animation, fantasy",0.002244863,13,TRUE
+"thriller, family, animation, fantasy",0.002244863,13,TRUE
+"horror, comedy, fantasy, drama",0.002244863,13,TRUE
+"horror, comedy, scifi, drama",0.002244863,13,TRUE
+"crime, thriller, history, drama",0.002244863,13,TRUE
+"crime, horror, thriller, scifi",0.002244863,13,TRUE
+"european, war, history, drama",0.002244863,13,TRUE
+"family, thriller, scifi, drama",0.002244863,13,TRUE
+"thriller, history, war, drama",0.002244863,13,TRUE
+"fantasy, crime, thriller, action, drama",0.002244863,13,TRUE
+"fantasy, romance, action, scifi, drama",0.002244863,13,TRUE
+"fantasy, animation, horror, thriller, drama",0.002244863,13,TRUE
+"fantasy, comedy, romance, scifi, drama",0.002244863,13,TRUE
+"fantasy, comedy, thriller, action, scifi, drama",0.002244863,13,TRUE
+"fantasy, history",0.002072181,11,TRUE
+"music, animation, action",0.002072181,11,TRUE
+"animation, war, action",0.002072181,11,TRUE
+"documentation, action, drama",0.002072181,11,TRUE
+"romance, history, action",0.002072181,11,TRUE
+"romance, horror, action",0.002072181,11,TRUE
+"war, action, scifi",0.002072181,11,TRUE
+"crime, animation, scifi",0.002072181,11,TRUE
+"animation, war, drama",0.002072181,11,TRUE
+"crime, drama, western",0.002072181,11,TRUE
+"family, horror, drama",0.002072181,11,TRUE
+"war, scifi, drama",0.002072181,11,TRUE
+"thriller, drama, western",0.002072181,11,TRUE
+"european, romance, thriller",0.002072181,11,TRUE
+"family, horror, scifi",0.002072181,11,TRUE
+"family, romance, scifi",0.002072181,11,TRUE
+"crime, comedy, animation, action",0.002072181,11,TRUE
+"european, comedy, animation, action",0.002072181,11,TRUE
+"family, animation, thriller, action",0.002072181,11,TRUE
+"music, comedy, family, action",0.002072181,11,TRUE
+"family, romance, action, drama",0.002072181,11,TRUE
+"family, comedy, animation, thriller",0.002072181,11,TRUE
+"family, romance, animation, drama",0.002072181,11,TRUE
+"family, animation, thriller, drama",0.002072181,11,TRUE
+"music, comedy, fantasy, drama",0.002072181,11,TRUE
+"horror, comedy, fantasy, scifi",0.002072181,11,TRUE
+"crime, thriller, war, drama",0.002072181,11,TRUE
+"thriller, fantasy, european, drama",0.002072181,11,TRUE
+"european, thriller, scifi, drama",0.002072181,11,TRUE
+"music, fantasy, family, drama",0.002072181,11,TRUE
+"thriller, family, fantasy, scifi",0.002072181,11,TRUE
+"comedy, animation, romance, action, drama",0.002072181,11,TRUE
+"fantasy, animation, romance, action, drama",0.002072181,11,TRUE
+"animation, romance, action, scifi, drama",0.002072181,11,TRUE
+"fantasy, animation, romance, scifi, drama",0.002072181,11,TRUE
+"fantasy, horror, crime, thriller, drama",0.002072181,11,TRUE
+"fantasy, crime, thriller, scifi, drama",0.002072181,11,TRUE
+"fantasy, animation, horror, thriller, action, scifi",0.002072181,11,TRUE

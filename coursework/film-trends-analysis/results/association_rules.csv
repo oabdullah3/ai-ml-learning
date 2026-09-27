@@ -1,0 +1,1209 @@
+antecedents (actors),consequents (actors),support (proportion of movies),confidence (rule reliability),lift (association strength),conviction (dependency measure),num_movies (count)
+"Sadie Sandler, Jared Sandler",Chris Titone,0.002001334,1,499.6666667,inf,6
+Chris Titone,"Sadie Sandler, Jared Sandler",0.002001334,1,499.6666667,inf,6
+"Jackie Sandler, Sadie Sandler, Jared Sandler",Chris Titone,0.002001334,1,499.6666667,inf,6
+"Jackie Sandler, Chris Titone","Sadie Sandler, Jared Sandler",0.002001334,1,499.6666667,inf,6
+"Sadie Sandler, Jared Sandler","Jackie Sandler, Chris Titone",0.002001334,1,499.6666667,inf,6
+Chris Titone,"Jackie Sandler, Sadie Sandler, Jared Sandler",0.002001334,1,499.6666667,inf,6
+Nobuyuki Suzuki,Kanta Sato,0.002001334,1,428.2857143,inf,6
+Kanta Sato,Nobuyuki Suzuki,0.002001334,0.857142857,428.2857143,6.98599066,6
+"Adam Sandler, Sadie Sandler",Sunny Sandler,0.002001334,0.857142857,428.2857143,6.98599066,6
+Sunny Sandler,"Adam Sandler, Sadie Sandler",0.002001334,1,428.2857143,inf,6
+"Mike Smith, John Dunsworth",Patrick Roach,0.002001334,1,428.2857143,inf,6
+Patrick Roach,"Mike Smith, John Dunsworth",0.002001334,0.857142857,428.2857143,6.98599066,6
+"Adam Sandler, Jackie Sandler, Sadie Sandler",Sunny Sandler,0.002001334,0.857142857,428.2857143,6.98599066,6
+"Adam Sandler, Sadie Sandler","Jackie Sandler, Sunny Sandler",0.002001334,0.857142857,428.2857143,6.98599066,6
+"Jackie Sandler, Sunny Sandler","Adam Sandler, Sadie Sandler",0.002001334,1,428.2857143,inf,6
+Sunny Sandler,"Adam Sandler, Jackie Sandler, Sadie Sandler",0.002001334,1,428.2857143,inf,6
+"Robb Wells, Mike Smith, John Dunsworth",Patrick Roach,0.002001334,1,428.2857143,inf,6
+"Patrick Roach, Robb Wells","Mike Smith, John Dunsworth",0.002001334,0.857142857,428.2857143,6.98599066,6
+"Mike Smith, John Dunsworth","Patrick Roach, Robb Wells",0.002001334,1,428.2857143,inf,6
+Patrick Roach,"Robb Wells, Mike Smith, John Dunsworth",0.002001334,0.857142857,428.2857143,6.98599066,6
+"Mike Smith, John Dunsworth, John Paul Tremblay",Patrick Roach,0.002001334,1,428.2857143,inf,6
+"Patrick Roach, John Paul Tremblay","Mike Smith, John Dunsworth",0.002001334,0.857142857,428.2857143,6.98599066,6
+"Mike Smith, John Dunsworth","Patrick Roach, John Paul Tremblay",0.002001334,1,428.2857143,inf,6
+Patrick Roach,"Mike Smith, John Dunsworth, John Paul Tremblay",0.002001334,0.857142857,428.2857143,6.98599066,6
+"Robb Wells, Mike Smith, John Dunsworth, John Paul Tremblay",Patrick Roach,0.002001334,1,428.2857143,inf,6
+"Patrick Roach, Robb Wells, John Paul Tremblay","Mike Smith, John Dunsworth",0.002001334,0.857142857,428.2857143,6.98599066,6
+"Robb Wells, Mike Smith, John Dunsworth","Patrick Roach, John Paul Tremblay",0.002001334,1,428.2857143,inf,6
+"Mike Smith, John Dunsworth, John Paul Tremblay","Patrick Roach, Robb Wells",0.002001334,1,428.2857143,inf,6
+"Patrick Roach, Robb Wells","Mike Smith, John Dunsworth, John Paul Tremblay",0.002001334,0.857142857,428.2857143,6.98599066,6
+"Patrick Roach, John Paul Tremblay","Robb Wells, Mike Smith, John Dunsworth",0.002001334,0.857142857,428.2857143,6.98599066,6
+"Mike Smith, John Dunsworth","Patrick Roach, Robb Wells, John Paul Tremblay",0.002001334,1,428.2857143,inf,6
+Patrick Roach,"Robb Wells, Mike Smith, John Dunsworth, John Paul Tremblay",0.002001334,0.857142857,428.2857143,6.98599066,6
+Chris Titone,Sadie Sandler,0.002001334,1,374.75,inf,6
+Sadie Sandler,Chris Titone,0.002001334,0.75,374.75,3.991994663,6
+Sunny Sandler,Sadie Sandler,0.002001334,1,374.75,inf,6
+Sadie Sandler,Sunny Sandler,0.002001334,0.75,374.75,3.991994663,6
+"Jackie Sandler, Chris Titone",Sadie Sandler,0.002001334,1,374.75,inf,6
+"Jackie Sandler, Sadie Sandler",Chris Titone,0.002001334,0.75,374.75,3.991994663,6
+Chris Titone,"Jackie Sandler, Sadie Sandler",0.002001334,1,374.75,inf,6
+Sadie Sandler,"Jackie Sandler, Chris Titone",0.002001334,0.75,374.75,3.991994663,6
+"Chris Titone, Jared Sandler",Sadie Sandler,0.002001334,1,374.75,inf,6
+Sadie Sandler,"Chris Titone, Jared Sandler",0.002001334,0.75,374.75,3.991994663,6
+"Adam Sandler, Jackie Sandler",Sunny Sandler,0.002001334,0.75,374.75,3.991994663,6
+Sunny Sandler,"Adam Sandler, Jackie Sandler",0.002001334,1,374.75,inf,6
+"Adam Sandler, Sunny Sandler",Sadie Sandler,0.002001334,1,374.75,inf,6
+Sadie Sandler,"Adam Sandler, Sunny Sandler",0.002001334,0.75,374.75,3.991994663,6
+"Jackie Sandler, Sunny Sandler",Sadie Sandler,0.002001334,1,374.75,inf,6
+"Jackie Sandler, Sadie Sandler",Sunny Sandler,0.002001334,0.75,374.75,3.991994663,6
+Sunny Sandler,"Jackie Sandler, Sadie Sandler",0.002001334,1,374.75,inf,6
+Sadie Sandler,"Jackie Sandler, Sunny Sandler",0.002001334,0.75,374.75,3.991994663,6
+"Andrea Libman, Vincent Tong",Alessandro Juliani,0.002001334,1,374.75,inf,6
+Alessandro Juliani,"Andrea Libman, Vincent Tong",0.002001334,0.75,374.75,3.991994663,6
+"Fortune Feimster, David Spade",London Hughes,0.002001334,1,374.75,inf,6
+London Hughes,"Fortune Feimster, David Spade",0.002001334,0.75,374.75,3.991994663,6
+"Jackie Sandler, Chris Titone, Jared Sandler",Sadie Sandler,0.002001334,1,374.75,inf,6
+"Jackie Sandler, Sadie Sandler","Chris Titone, Jared Sandler",0.002001334,0.75,374.75,3.991994663,6
+"Chris Titone, Jared Sandler","Jackie Sandler, Sadie Sandler",0.002001334,1,374.75,inf,6
+Sadie Sandler,"Jackie Sandler, Chris Titone, Jared Sandler",0.002001334,0.75,374.75,3.991994663,6
+"Adam Sandler, Sunny Sandler, Jackie Sandler",Sadie Sandler,0.002001334,1,374.75,inf,6
+"Adam Sandler, Sunny Sandler","Jackie Sandler, Sadie Sandler",0.002001334,1,374.75,inf,6
+"Adam Sandler, Jackie Sandler","Sunny Sandler, Sadie Sandler",0.002001334,0.75,374.75,3.991994663,6
+"Sunny Sandler, Sadie Sandler","Adam Sandler, Jackie Sandler",0.002001334,1,374.75,inf,6
+"Jackie Sandler, Sadie Sandler","Adam Sandler, Sunny Sandler",0.002001334,0.75,374.75,3.991994663,6
+Sadie Sandler,"Adam Sandler, Sunny Sandler, Jackie Sandler",0.002001334,0.75,374.75,3.991994663,6
+Enrique Gil,Liza Soberano,0.002001334,0.857142857,367.1020408,6.983655771,6
+Liza Soberano,Enrique Gil,0.002001334,0.857142857,367.1020408,6.983655771,6
+Patrick Roach,John Dunsworth,0.002001334,0.857142857,367.1020408,6.983655771,6
+John Dunsworth,Patrick Roach,0.002001334,0.857142857,367.1020408,6.983655771,6
+"Patrick Roach, Robb Wells",John Dunsworth,0.002001334,0.857142857,367.1020408,6.983655771,6
+"Robb Wells, John Dunsworth",Patrick Roach,0.002001334,0.857142857,367.1020408,6.983655771,6
+Patrick Roach,"Robb Wells, John Dunsworth",0.002001334,0.857142857,367.1020408,6.983655771,6
+John Dunsworth,"Patrick Roach, Robb Wells",0.002001334,0.857142857,367.1020408,6.983655771,6
+"Patrick Roach, Mike Smith",John Dunsworth,0.002001334,0.857142857,367.1020408,6.983655771,6
+John Dunsworth,"Patrick Roach, Mike Smith",0.002001334,0.857142857,367.1020408,6.983655771,6
+"Patrick Roach, John Paul Tremblay",John Dunsworth,0.002001334,0.857142857,367.1020408,6.983655771,6
+"John Dunsworth, John Paul Tremblay",Patrick Roach,0.002001334,0.857142857,367.1020408,6.983655771,6
+Patrick Roach,"John Dunsworth, John Paul Tremblay",0.002001334,0.857142857,367.1020408,6.983655771,6
+John Dunsworth,"Patrick Roach, John Paul Tremblay",0.002001334,0.857142857,367.1020408,6.983655771,6
+"Patrick Roach, Robb Wells, Mike Smith",John Dunsworth,0.002001334,0.857142857,367.1020408,6.983655771,6
+"Patrick Roach, Mike Smith","Robb Wells, John Dunsworth",0.002001334,0.857142857,367.1020408,6.983655771,6
+"Robb Wells, John Dunsworth","Patrick Roach, Mike Smith",0.002001334,0.857142857,367.1020408,6.983655771,6
+John Dunsworth,"Patrick Roach, Robb Wells, Mike Smith",0.002001334,0.857142857,367.1020408,6.983655771,6
+"Patrick Roach, Robb Wells, John Paul Tremblay",John Dunsworth,0.002001334,0.857142857,367.1020408,6.983655771,6
+"Robb Wells, John Dunsworth, John Paul Tremblay",Patrick Roach,0.002001334,0.857142857,367.1020408,6.983655771,6
+"Patrick Roach, Robb Wells","John Dunsworth, John Paul Tremblay",0.002001334,0.857142857,367.1020408,6.983655771,6
+"Patrick Roach, John Paul Tremblay","Robb Wells, John Dunsworth",0.002001334,0.857142857,367.1020408,6.983655771,6
+"Robb Wells, John Dunsworth","Patrick Roach, John Paul Tremblay",0.002001334,0.857142857,367.1020408,6.983655771,6
+"John Dunsworth, John Paul Tremblay","Patrick Roach, Robb Wells",0.002001334,0.857142857,367.1020408,6.983655771,6
+Patrick Roach,"Robb Wells, John Dunsworth, John Paul Tremblay",0.002001334,0.857142857,367.1020408,6.983655771,6
+John Dunsworth,"Patrick Roach, Robb Wells, John Paul Tremblay",0.002001334,0.857142857,367.1020408,6.983655771,6
+"Patrick Roach, Mike Smith, John Paul Tremblay",John Dunsworth,0.002001334,0.857142857,367.1020408,6.983655771,6
+"Patrick Roach, Mike Smith","John Dunsworth, John Paul Tremblay",0.002001334,0.857142857,367.1020408,6.983655771,6
+"John Dunsworth, John Paul Tremblay","Patrick Roach, Mike Smith",0.002001334,0.857142857,367.1020408,6.983655771,6
+John Dunsworth,"Patrick Roach, Mike Smith, John Paul Tremblay",0.002001334,0.857142857,367.1020408,6.983655771,6
+"Patrick Roach, Robb Wells, Mike Smith, John Paul Tremblay",John Dunsworth,0.002001334,0.857142857,367.1020408,6.983655771,6
+"Patrick Roach, Robb Wells, Mike Smith","John Dunsworth, John Paul Tremblay",0.002001334,0.857142857,367.1020408,6.983655771,6
+"Patrick Roach, Mike Smith, John Paul Tremblay","Robb Wells, John Dunsworth",0.002001334,0.857142857,367.1020408,6.983655771,6
+"Robb Wells, John Dunsworth, John Paul Tremblay","Patrick Roach, Mike Smith",0.002001334,0.857142857,367.1020408,6.983655771,6
+"Patrick Roach, Mike Smith","Robb Wells, John Dunsworth, John Paul Tremblay",0.002001334,0.857142857,367.1020408,6.983655771,6
+"Robb Wells, John Dunsworth","Patrick Roach, Mike Smith, John Paul Tremblay",0.002001334,0.857142857,367.1020408,6.983655771,6
+"John Dunsworth, John Paul Tremblay","Patrick Roach, Robb Wells, Mike Smith",0.002001334,0.857142857,367.1020408,6.983655771,6
+John Dunsworth,"Patrick Roach, Robb Wells, Mike Smith, John Paul Tremblay",0.002001334,0.857142857,367.1020408,6.983655771,6
+Showtaro Morikubo,Chie Nakamura,0.002001334,1,333.1111111,inf,6
+Chie Nakamura,Showtaro Morikubo,0.002001334,0.666666667,333.1111111,2.993995997,6
+Showtaro Morikubo,Junko Takeuchi,0.002001334,1,333.1111111,inf,6
+Junko Takeuchi,Showtaro Morikubo,0.002001334,0.666666667,333.1111111,2.993995997,6
+Jamie Watson,Michela Luci,0.002001334,1,333.1111111,inf,6
+Michela Luci,Jamie Watson,0.002001334,0.666666667,333.1111111,2.993995997,6
+Junko Takeuchi,Chie Nakamura,0.003002001,1,333.1111111,inf,9
+Chie Nakamura,Junko Takeuchi,0.003002001,1,333.1111111,inf,9
+"Jackie Sandler, Jared Sandler",Chris Titone,0.002001334,0.666666667,333.1111111,2.993995997,6
+Chris Titone,"Jackie Sandler, Jared Sandler",0.002001334,1,333.1111111,inf,6
+"Showtaro Morikubo, Junko Takeuchi",Chie Nakamura,0.002001334,1,333.1111111,inf,6
+"Showtaro Morikubo, Chie Nakamura",Junko Takeuchi,0.002001334,1,333.1111111,inf,6
+"Junko Takeuchi, Chie Nakamura",Showtaro Morikubo,0.002001334,0.666666667,333.1111111,2.993995997,6
+Showtaro Morikubo,"Junko Takeuchi, Chie Nakamura",0.002001334,1,333.1111111,inf,6
+Junko Takeuchi,"Showtaro Morikubo, Chie Nakamura",0.002001334,0.666666667,333.1111111,2.993995997,6
+Chie Nakamura,"Showtaro Morikubo, Junko Takeuchi",0.002001334,0.666666667,333.1111111,2.993995997,6
+"Junko Takeuchi, Kazuhiko Inoue",Chie Nakamura,0.002668446,1,333.1111111,inf,7
+"Kazuhiko Inoue, Chie Nakamura",Junko Takeuchi,0.002668446,1,333.1111111,inf,7
+Junko Takeuchi,"Kazuhiko Inoue, Chie Nakamura",0.002668446,0.888888889,333.1111111,8.975983989,7
+Chie Nakamura,"Junko Takeuchi, Kazuhiko Inoue",0.002668446,0.888888889,333.1111111,8.975983989,7
+"Jackie Sandler, Jared Sandler","Chris Titone, Sadie Sandler",0.002001334,0.666666667,333.1111111,2.993995997,6
+"Chris Titone, Sadie Sandler","Jackie Sandler, Jared Sandler",0.002001334,1,333.1111111,inf,6
+"Adam Sandler, Jackie Sandler",Sadie Sandler,0.00233489,0.875,327.90625,7.978652435,7
+Sadie Sandler,"Adam Sandler, Jackie Sandler",0.00233489,0.875,327.90625,7.978652435,7
+Chris Titone,Jared Sandler,0.002001334,1,299.8,inf,6
+Jared Sandler,Chris Titone,0.002001334,0.6,299.8,2.494996664,6
+"Jackie Sandler, Chris Titone",Jared Sandler,0.002001334,1,299.8,inf,6
+Jared Sandler,"Jackie Sandler, Chris Titone",0.002001334,0.6,299.8,2.494996664,6
+"Chris Titone, Sadie Sandler",Jared Sandler,0.002001334,1,299.8,inf,6
+Jared Sandler,"Chris Titone, Sadie Sandler",0.002001334,0.6,299.8,2.494996664,6
+"Jackie Sandler, Chris Titone, Sadie Sandler",Jared Sandler,0.002001334,1,299.8,inf,6
+Jared Sandler,"Jackie Sandler, Chris Titone, Sadie Sandler",0.002001334,0.6,299.8,2.494996664,6
+Kathryn Bernardo,Daniel Padilla,0.003002001,0.818181818,272.5454545,5.483488993,9
+Daniel Padilla,Kathryn Bernardo,0.003002001,1,272.5454545,inf,9
+Kazuhiko Inoue,Chie Nakamura,0.002668446,0.8,266.4888889,4.984989993,7
+Chie Nakamura,Kazuhiko Inoue,0.002668446,0.888888889,266.4888889,8.969979987,7
+Junko Takeuchi,Kazuhiko Inoue,0.002668446,0.888888889,266.4888889,8.969979987,7
+Kazuhiko Inoue,Junko Takeuchi,0.002668446,0.8,266.4888889,4.984989993,7
+"Junko Takeuchi, Chie Nakamura",Kazuhiko Inoue,0.002668446,0.888888889,266.4888889,8.969979987,7
+Kazuhiko Inoue,"Junko Takeuchi, Chie Nakamura",0.002668446,0.8,266.4888889,4.984989993,7
+"Jackie Sandler, Rob Schneider",Jared Sandler,0.002001334,0.857142857,256.9714286,6.976651101,6
+Jared Sandler,"Jackie Sandler, Rob Schneider",0.002001334,0.6,256.9714286,2.494162775,6
+Jackie Sandler,Chris Titone,0.002001334,0.5,249.8333333,1.995997332,6
+Chris Titone,Jackie Sandler,0.002001334,1,249.8333333,inf,6
+Adam Sandler,Sunny Sandler,0.002001334,0.5,249.8333333,1.995997332,6
+Sunny Sandler,Adam Sandler,0.002001334,1,249.8333333,inf,6
+Allen Covert,Jackie Sandler,0.002001334,1,249.8333333,inf,6
+Jackie Sandler,Allen Covert,0.002001334,0.5,249.8333333,1.995997332,6
+Jackie Sandler,Sadie Sandler,0.002668446,0.666666667,249.8333333,2.991994663,7
+Sadie Sandler,Jackie Sandler,0.002668446,1,249.8333333,inf,7
+Jackie Sandler,Sunny Sandler,0.002001334,0.5,249.8333333,1.995997332,6
+Sunny Sandler,Jackie Sandler,0.002001334,1,249.8333333,inf,6
+"John Cleese, Terry Gilliam",Carol Cleveland,0.002001334,0.5,249.8333333,1.995997332,6
+Carol Cleveland,"John Cleese, Terry Gilliam",0.002001334,1,249.8333333,inf,6
+"Chris Titone, Jared Sandler",Jackie Sandler,0.002001334,1,249.8333333,inf,6
+Jackie Sandler,"Chris Titone, Jared Sandler",0.002001334,0.5,249.8333333,1.995997332,6
+"Chris Titone, Sadie Sandler",Jackie Sandler,0.002001334,1,249.8333333,inf,6
+Jackie Sandler,"Chris Titone, Sadie Sandler",0.002001334,0.5,249.8333333,1.995997332,6
+"Adam Sandler, Sadie Sandler",Jackie Sandler,0.00233489,1,249.8333333,inf,7
+Jackie Sandler,"Adam Sandler, Sadie Sandler",0.00233489,0.583333333,249.8333333,2.394396264,7
+"Adam Sandler, Sunny Sandler",Jackie Sandler,0.002001334,1,249.8333333,inf,6
+"Jackie Sandler, Sunny Sandler",Adam Sandler,0.002001334,1,249.8333333,inf,6
+Adam Sandler,"Jackie Sandler, Sunny Sandler",0.002001334,0.5,249.8333333,1.995997332,6
+Jackie Sandler,"Adam Sandler, Sunny Sandler",0.002001334,0.5,249.8333333,1.995997332,6
+"Sunny Sandler, Sadie Sandler",Adam Sandler,0.002001334,1,249.8333333,inf,6
+Adam Sandler,"Sunny Sandler, Sadie Sandler",0.002001334,0.5,249.8333333,1.995997332,6
+"Jackie Sandler, Jared Sandler",Sadie Sandler,0.002001334,0.666666667,249.8333333,2.991994663,6
+"Sadie Sandler, Jared Sandler",Jackie Sandler,0.002001334,1,249.8333333,inf,6
+Jackie Sandler,"Sadie Sandler, Jared Sandler",0.002001334,0.5,249.8333333,1.995997332,6
+Sadie Sandler,"Jackie Sandler, Jared Sandler",0.002001334,0.75,249.8333333,3.987991995,6
+"Rob Schneider, Jared Sandler",Jackie Sandler,0.002001334,1,249.8333333,inf,6
+Jackie Sandler,"Rob Schneider, Jared Sandler",0.002001334,0.5,249.8333333,1.995997332,6
+"Sunny Sandler, Sadie Sandler",Jackie Sandler,0.002001334,1,249.8333333,inf,6
+Jackie Sandler,"Sunny Sandler, Sadie Sandler",0.002001334,0.5,249.8333333,1.995997332,6
+"London Hughes, David Spade",Fortune Feimster,0.002001334,1,249.8333333,inf,6
+Fortune Feimster,"London Hughes, David Spade",0.002001334,0.5,249.8333333,1.995997332,6
+"John Cleese, Eric Idle, Terry Gilliam",Carol Cleveland,0.002001334,0.5,249.8333333,1.995997332,6
+"John Cleese, Terry Gilliam","Carol Cleveland, Eric Idle",0.002001334,0.5,249.8333333,1.995997332,6
+"Carol Cleveland, Eric Idle","John Cleese, Terry Gilliam",0.002001334,1,249.8333333,inf,6
+Carol Cleveland,"John Cleese, Eric Idle, Terry Gilliam",0.002001334,1,249.8333333,inf,6
+"Terry Jones, John Cleese, Terry Gilliam",Carol Cleveland,0.002001334,0.5,249.8333333,1.995997332,6
+"John Cleese, Terry Gilliam","Carol Cleveland, Terry Jones",0.002001334,0.5,249.8333333,1.995997332,6
+"Carol Cleveland, Terry Jones","John Cleese, Terry Gilliam",0.002001334,1,249.8333333,inf,6
+Carol Cleveland,"Terry Jones, John Cleese, Terry Gilliam",0.002001334,1,249.8333333,inf,6
+"Michael Palin, John Cleese, Terry Gilliam",Carol Cleveland,0.002001334,0.5,249.8333333,1.995997332,6
+"John Cleese, Terry Gilliam","Carol Cleveland, Michael Palin",0.002001334,0.5,249.8333333,1.995997332,6
+"Carol Cleveland, Michael Palin","John Cleese, Terry Gilliam",0.002001334,1,249.8333333,inf,6
+Carol Cleveland,"Michael Palin, John Cleese, Terry Gilliam",0.002001334,1,249.8333333,inf,6
+"Chris Titone, Sadie Sandler, Jared Sandler",Jackie Sandler,0.002001334,1,249.8333333,inf,6
+Jackie Sandler,"Chris Titone, Sadie Sandler, Jared Sandler",0.002001334,0.5,249.8333333,1.995997332,6
+"Adam Sandler, Sunny Sandler, Sadie Sandler",Jackie Sandler,0.002001334,1,249.8333333,inf,6
+"Jackie Sandler, Sunny Sandler, Sadie Sandler",Adam Sandler,0.002001334,1,249.8333333,inf,6
+Adam Sandler,"Jackie Sandler, Sunny Sandler, Sadie Sandler",0.002001334,0.5,249.8333333,1.995997332,6
+Jackie Sandler,"Adam Sandler, Sunny Sandler, Sadie Sandler",0.002001334,0.5,249.8333333,1.995997332,6
+"Terry Gilliam, Terry Jones, John Cleese, Eric Idle",Carol Cleveland,0.002001334,0.5,249.8333333,1.995997332,6
+"Terry Gilliam, John Cleese, Eric Idle","Carol Cleveland, Terry Jones",0.002001334,0.5,249.8333333,1.995997332,6
+"Carol Cleveland, Terry Jones, Eric Idle","Terry Gilliam, John Cleese",0.002001334,1,249.8333333,inf,6
+"Terry Gilliam, Terry Jones, John Cleese","Carol Cleveland, Eric Idle",0.002001334,0.5,249.8333333,1.995997332,6
+"Carol Cleveland, Eric Idle","Terry Gilliam, Terry Jones, John Cleese",0.002001334,1,249.8333333,inf,6
+"Terry Gilliam, John Cleese","Carol Cleveland, Terry Jones, Eric Idle",0.002001334,0.5,249.8333333,1.995997332,6
+"Carol Cleveland, Terry Jones","Terry Gilliam, John Cleese, Eric Idle",0.002001334,1,249.8333333,inf,6
+Carol Cleveland,"Terry Gilliam, Terry Jones, John Cleese, Eric Idle",0.002001334,1,249.8333333,inf,6
+"Terry Gilliam, Michael Palin, John Cleese, Eric Idle",Carol Cleveland,0.002001334,0.5,249.8333333,1.995997332,6
+"Carol Cleveland, Michael Palin, Eric Idle","Terry Gilliam, John Cleese",0.002001334,1,249.8333333,inf,6
+"Terry Gilliam, John Cleese, Eric Idle","Carol Cleveland, Michael Palin",0.002001334,0.5,249.8333333,1.995997332,6
+"Terry Gilliam, Michael Palin, John Cleese","Carol Cleveland, Eric Idle",0.002001334,0.5,249.8333333,1.995997332,6
+"Carol Cleveland, Eric Idle","Terry Gilliam, Michael Palin, John Cleese",0.002001334,1,249.8333333,inf,6
+"Carol Cleveland, Michael Palin","Terry Gilliam, John Cleese, Eric Idle",0.002001334,1,249.8333333,inf,6
+"Terry Gilliam, John Cleese","Carol Cleveland, Michael Palin, Eric Idle",0.002001334,0.5,249.8333333,1.995997332,6
+Carol Cleveland,"Terry Gilliam, Michael Palin, John Cleese, Eric Idle",0.002001334,1,249.8333333,inf,6
+"Terry Gilliam, Terry Jones, Michael Palin, John Cleese",Carol Cleveland,0.002001334,0.5,249.8333333,1.995997332,6
+"Terry Gilliam, Michael Palin, John Cleese","Carol Cleveland, Terry Jones",0.002001334,0.5,249.8333333,1.995997332,6
+"Carol Cleveland, Terry Jones, Michael Palin","Terry Gilliam, John Cleese",0.002001334,1,249.8333333,inf,6
+"Terry Gilliam, Terry Jones, John Cleese","Carol Cleveland, Michael Palin",0.002001334,0.5,249.8333333,1.995997332,6
+"Carol Cleveland, Michael Palin","Terry Gilliam, Terry Jones, John Cleese",0.002001334,1,249.8333333,inf,6
+"Terry Gilliam, John Cleese","Carol Cleveland, Terry Jones, Michael Palin",0.002001334,0.5,249.8333333,1.995997332,6
+"Carol Cleveland, Terry Jones","Terry Gilliam, Michael Palin, John Cleese",0.002001334,1,249.8333333,inf,6
+Carol Cleveland,"Terry Gilliam, Terry Jones, Michael Palin, John Cleese",0.002001334,1,249.8333333,inf,6
+"Eric Idle, Michael Palin, John Cleese, Terry Jones, Terry Gilliam",Carol Cleveland,0.002001334,0.5,249.8333333,1.995997332,6
+"Terry Gilliam, Michael Palin, John Cleese, Eric Idle","Carol Cleveland, Terry Jones",0.002001334,0.5,249.8333333,1.995997332,6
+"Carol Cleveland, Terry Jones, Michael Palin, Eric Idle","Terry Gilliam, John Cleese",0.002001334,1,249.8333333,inf,6
+"Terry Gilliam, Terry Jones, John Cleese, Eric Idle","Carol Cleveland, Michael Palin",0.002001334,0.5,249.8333333,1.995997332,6
+"Terry Gilliam, Terry Jones, Michael Palin, John Cleese","Carol Cleveland, Eric Idle",0.002001334,0.5,249.8333333,1.995997332,6
+"Carol Cleveland, Michael Palin, Eric Idle","Terry Gilliam, Terry Jones, John Cleese",0.002001334,1,249.8333333,inf,6
+"Terry Gilliam, John Cleese, Eric Idle","Carol Cleveland, Terry Jones, Michael Palin",0.002001334,0.5,249.8333333,1.995997332,6
+"Carol Cleveland, Terry Jones, Eric Idle","Terry Gilliam, Michael Palin, John Cleese",0.002001334,1,249.8333333,inf,6
+"Terry Gilliam, Michael Palin, John Cleese","Carol Cleveland, Terry Jones, Eric Idle",0.002001334,0.5,249.8333333,1.995997332,6
+"Carol Cleveland, Terry Jones, Michael Palin","Terry Gilliam, John Cleese, Eric Idle",0.002001334,1,249.8333333,inf,6
+"Terry Gilliam, Terry Jones, John Cleese","Carol Cleveland, Michael Palin, Eric Idle",0.002001334,0.5,249.8333333,1.995997332,6
+"Carol Cleveland, Eric Idle","Terry Gilliam, Terry Jones, Michael Palin, John Cleese",0.002001334,1,249.8333333,inf,6
+"Carol Cleveland, Michael Palin","Terry Gilliam, Terry Jones, John Cleese, Eric Idle",0.002001334,1,249.8333333,inf,6
+"Terry Gilliam, John Cleese","Carol Cleveland, Terry Jones, Michael Palin, Eric Idle",0.002001334,0.5,249.8333333,1.995997332,6
+"Carol Cleveland, Terry Jones","Terry Gilliam, Michael Palin, John Cleese, Eric Idle",0.002001334,1,249.8333333,inf,6
+Carol Cleveland,"Eric Idle, Michael Palin, John Cleese, Terry Jones, Terry Gilliam",0.002001334,1,249.8333333,inf,6
+"Andrea Libman, Brian Drummond",Ian James Corlett,0.002001334,0.857142857,233.6103896,6.974316211,6
+Ian James Corlett,"Andrea Libman, Brian Drummond",0.002001334,0.545454545,233.6103896,2.194863242,6
+"Andrea Libman, Ian James Corlett",Erin Mathews,0.002001334,0.857142857,233.6103896,6.974316211,6
+"Andrea Libman, Erin Mathews",Ian James Corlett,0.002001334,0.857142857,233.6103896,6.974316211,6
+Ian James Corlett,"Andrea Libman, Erin Mathews",0.002001334,0.545454545,233.6103896,2.194863242,6
+Erin Mathews,"Andrea Libman, Ian James Corlett",0.002001334,0.545454545,233.6103896,2.194863242,6
+Carol Cleveland,Terry Gilliam,0.002001334,1,230.6153846,inf,6
+Patrick Roach,Mike Smith,0.00233489,1,230.6153846,inf,7
+Mike Smith,Patrick Roach,0.00233489,0.538461538,230.6153846,2.161607738,7
+"Carol Cleveland, Eric Idle",Terry Gilliam,0.002001334,1,230.6153846,inf,6
+Carol Cleveland,"Terry Gilliam, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones",Terry Gilliam,0.002001334,1,230.6153846,inf,6
+Carol Cleveland,"Terry Jones, Terry Gilliam",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Michael Palin",Terry Gilliam,0.002001334,1,230.6153846,inf,6
+Carol Cleveland,"Michael Palin, Terry Gilliam",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, John Cleese",Terry Gilliam,0.002001334,1,230.6153846,inf,6
+Carol Cleveland,"John Cleese, Eric Idle",0.002001334,1,230.6153846,inf,6
+Carol Cleveland,"Terry Jones, John Cleese",0.002001334,1,230.6153846,inf,6
+Carol Cleveland,"Michael Palin, John Cleese",0.002001334,1,230.6153846,inf,6
+"Ian James Corlett, Erin Mathews",Andrea Libman,0.002001334,1,230.6153846,inf,6
+"Patrick Roach, Robb Wells",Mike Smith,0.00233489,1,230.6153846,inf,7
+"Robb Wells, Mike Smith",Patrick Roach,0.00233489,0.538461538,230.6153846,2.161607738,7
+Patrick Roach,"Robb Wells, Mike Smith",0.00233489,1,230.6153846,inf,7
+Mike Smith,"Patrick Roach, Robb Wells",0.00233489,0.538461538,230.6153846,2.161607738,7
+"Patrick Roach, John Paul Tremblay",Mike Smith,0.00233489,1,230.6153846,inf,7
+"Mike Smith, John Paul Tremblay",Patrick Roach,0.00233489,0.538461538,230.6153846,2.161607738,7
+Patrick Roach,"Mike Smith, John Paul Tremblay",0.00233489,1,230.6153846,inf,7
+Mike Smith,"Patrick Roach, John Paul Tremblay",0.00233489,0.538461538,230.6153846,2.161607738,7
+"Patrick Roach, John Dunsworth",Mike Smith,0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones, Eric Idle",Terry Gilliam,0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones","Terry Gilliam, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Eric Idle","Terry Jones, Terry Gilliam",0.002001334,1,230.6153846,inf,6
+Carol Cleveland,"Terry Gilliam, Terry Jones, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Michael Palin, Eric Idle",Terry Gilliam,0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Michael Palin","Terry Gilliam, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Eric Idle","Michael Palin, Terry Gilliam",0.002001334,1,230.6153846,inf,6
+Carol Cleveland,"Terry Gilliam, Michael Palin, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, John Cleese, Eric Idle",Terry Gilliam,0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Gilliam","John Cleese, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, John Cleese","Eric Idle, Terry Gilliam",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones, Michael Palin",Terry Gilliam,0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones","Michael Palin, Terry Gilliam",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Michael Palin","Terry Jones, Terry Gilliam",0.002001334,1,230.6153846,inf,6
+Carol Cleveland,"Terry Jones, Michael Palin, Terry Gilliam",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones, John Cleese",Terry Gilliam,0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Gilliam","Terry Jones, John Cleese",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, John Cleese","Terry Jones, Terry Gilliam",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Michael Palin, John Cleese",Terry Gilliam,0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Gilliam","Michael Palin, John Cleese",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, John Cleese","Michael Palin, Terry Gilliam",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones","John Cleese, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Eric Idle","Terry Jones, John Cleese",0.002001334,1,230.6153846,inf,6
+Carol Cleveland,"Terry Jones, John Cleese, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Michael Palin","John Cleese, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Eric Idle","Michael Palin, John Cleese",0.002001334,1,230.6153846,inf,6
+Carol Cleveland,"Michael Palin, John Cleese, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones","Michael Palin, John Cleese",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Michael Palin","Terry Jones, John Cleese",0.002001334,1,230.6153846,inf,6
+Carol Cleveland,"Terry Jones, Michael Palin, John Cleese",0.002001334,1,230.6153846,inf,6
+"Patrick Roach, Robb Wells, John Paul Tremblay",Mike Smith,0.00233489,1,230.6153846,inf,7
+"Robb Wells, Mike Smith, John Paul Tremblay",Patrick Roach,0.00233489,0.538461538,230.6153846,2.161607738,7
+"Patrick Roach, Robb Wells","Mike Smith, John Paul Tremblay",0.00233489,1,230.6153846,inf,7
+"Patrick Roach, John Paul Tremblay","Robb Wells, Mike Smith",0.00233489,1,230.6153846,inf,7
+"Robb Wells, Mike Smith","Patrick Roach, John Paul Tremblay",0.00233489,0.538461538,230.6153846,2.161607738,7
+"Mike Smith, John Paul Tremblay","Patrick Roach, Robb Wells",0.00233489,0.538461538,230.6153846,2.161607738,7
+Patrick Roach,"Robb Wells, Mike Smith, John Paul Tremblay",0.00233489,1,230.6153846,inf,7
+Mike Smith,"Patrick Roach, Robb Wells, John Paul Tremblay",0.00233489,0.538461538,230.6153846,2.161607738,7
+"Patrick Roach, Robb Wells, John Dunsworth",Mike Smith,0.002001334,1,230.6153846,inf,6
+"Patrick Roach, John Dunsworth","Robb Wells, Mike Smith",0.002001334,1,230.6153846,inf,6
+"Patrick Roach, John Dunsworth, John Paul Tremblay",Mike Smith,0.002001334,1,230.6153846,inf,6
+"Patrick Roach, John Dunsworth","Mike Smith, John Paul Tremblay",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones, Michael Palin, Eric Idle",Terry Gilliam,0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Michael Palin, Eric Idle","Terry Jones, Terry Gilliam",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones, Eric Idle","Michael Palin, Terry Gilliam",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones, Michael Palin","Terry Gilliam, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Eric Idle","Terry Jones, Michael Palin, Terry Gilliam",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Michael Palin","Terry Gilliam, Terry Jones, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones","Terry Gilliam, Michael Palin, Eric Idle",0.002001334,1,230.6153846,inf,6
+Carol Cleveland,"Terry Gilliam, Terry Jones, Michael Palin, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones, John Cleese, Eric Idle",Terry Gilliam,0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, John Cleese, Eric Idle","Terry Jones, Terry Gilliam",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Gilliam, Eric Idle","Terry Jones, John Cleese",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones, John Cleese","Terry Gilliam, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones, Terry Gilliam","John Cleese, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, John Cleese","Terry Gilliam, Terry Jones, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Gilliam","Terry Jones, John Cleese, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Michael Palin, John Cleese, Eric Idle",Terry Gilliam,0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, John Cleese, Eric Idle","Michael Palin, Terry Gilliam",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Gilliam, Eric Idle","Michael Palin, John Cleese",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Michael Palin, John Cleese","Terry Gilliam, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Michael Palin, Terry Gilliam","John Cleese, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, John Cleese","Terry Gilliam, Michael Palin, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Gilliam","Michael Palin, John Cleese, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones, Michael Palin, John Cleese",Terry Gilliam,0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Michael Palin, John Cleese","Terry Jones, Terry Gilliam",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Michael Palin, Terry Gilliam","Terry Jones, John Cleese",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones, John Cleese","Michael Palin, Terry Gilliam",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones, Terry Gilliam","Michael Palin, John Cleese",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, John Cleese","Terry Jones, Michael Palin, Terry Gilliam",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Gilliam","Terry Jones, Michael Palin, John Cleese",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Michael Palin, Eric Idle","Terry Jones, John Cleese",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones, Eric Idle","Michael Palin, John Cleese",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones, Michael Palin","John Cleese, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Eric Idle","Terry Jones, Michael Palin, John Cleese",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Michael Palin","Terry Jones, John Cleese, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones","Michael Palin, John Cleese, Eric Idle",0.002001334,1,230.6153846,inf,6
+Carol Cleveland,"Terry Jones, Michael Palin, John Cleese, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Patrick Roach, Robb Wells, John Dunsworth, John Paul Tremblay",Mike Smith,0.002001334,1,230.6153846,inf,6
+"Patrick Roach, Robb Wells, John Dunsworth","Mike Smith, John Paul Tremblay",0.002001334,1,230.6153846,inf,6
+"Patrick Roach, John Dunsworth, John Paul Tremblay","Robb Wells, Mike Smith",0.002001334,1,230.6153846,inf,6
+"Patrick Roach, John Dunsworth","Robb Wells, Mike Smith, John Paul Tremblay",0.002001334,1,230.6153846,inf,6
+"Eric Idle, Michael Palin, John Cleese, Carol Cleveland, Terry Jones",Terry Gilliam,0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Michael Palin, John Cleese, Eric Idle","Terry Jones, Terry Gilliam",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Michael Palin, Eric Idle, Terry Gilliam","Terry Jones, John Cleese",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones, John Cleese, Eric Idle","Michael Palin, Terry Gilliam",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones, Terry Gilliam, Eric Idle","Michael Palin, John Cleese",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones, Michael Palin, John Cleese","Terry Gilliam, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones, Michael Palin, Terry Gilliam","John Cleese, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, John Cleese, Eric Idle","Terry Jones, Michael Palin, Terry Gilliam",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Gilliam, Eric Idle","Terry Jones, Michael Palin, John Cleese",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Michael Palin, John Cleese","Terry Gilliam, Terry Jones, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Michael Palin, Terry Gilliam","Terry Jones, John Cleese, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones, John Cleese","Terry Gilliam, Michael Palin, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Jones, Terry Gilliam","Michael Palin, John Cleese, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, John Cleese","Terry Gilliam, Terry Jones, Michael Palin, Eric Idle",0.002001334,1,230.6153846,inf,6
+"Carol Cleveland, Terry Gilliam","Terry Jones, Michael Palin, John Cleese, Eric Idle",0.002001334,1,230.6153846,inf,6
+Jared Sandler,Jackie Sandler,0.003002001,0.9,224.85,9.959973316,9
+Sadie Sandler,Jared Sandler,0.002001334,0.75,224.85,3.986657772,6
+Jared Sandler,Sadie Sandler,0.002001334,0.6,224.85,2.493328886,6
+"Adam Sandler, Jackie Sandler",Jared Sandler,0.002001334,0.75,224.85,3.986657772,6
+Jared Sandler,"Adam Sandler, Jackie Sandler",0.002001334,0.6,224.85,2.493328886,6
+"Jackie Sandler, Sadie Sandler",Jared Sandler,0.002001334,0.75,224.85,3.986657772,6
+Jared Sandler,"Jackie Sandler, Sadie Sandler",0.002001334,0.6,224.85,2.493328886,6
+Jackie Sandler,Jared Sandler,0.003002001,0.75,224.85,3.986657772,9
+Adam Sandler,Sadie Sandler,0.00233489,0.583333333,218.6041667,2.39359573,7
+Sadie Sandler,Adam Sandler,0.00233489,0.875,218.6041667,7.967978652,7
+"Jackie Sandler, Sadie Sandler",Adam Sandler,0.00233489,0.875,218.6041667,7.967978652,7
+Adam Sandler,"Jackie Sandler, Sadie Sandler",0.00233489,0.583333333,218.6041667,2.39359573,7
+Terry Jones,Graham Chapman,0.003669113,0.785714286,214.1428571,4.649544141,11
+Graham Chapman,Terry Jones,0.003669113,1,214.1428571,inf,11
+Terry Jones,Terry Gilliam,0.004336224,0.928571429,214.1428571,13.93929286,13
+Terry Gilliam,Terry Jones,0.004336224,1,214.1428571,inf,13
+Carol Cleveland,Terry Jones,0.002001334,1,214.1428571,inf,6
+Jackie Sandler,Jonathan Loughran,0.002001334,0.5,214.1428571,1.99533022,6
+Jonathan Loughran,Jackie Sandler,0.002001334,0.857142857,214.1428571,6.971981321,6
+Adam Sandler,Dan Patrick,0.002001334,0.5,214.1428571,1.99533022,6
+Dan Patrick,Adam Sandler,0.002001334,0.857142857,214.1428571,6.971981321,6
+Jackie Sandler,Dan Patrick,0.002001334,0.5,214.1428571,1.99533022,6
+Dan Patrick,Jackie Sandler,0.002001334,0.857142857,214.1428571,6.971981321,6
+Robb Wells,Mike Smith,0.004336224,0.928571429,214.1428571,13.93929286,13
+Mike Smith,Robb Wells,0.004336224,1,214.1428571,inf,13
+Robb Wells,John Paul Tremblay,0.00466978,1,214.1428571,inf,14
+John Paul Tremblay,Robb Wells,0.00466978,1,214.1428571,inf,14
+Patrick Roach,Robb Wells,0.00233489,1,214.1428571,inf,7
+Robb Wells,Patrick Roach,0.00233489,0.5,214.1428571,1.99533022,7
+Robb Wells,John Dunsworth,0.00233489,0.5,214.1428571,1.99533022,7
+John Dunsworth,Robb Wells,0.00233489,1,214.1428571,inf,7
+Mike Smith,John Paul Tremblay,0.004336224,1,214.1428571,inf,13
+John Paul Tremblay,Mike Smith,0.004336224,0.928571429,214.1428571,13.93929286,13
+Patrick Roach,John Paul Tremblay,0.00233489,1,214.1428571,inf,7
+John Paul Tremblay,Patrick Roach,0.00233489,0.5,214.1428571,1.99533022,7
+John Dunsworth,John Paul Tremblay,0.00233489,1,214.1428571,inf,7
+John Paul Tremblay,John Dunsworth,0.00233489,0.5,214.1428571,1.99533022,7
+"Graham Chapman, Terry Gilliam",Terry Jones,0.003335557,1,214.1428571,inf,10
+Terry Jones,"Graham Chapman, Terry Gilliam",0.003335557,0.714285714,214.1428571,3.48832555,10
+"Terry Jones, Eric Idle",Graham Chapman,0.003669113,0.785714286,214.1428571,4.649544141,11
+"Graham Chapman, Eric Idle",Terry Jones,0.003669113,1,214.1428571,inf,11
+Terry Jones,"Graham Chapman, Eric Idle",0.003669113,0.785714286,214.1428571,4.649544141,11
+Graham Chapman,"Terry Jones, Eric Idle",0.003669113,1,214.1428571,inf,11
+"Michael Palin, Eric Idle",Graham Chapman,0.003669113,0.785714286,214.1428571,4.649544141,11
+Graham Chapman,"Michael Palin, Eric Idle",0.003669113,1,214.1428571,inf,11
+"Terry Jones, Michael Palin",Graham Chapman,0.003669113,0.785714286,214.1428571,4.649544141,11
+"Michael Palin, Graham Chapman",Terry Jones,0.003669113,1,214.1428571,inf,11
+Terry Jones,"Michael Palin, Graham Chapman",0.003669113,0.785714286,214.1428571,4.649544141,11
+Graham Chapman,"Terry Jones, Michael Palin",0.003669113,1,214.1428571,inf,11
+"Graham Chapman, John Cleese",Terry Jones,0.003335557,1,214.1428571,inf,10
+Terry Jones,"Graham Chapman, John Cleese",0.003335557,0.714285714,214.1428571,3.48832555,10
+"Terry Jones, Eric Idle",Terry Gilliam,0.004336224,0.928571429,214.1428571,13.93929286,13
+"Terry Gilliam, Eric Idle",Terry Jones,0.004336224,1,214.1428571,inf,13
+Terry Jones,"Terry Gilliam, Eric Idle",0.004336224,0.928571429,214.1428571,13.93929286,13
+Terry Gilliam,"Terry Jones, Eric Idle",0.004336224,1,214.1428571,inf,13
+"Michael Palin, Eric Idle",Terry Gilliam,0.004336224,0.928571429,214.1428571,13.93929286,13
+Terry Gilliam,"Michael Palin, Eric Idle",0.004336224,1,214.1428571,inf,13
+"Terry Jones, Michael Palin",Terry Gilliam,0.004336224,0.928571429,214.1428571,13.93929286,13
+"Michael Palin, Terry Gilliam",Terry Jones,0.004336224,1,214.1428571,inf,13
+Terry Jones,"Michael Palin, Terry Gilliam",0.004336224,0.928571429,214.1428571,13.93929286,13
+Terry Gilliam,"Terry Jones, Michael Palin",0.004336224,1,214.1428571,inf,13
+"Carol Cleveland, Terry Gilliam",Terry Jones,0.002001334,1,214.1428571,inf,6
+"John Cleese, Terry Gilliam",Terry Jones,0.004002668,1,214.1428571,inf,12
+Terry Jones,"John Cleese, Terry Gilliam",0.004002668,0.857142857,214.1428571,6.971981321,12
+"Michael Palin, Eric Idle",Terry Jones,0.00466978,1,214.1428571,inf,14
+Terry Jones,"Michael Palin, Eric Idle",0.00466978,1,214.1428571,inf,14
+"Carol Cleveland, Eric Idle",Terry Jones,0.002001334,1,214.1428571,inf,6
+Carol Cleveland,"Terry Jones, Eric Idle",0.002001334,1,214.1428571,inf,6
+"John Cleese, Eric Idle",Terry Jones,0.004336224,1,214.1428571,inf,13
+Terry Jones,"John Cleese, Eric Idle",0.004336224,0.928571429,214.1428571,13.93929286,13
+Carol Cleveland,"Michael Palin, Eric Idle",0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, Michael Palin",Terry Jones,0.002001334,1,214.1428571,inf,6
+Carol Cleveland,"Terry Jones, Michael Palin",0.002001334,1,214.1428571,inf,6
+"Michael Palin, John Cleese",Terry Jones,0.004336224,1,214.1428571,inf,13
+Terry Jones,"Michael Palin, John Cleese",0.004336224,0.928571429,214.1428571,13.93929286,13
+"Carol Cleveland, John Cleese",Terry Jones,0.002001334,1,214.1428571,inf,6
+"Adam Sandler, Jared Sandler",Jackie Sandler,0.002001334,0.857142857,214.1428571,6.971981321,6
+Jackie Sandler,"Adam Sandler, Jared Sandler",0.002001334,0.5,214.1428571,1.99533022,6
+"Andrea Libman, Ian James Corlett",Brian Drummond,0.002001334,0.857142857,214.1428571,6.971981321,6
+Brian Drummond,"Andrea Libman, Ian James Corlett",0.002001334,0.5,214.1428571,1.99533022,6
+"Fortune Feimster, London Hughes",David Spade,0.002001334,1,214.1428571,inf,6
+"Robb Wells, Mike Smith",John Paul Tremblay,0.004336224,1,214.1428571,inf,13
+"Robb Wells, John Paul Tremblay",Mike Smith,0.004336224,0.928571429,214.1428571,13.93929286,13
+"Mike Smith, John Paul Tremblay",Robb Wells,0.004336224,1,214.1428571,inf,13
+Robb Wells,"Mike Smith, John Paul Tremblay",0.004336224,0.928571429,214.1428571,13.93929286,13
+Mike Smith,"Robb Wells, John Paul Tremblay",0.004336224,1,214.1428571,inf,13
+John Paul Tremblay,"Robb Wells, Mike Smith",0.004336224,0.928571429,214.1428571,13.93929286,13
+"Patrick Roach, Mike Smith",Robb Wells,0.00233489,1,214.1428571,inf,7
+Robb Wells,"Patrick Roach, Mike Smith",0.00233489,0.5,214.1428571,1.99533022,7
+"Mike Smith, John Dunsworth",Robb Wells,0.002001334,1,214.1428571,inf,6
+"Patrick Roach, Robb Wells",John Paul Tremblay,0.00233489,1,214.1428571,inf,7
+"Patrick Roach, John Paul Tremblay",Robb Wells,0.00233489,1,214.1428571,inf,7
+"Robb Wells, John Paul Tremblay",Patrick Roach,0.00233489,0.5,214.1428571,1.99533022,7
+Patrick Roach,"Robb Wells, John Paul Tremblay",0.00233489,1,214.1428571,inf,7
+Robb Wells,"Patrick Roach, John Paul Tremblay",0.00233489,0.5,214.1428571,1.99533022,7
+John Paul Tremblay,"Patrick Roach, Robb Wells",0.00233489,0.5,214.1428571,1.99533022,7
+"Robb Wells, John Dunsworth",John Paul Tremblay,0.00233489,1,214.1428571,inf,7
+"Robb Wells, John Paul Tremblay",John Dunsworth,0.00233489,0.5,214.1428571,1.99533022,7
+"John Dunsworth, John Paul Tremblay",Robb Wells,0.00233489,1,214.1428571,inf,7
+Robb Wells,"John Dunsworth, John Paul Tremblay",0.00233489,0.5,214.1428571,1.99533022,7
+John Dunsworth,"Robb Wells, John Paul Tremblay",0.00233489,1,214.1428571,inf,7
+John Paul Tremblay,"Robb Wells, John Dunsworth",0.00233489,0.5,214.1428571,1.99533022,7
+"Patrick Roach, John Dunsworth",Robb Wells,0.002001334,1,214.1428571,inf,6
+"Patrick Roach, Mike Smith",John Paul Tremblay,0.00233489,1,214.1428571,inf,7
+John Paul Tremblay,"Patrick Roach, Mike Smith",0.00233489,0.5,214.1428571,1.99533022,7
+"Mike Smith, John Dunsworth",John Paul Tremblay,0.002001334,1,214.1428571,inf,6
+"Patrick Roach, John Dunsworth",John Paul Tremblay,0.002001334,1,214.1428571,inf,6
+"Terry Gilliam, Graham Chapman, Eric Idle",Terry Jones,0.003335557,1,214.1428571,inf,10
+"Terry Jones, Eric Idle","Graham Chapman, Terry Gilliam",0.003335557,0.714285714,214.1428571,3.48832555,10
+"Graham Chapman, Terry Gilliam","Terry Jones, Eric Idle",0.003335557,1,214.1428571,inf,10
+Terry Jones,"Terry Gilliam, Graham Chapman, Eric Idle",0.003335557,0.714285714,214.1428571,3.48832555,10
+"Michael Palin, Eric Idle","Graham Chapman, Terry Gilliam",0.003335557,0.714285714,214.1428571,3.48832555,10
+"Graham Chapman, Terry Gilliam","Michael Palin, Eric Idle",0.003335557,1,214.1428571,inf,10
+"Michael Palin, Graham Chapman, Terry Gilliam",Terry Jones,0.003335557,1,214.1428571,inf,10
+"Terry Jones, Michael Palin","Graham Chapman, Terry Gilliam",0.003335557,0.714285714,214.1428571,3.48832555,10
+"Graham Chapman, Terry Gilliam","Terry Jones, Michael Palin",0.003335557,1,214.1428571,inf,10
+Terry Jones,"Michael Palin, Graham Chapman, Terry Gilliam",0.003335557,0.714285714,214.1428571,3.48832555,10
+"John Cleese, Graham Chapman, Terry Gilliam",Terry Jones,0.003002001,1,214.1428571,inf,9
+Terry Jones,"John Cleese, Graham Chapman, Terry Gilliam",0.003002001,0.642857143,214.1428571,2.791594396,9
+"Terry Jones, Michael Palin, Eric Idle",Graham Chapman,0.003669113,0.785714286,214.1428571,4.649544141,11
+"Michael Palin, Graham Chapman, Eric Idle",Terry Jones,0.003669113,1,214.1428571,inf,11
+"Terry Jones, Michael Palin","Graham Chapman, Eric Idle",0.003669113,0.785714286,214.1428571,4.649544141,11
+"Terry Jones, Graham Chapman","Michael Palin, Eric Idle",0.003669113,1,214.1428571,inf,11
+"Terry Jones, Eric Idle","Michael Palin, Graham Chapman",0.003669113,0.785714286,214.1428571,4.649544141,11
+"Michael Palin, Graham Chapman","Terry Jones, Eric Idle",0.003669113,1,214.1428571,inf,11
+"Michael Palin, Eric Idle","Terry Jones, Graham Chapman",0.003669113,0.785714286,214.1428571,4.649544141,11
+"Graham Chapman, Eric Idle","Terry Jones, Michael Palin",0.003669113,1,214.1428571,inf,11
+Terry Jones,"Michael Palin, Graham Chapman, Eric Idle",0.003669113,0.785714286,214.1428571,4.649544141,11
+Graham Chapman,"Terry Jones, Michael Palin, Eric Idle",0.003669113,1,214.1428571,inf,11
+"John Cleese, Graham Chapman, Eric Idle",Terry Jones,0.003335557,1,214.1428571,inf,10
+"Terry Jones, Eric Idle","Graham Chapman, John Cleese",0.003335557,0.714285714,214.1428571,3.48832555,10
+"Graham Chapman, John Cleese","Terry Jones, Eric Idle",0.003335557,1,214.1428571,inf,10
+Terry Jones,"John Cleese, Graham Chapman, Eric Idle",0.003335557,0.714285714,214.1428571,3.48832555,10
+"Michael Palin, Eric Idle","Graham Chapman, John Cleese",0.003335557,0.714285714,214.1428571,3.48832555,10
+"Graham Chapman, John Cleese","Michael Palin, Eric Idle",0.003335557,1,214.1428571,inf,10
+"Michael Palin, Graham Chapman, John Cleese",Terry Jones,0.003335557,1,214.1428571,inf,10
+"Terry Jones, Michael Palin","Graham Chapman, John Cleese",0.003335557,0.714285714,214.1428571,3.48832555,10
+"Graham Chapman, John Cleese","Terry Jones, Michael Palin",0.003335557,1,214.1428571,inf,10
+Terry Jones,"Michael Palin, Graham Chapman, John Cleese",0.003335557,0.714285714,214.1428571,3.48832555,10
+"Terry Jones, Michael Palin, Eric Idle",Terry Gilliam,0.004336224,0.928571429,214.1428571,13.93929286,13
+"Terry Gilliam, Michael Palin, Eric Idle",Terry Jones,0.004336224,1,214.1428571,inf,13
+"Terry Jones, Michael Palin","Terry Gilliam, Eric Idle",0.004336224,0.928571429,214.1428571,13.93929286,13
+"Terry Jones, Eric Idle","Michael Palin, Terry Gilliam",0.004336224,0.928571429,214.1428571,13.93929286,13
+"Terry Jones, Terry Gilliam","Michael Palin, Eric Idle",0.004336224,1,214.1428571,inf,13
+"Michael Palin, Eric Idle","Terry Jones, Terry Gilliam",0.004336224,0.928571429,214.1428571,13.93929286,13
+"Michael Palin, Terry Gilliam","Terry Jones, Eric Idle",0.004336224,1,214.1428571,inf,13
+"Terry Gilliam, Eric Idle","Terry Jones, Michael Palin",0.004336224,1,214.1428571,inf,13
+Terry Jones,"Terry Gilliam, Michael Palin, Eric Idle",0.004336224,0.928571429,214.1428571,13.93929286,13
+Terry Gilliam,"Terry Jones, Michael Palin, Eric Idle",0.004336224,1,214.1428571,inf,13
+"Carol Cleveland, Terry Gilliam, Eric Idle",Terry Jones,0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, Terry Gilliam","Terry Jones, Eric Idle",0.002001334,1,214.1428571,inf,6
+"John Cleese, Eric Idle, Terry Gilliam",Terry Jones,0.004002668,1,214.1428571,inf,12
+"John Cleese, Terry Gilliam","Terry Jones, Eric Idle",0.004002668,1,214.1428571,inf,12
+"Terry Jones, Eric Idle","John Cleese, Terry Gilliam",0.004002668,0.857142857,214.1428571,6.971981321,12
+Terry Jones,"John Cleese, Eric Idle, Terry Gilliam",0.004002668,0.857142857,214.1428571,6.971981321,12
+"Carol Cleveland, Terry Gilliam","Michael Palin, Eric Idle",0.002001334,1,214.1428571,inf,6
+"John Cleese, Terry Gilliam","Michael Palin, Eric Idle",0.004002668,1,214.1428571,inf,12
+"Michael Palin, Eric Idle","John Cleese, Terry Gilliam",0.004002668,0.857142857,214.1428571,6.971981321,12
+"Carol Cleveland, Michael Palin, Terry Gilliam",Terry Jones,0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, Terry Gilliam","Terry Jones, Michael Palin",0.002001334,1,214.1428571,inf,6
+"Michael Palin, John Cleese, Terry Gilliam",Terry Jones,0.004002668,1,214.1428571,inf,12
+"John Cleese, Terry Gilliam","Terry Jones, Michael Palin",0.004002668,1,214.1428571,inf,12
+"Terry Jones, Michael Palin","John Cleese, Terry Gilliam",0.004002668,0.857142857,214.1428571,6.971981321,12
+Terry Jones,"Michael Palin, John Cleese, Terry Gilliam",0.004002668,0.857142857,214.1428571,6.971981321,12
+"Carol Cleveland, John Cleese, Terry Gilliam",Terry Jones,0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, Michael Palin, Eric Idle",Terry Jones,0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, Terry Jones","Michael Palin, Eric Idle",0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, Michael Palin","Terry Jones, Eric Idle",0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, Eric Idle","Terry Jones, Michael Palin",0.002001334,1,214.1428571,inf,6
+Carol Cleveland,"Terry Jones, Michael Palin, Eric Idle",0.002001334,1,214.1428571,inf,6
+"Michael Palin, John Cleese, Eric Idle",Terry Jones,0.004336224,1,214.1428571,inf,13
+"Terry Jones, Michael Palin","John Cleese, Eric Idle",0.004336224,0.928571429,214.1428571,13.93929286,13
+"Terry Jones, Eric Idle","Michael Palin, John Cleese",0.004336224,0.928571429,214.1428571,13.93929286,13
+"Terry Jones, John Cleese","Michael Palin, Eric Idle",0.004336224,1,214.1428571,inf,13
+"Michael Palin, Eric Idle","Terry Jones, John Cleese",0.004336224,0.928571429,214.1428571,13.93929286,13
+"Michael Palin, John Cleese","Terry Jones, Eric Idle",0.004336224,1,214.1428571,inf,13
+"John Cleese, Eric Idle","Terry Jones, Michael Palin",0.004336224,1,214.1428571,inf,13
+Terry Jones,"Michael Palin, John Cleese, Eric Idle",0.004336224,0.928571429,214.1428571,13.93929286,13
+"Carol Cleveland, John Cleese, Eric Idle",Terry Jones,0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, John Cleese","Terry Jones, Eric Idle",0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, John Cleese","Michael Palin, Eric Idle",0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, Michael Palin, John Cleese",Terry Jones,0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, John Cleese","Terry Jones, Michael Palin",0.002001334,1,214.1428571,inf,6
+"Patrick Roach, Robb Wells, Mike Smith",John Paul Tremblay,0.00233489,1,214.1428571,inf,7
+"Patrick Roach, Mike Smith, John Paul Tremblay",Robb Wells,0.00233489,1,214.1428571,inf,7
+"Patrick Roach, Mike Smith","Robb Wells, John Paul Tremblay",0.00233489,1,214.1428571,inf,7
+"Robb Wells, John Paul Tremblay","Patrick Roach, Mike Smith",0.00233489,0.5,214.1428571,1.99533022,7
+Robb Wells,"Patrick Roach, Mike Smith, John Paul Tremblay",0.00233489,0.5,214.1428571,1.99533022,7
+John Paul Tremblay,"Patrick Roach, Robb Wells, Mike Smith",0.00233489,0.5,214.1428571,1.99533022,7
+"Robb Wells, Mike Smith, John Dunsworth",John Paul Tremblay,0.002001334,1,214.1428571,inf,6
+"Mike Smith, John Dunsworth, John Paul Tremblay",Robb Wells,0.002001334,1,214.1428571,inf,6
+"Mike Smith, John Dunsworth","Robb Wells, John Paul Tremblay",0.002001334,1,214.1428571,inf,6
+"Patrick Roach, Mike Smith, John Dunsworth",Robb Wells,0.002001334,1,214.1428571,inf,6
+"Patrick Roach, Robb Wells, John Dunsworth",John Paul Tremblay,0.002001334,1,214.1428571,inf,6
+"Patrick Roach, John Dunsworth, John Paul Tremblay",Robb Wells,0.002001334,1,214.1428571,inf,6
+"Patrick Roach, John Dunsworth","Robb Wells, John Paul Tremblay",0.002001334,1,214.1428571,inf,6
+"Patrick Roach, Mike Smith, John Dunsworth",John Paul Tremblay,0.002001334,1,214.1428571,inf,6
+"Terry Gilliam, Michael Palin, Graham Chapman, Eric Idle",Terry Jones,0.003335557,1,214.1428571,inf,10
+"Terry Jones, Michael Palin, Eric Idle","Graham Chapman, Terry Gilliam",0.003335557,0.714285714,214.1428571,3.48832555,10
+"Terry Gilliam, Graham Chapman, Eric Idle","Terry Jones, Michael Palin",0.003335557,1,214.1428571,inf,10
+"Michael Palin, Graham Chapman, Terry Gilliam","Terry Jones, Eric Idle",0.003335557,1,214.1428571,inf,10
+"Terry Jones, Graham Chapman, Terry Gilliam","Michael Palin, Eric Idle",0.003335557,1,214.1428571,inf,10
+"Michael Palin, Eric Idle","Terry Jones, Graham Chapman, Terry Gilliam",0.003335557,0.714285714,214.1428571,3.48832555,10
+"Terry Jones, Eric Idle","Michael Palin, Graham Chapman, Terry Gilliam",0.003335557,0.714285714,214.1428571,3.48832555,10
+"Terry Jones, Michael Palin","Terry Gilliam, Graham Chapman, Eric Idle",0.003335557,0.714285714,214.1428571,3.48832555,10
+"Graham Chapman, Terry Gilliam","Terry Jones, Michael Palin, Eric Idle",0.003335557,1,214.1428571,inf,10
+Terry Jones,"Terry Gilliam, Michael Palin, Graham Chapman, Eric Idle",0.003335557,0.714285714,214.1428571,3.48832555,10
+"Terry Gilliam, John Cleese, Graham Chapman, Eric Idle",Terry Jones,0.003002001,1,214.1428571,inf,9
+"Terry Gilliam, Graham Chapman, John Cleese","Terry Jones, Eric Idle",0.003002001,1,214.1428571,inf,9
+"Terry Jones, Eric Idle","Terry Gilliam, Graham Chapman, John Cleese",0.003002001,0.642857143,214.1428571,2.791594396,9
+Terry Jones,"Terry Gilliam, John Cleese, Graham Chapman, Eric Idle",0.003002001,0.642857143,214.1428571,2.791594396,9
+"Terry Gilliam, Graham Chapman, John Cleese","Michael Palin, Eric Idle",0.003002001,1,214.1428571,inf,9
+"Michael Palin, Eric Idle","Terry Gilliam, Graham Chapman, John Cleese",0.003002001,0.642857143,214.1428571,2.791594396,9
+"Terry Gilliam, Michael Palin, Graham Chapman, John Cleese",Terry Jones,0.003002001,1,214.1428571,inf,9
+"Terry Gilliam, Graham Chapman, John Cleese","Terry Jones, Michael Palin",0.003002001,1,214.1428571,inf,9
+"Terry Jones, Michael Palin","Terry Gilliam, Graham Chapman, John Cleese",0.003002001,0.642857143,214.1428571,2.791594396,9
+Terry Jones,"Terry Gilliam, Michael Palin, Graham Chapman, John Cleese",0.003002001,0.642857143,214.1428571,2.791594396,9
+"Michael Palin, John Cleese, Graham Chapman, Eric Idle",Terry Jones,0.003335557,1,214.1428571,inf,10
+"Terry Jones, Michael Palin, Eric Idle","Graham Chapman, John Cleese",0.003335557,0.714285714,214.1428571,3.48832555,10
+"John Cleese, Graham Chapman, Eric Idle","Terry Jones, Michael Palin",0.003335557,1,214.1428571,inf,10
+"Michael Palin, Graham Chapman, John Cleese","Terry Jones, Eric Idle",0.003335557,1,214.1428571,inf,10
+"Terry Jones, Graham Chapman, John Cleese","Michael Palin, Eric Idle",0.003335557,1,214.1428571,inf,10
+"Michael Palin, Eric Idle","Terry Jones, Graham Chapman, John Cleese",0.003335557,0.714285714,214.1428571,3.48832555,10
+"Terry Jones, Eric Idle","Michael Palin, Graham Chapman, John Cleese",0.003335557,0.714285714,214.1428571,3.48832555,10
+"Terry Jones, Michael Palin","John Cleese, Graham Chapman, Eric Idle",0.003335557,0.714285714,214.1428571,3.48832555,10
+"Graham Chapman, John Cleese","Terry Jones, Michael Palin, Eric Idle",0.003335557,1,214.1428571,inf,10
+Terry Jones,"Michael Palin, John Cleese, Graham Chapman, Eric Idle",0.003335557,0.714285714,214.1428571,3.48832555,10
+"Carol Cleveland, Michael Palin, Eric Idle, Terry Gilliam",Terry Jones,0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, Terry Gilliam, Eric Idle","Terry Jones, Michael Palin",0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, Michael Palin, Terry Gilliam","Terry Jones, Eric Idle",0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, Terry Jones, Terry Gilliam","Michael Palin, Eric Idle",0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, Terry Gilliam","Terry Jones, Michael Palin, Eric Idle",0.002001334,1,214.1428571,inf,6
+"Terry Gilliam, Michael Palin, John Cleese, Eric Idle",Terry Jones,0.004002668,1,214.1428571,inf,12
+"Terry Jones, Michael Palin, Eric Idle","Terry Gilliam, John Cleese",0.004002668,0.857142857,214.1428571,6.971981321,12
+"Terry Gilliam, John Cleese, Eric Idle","Terry Jones, Michael Palin",0.004002668,1,214.1428571,inf,12
+"Terry Gilliam, Michael Palin, John Cleese","Terry Jones, Eric Idle",0.004002668,1,214.1428571,inf,12
+"Terry Gilliam, Terry Jones, John Cleese","Michael Palin, Eric Idle",0.004002668,1,214.1428571,inf,12
+"Michael Palin, Eric Idle","Terry Gilliam, Terry Jones, John Cleese",0.004002668,0.857142857,214.1428571,6.971981321,12
+"Terry Jones, Eric Idle","Terry Gilliam, Michael Palin, John Cleese",0.004002668,0.857142857,214.1428571,6.971981321,12
+"Terry Jones, Michael Palin","Terry Gilliam, John Cleese, Eric Idle",0.004002668,0.857142857,214.1428571,6.971981321,12
+"Terry Gilliam, John Cleese","Terry Jones, Michael Palin, Eric Idle",0.004002668,1,214.1428571,inf,12
+Terry Jones,"Terry Gilliam, Michael Palin, John Cleese, Eric Idle",0.004002668,0.857142857,214.1428571,6.971981321,12
+"Carol Cleveland, Terry Gilliam, John Cleese, Eric Idle",Terry Jones,0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, Terry Gilliam, John Cleese","Terry Jones, Eric Idle",0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, Terry Gilliam, John Cleese","Michael Palin, Eric Idle",0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, Michael Palin, John Cleese, Terry Gilliam",Terry Jones,0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, Terry Gilliam, John Cleese","Terry Jones, Michael Palin",0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, Michael Palin, John Cleese, Eric Idle",Terry Jones,0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, John Cleese, Eric Idle","Terry Jones, Michael Palin",0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, Michael Palin, John Cleese","Terry Jones, Eric Idle",0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, Terry Jones, John Cleese","Michael Palin, Eric Idle",0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, John Cleese","Terry Jones, Michael Palin, Eric Idle",0.002001334,1,214.1428571,inf,6
+"Patrick Roach, Robb Wells, Mike Smith, John Dunsworth",John Paul Tremblay,0.002001334,1,214.1428571,inf,6
+"Patrick Roach, Mike Smith, John Dunsworth, John Paul Tremblay",Robb Wells,0.002001334,1,214.1428571,inf,6
+"Patrick Roach, Mike Smith, John Dunsworth","Robb Wells, John Paul Tremblay",0.002001334,1,214.1428571,inf,6
+"Eric Idle, Michael Palin, John Cleese, Terry Gilliam, Graham Chapman",Terry Jones,0.003002001,1,214.1428571,inf,9
+"Terry Gilliam, John Cleese, Graham Chapman, Eric Idle","Terry Jones, Michael Palin",0.003002001,1,214.1428571,inf,9
+"Terry Gilliam, Michael Palin, Graham Chapman, John Cleese","Terry Jones, Eric Idle",0.003002001,1,214.1428571,inf,9
+"Terry Gilliam, Terry Jones, Graham Chapman, John Cleese","Michael Palin, Eric Idle",0.003002001,1,214.1428571,inf,9
+"Terry Jones, Michael Palin, Eric Idle","Terry Gilliam, Graham Chapman, John Cleese",0.003002001,0.642857143,214.1428571,2.791594396,9
+"Terry Gilliam, Graham Chapman, John Cleese","Terry Jones, Michael Palin, Eric Idle",0.003002001,1,214.1428571,inf,9
+"Michael Palin, Eric Idle","Terry Gilliam, Terry Jones, Graham Chapman, John Cleese",0.003002001,0.642857143,214.1428571,2.791594396,9
+"Terry Jones, Eric Idle","Terry Gilliam, Michael Palin, Graham Chapman, John Cleese",0.003002001,0.642857143,214.1428571,2.791594396,9
+"Terry Jones, Michael Palin","Terry Gilliam, John Cleese, Graham Chapman, Eric Idle",0.003002001,0.642857143,214.1428571,2.791594396,9
+Terry Jones,"Eric Idle, Michael Palin, John Cleese, Terry Gilliam, Graham Chapman",0.003002001,0.642857143,214.1428571,2.791594396,9
+"Eric Idle, Michael Palin, John Cleese, Carol Cleveland, Terry Gilliam",Terry Jones,0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, Terry Gilliam, John Cleese, Eric Idle","Terry Jones, Michael Palin",0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, Michael Palin, John Cleese, Terry Gilliam","Terry Jones, Eric Idle",0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, Terry Jones, Terry Gilliam, John Cleese","Michael Palin, Eric Idle",0.002001334,1,214.1428571,inf,6
+"Carol Cleveland, Terry Gilliam, John Cleese","Terry Jones, Michael Palin, Eric Idle",0.002001334,1,214.1428571,inf,6
+"John Cleese, Eric Idle",Terry Gilliam,0.004002668,0.923076923,212.8757396,12.94362909,12
+Terry Gilliam,"John Cleese, Eric Idle",0.004002668,0.923076923,212.8757396,12.94362909,12
+"Terry Jones, John Cleese",Terry Gilliam,0.004002668,0.923076923,212.8757396,12.94362909,12
+Terry Gilliam,"Terry Jones, John Cleese",0.004002668,0.923076923,212.8757396,12.94362909,12
+"Michael Palin, John Cleese",Terry Gilliam,0.004002668,0.923076923,212.8757396,12.94362909,12
+Terry Gilliam,"Michael Palin, John Cleese",0.004002668,0.923076923,212.8757396,12.94362909,12
+"Terry Jones, John Cleese, Eric Idle",Terry Gilliam,0.004002668,0.923076923,212.8757396,12.94362909,12
+"Terry Jones, Terry Gilliam","John Cleese, Eric Idle",0.004002668,0.923076923,212.8757396,12.94362909,12
+"Eric Idle, Terry Gilliam","Terry Jones, John Cleese",0.004002668,0.923076923,212.8757396,12.94362909,12
+"Terry Jones, John Cleese","Eric Idle, Terry Gilliam",0.004002668,0.923076923,212.8757396,12.94362909,12
+"John Cleese, Eric Idle","Terry Jones, Terry Gilliam",0.004002668,0.923076923,212.8757396,12.94362909,12
+Terry Gilliam,"Terry Jones, John Cleese, Eric Idle",0.004002668,0.923076923,212.8757396,12.94362909,12
+"Michael Palin, John Cleese, Eric Idle",Terry Gilliam,0.004002668,0.923076923,212.8757396,12.94362909,12
+"Michael Palin, Terry Gilliam","John Cleese, Eric Idle",0.004002668,0.923076923,212.8757396,12.94362909,12
+"Eric Idle, Terry Gilliam","Michael Palin, John Cleese",0.004002668,0.923076923,212.8757396,12.94362909,12
+"Michael Palin, John Cleese","Eric Idle, Terry Gilliam",0.004002668,0.923076923,212.8757396,12.94362909,12
+"John Cleese, Eric Idle","Michael Palin, Terry Gilliam",0.004002668,0.923076923,212.8757396,12.94362909,12
+Terry Gilliam,"Michael Palin, John Cleese, Eric Idle",0.004002668,0.923076923,212.8757396,12.94362909,12
+"Terry Jones, Michael Palin, John Cleese",Terry Gilliam,0.004002668,0.923076923,212.8757396,12.94362909,12
+"Terry Jones, Terry Gilliam","Michael Palin, John Cleese",0.004002668,0.923076923,212.8757396,12.94362909,12
+"Michael Palin, Terry Gilliam","Terry Jones, John Cleese",0.004002668,0.923076923,212.8757396,12.94362909,12
+"Terry Jones, John Cleese","Michael Palin, Terry Gilliam",0.004002668,0.923076923,212.8757396,12.94362909,12
+"Michael Palin, John Cleese","Terry Jones, Terry Gilliam",0.004002668,0.923076923,212.8757396,12.94362909,12
+Terry Gilliam,"Terry Jones, Michael Palin, John Cleese",0.004002668,0.923076923,212.8757396,12.94362909,12
+"Terry Jones, Michael Palin, John Cleese, Eric Idle",Terry Gilliam,0.004002668,0.923076923,212.8757396,12.94362909,12
+"Michael Palin, John Cleese, Eric Idle","Terry Jones, Terry Gilliam",0.004002668,0.923076923,212.8757396,12.94362909,12
+"Terry Gilliam, Michael Palin, Eric Idle","Terry Jones, John Cleese",0.004002668,0.923076923,212.8757396,12.94362909,12
+"Terry Jones, John Cleese, Eric Idle","Michael Palin, Terry Gilliam",0.004002668,0.923076923,212.8757396,12.94362909,12
+"Terry Gilliam, Terry Jones, Eric Idle","Michael Palin, John Cleese",0.004002668,0.923076923,212.8757396,12.94362909,12
+"Terry Jones, Michael Palin, John Cleese","Terry Gilliam, Eric Idle",0.004002668,0.923076923,212.8757396,12.94362909,12
+"Terry Jones, Michael Palin, Terry Gilliam","John Cleese, Eric Idle",0.004002668,0.923076923,212.8757396,12.94362909,12
+"John Cleese, Eric Idle","Terry Jones, Michael Palin, Terry Gilliam",0.004002668,0.923076923,212.8757396,12.94362909,12
+"Terry Gilliam, Eric Idle","Terry Jones, Michael Palin, John Cleese",0.004002668,0.923076923,212.8757396,12.94362909,12
+"Michael Palin, John Cleese","Terry Gilliam, Terry Jones, Eric Idle",0.004002668,0.923076923,212.8757396,12.94362909,12
+"Michael Palin, Terry Gilliam","Terry Jones, John Cleese, Eric Idle",0.004002668,0.923076923,212.8757396,12.94362909,12
+"Terry Jones, John Cleese","Terry Gilliam, Michael Palin, Eric Idle",0.004002668,0.923076923,212.8757396,12.94362909,12
+"Terry Jones, Terry Gilliam","Michael Palin, John Cleese, Eric Idle",0.004002668,0.923076923,212.8757396,12.94362909,12
+Terry Gilliam,"Terry Jones, Michael Palin, John Cleese, Eric Idle",0.004002668,0.923076923,212.8757396,12.94362909,12
+Graham Chapman,Terry Gilliam,0.003335557,0.909090909,209.6503497,10.95230153,10
+Terry Gilliam,Graham Chapman,0.003335557,0.769230769,209.6503497,4.317433845,10
+"Graham Chapman, Eric Idle",Terry Gilliam,0.003335557,0.909090909,209.6503497,10.95230153,10
+"Terry Gilliam, Eric Idle",Graham Chapman,0.003335557,0.769230769,209.6503497,4.317433845,10
+Graham Chapman,"Terry Gilliam, Eric Idle",0.003335557,0.909090909,209.6503497,10.95230153,10
+Terry Gilliam,"Graham Chapman, Eric Idle",0.003335557,0.769230769,209.6503497,4.317433845,10
+"Terry Jones, Graham Chapman",Terry Gilliam,0.003335557,0.909090909,209.6503497,10.95230153,10
+"Terry Jones, Terry Gilliam",Graham Chapman,0.003335557,0.769230769,209.6503497,4.317433845,10
+Graham Chapman,"Terry Jones, Terry Gilliam",0.003335557,0.909090909,209.6503497,10.95230153,10
+Terry Gilliam,"Terry Jones, Graham Chapman",0.003335557,0.769230769,209.6503497,4.317433845,10
+"Michael Palin, Graham Chapman",Terry Gilliam,0.003335557,0.909090909,209.6503497,10.95230153,10
+"Michael Palin, Terry Gilliam",Graham Chapman,0.003335557,0.769230769,209.6503497,4.317433845,10
+Graham Chapman,"Michael Palin, Terry Gilliam",0.003335557,0.909090909,209.6503497,10.95230153,10
+Terry Gilliam,"Michael Palin, Graham Chapman",0.003335557,0.769230769,209.6503497,4.317433845,10
+"John Cleese, Eric Idle",Graham Chapman,0.003335557,0.769230769,209.6503497,4.317433845,10
+Graham Chapman,"John Cleese, Eric Idle",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Terry Jones, John Cleese",Graham Chapman,0.003335557,0.769230769,209.6503497,4.317433845,10
+Graham Chapman,"Terry Jones, John Cleese",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Michael Palin, John Cleese",Graham Chapman,0.003335557,0.769230769,209.6503497,4.317433845,10
+Graham Chapman,"Michael Palin, John Cleese",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Terry Jones, Graham Chapman, Eric Idle",Terry Gilliam,0.003335557,0.909090909,209.6503497,10.95230153,10
+"Terry Gilliam, Terry Jones, Eric Idle",Graham Chapman,0.003335557,0.769230769,209.6503497,4.317433845,10
+"Terry Jones, Graham Chapman","Terry Gilliam, Eric Idle",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Terry Jones, Terry Gilliam","Graham Chapman, Eric Idle",0.003335557,0.769230769,209.6503497,4.317433845,10
+"Graham Chapman, Eric Idle","Terry Jones, Terry Gilliam",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Terry Gilliam, Eric Idle","Terry Jones, Graham Chapman",0.003335557,0.769230769,209.6503497,4.317433845,10
+Graham Chapman,"Terry Gilliam, Terry Jones, Eric Idle",0.003335557,0.909090909,209.6503497,10.95230153,10
+Terry Gilliam,"Terry Jones, Graham Chapman, Eric Idle",0.003335557,0.769230769,209.6503497,4.317433845,10
+"Michael Palin, Graham Chapman, Eric Idle",Terry Gilliam,0.003335557,0.909090909,209.6503497,10.95230153,10
+"Terry Gilliam, Michael Palin, Eric Idle",Graham Chapman,0.003335557,0.769230769,209.6503497,4.317433845,10
+"Michael Palin, Graham Chapman","Terry Gilliam, Eric Idle",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Michael Palin, Terry Gilliam","Graham Chapman, Eric Idle",0.003335557,0.769230769,209.6503497,4.317433845,10
+"Graham Chapman, Eric Idle","Michael Palin, Terry Gilliam",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Terry Gilliam, Eric Idle","Michael Palin, Graham Chapman",0.003335557,0.769230769,209.6503497,4.317433845,10
+Graham Chapman,"Terry Gilliam, Michael Palin, Eric Idle",0.003335557,0.909090909,209.6503497,10.95230153,10
+Terry Gilliam,"Michael Palin, Graham Chapman, Eric Idle",0.003335557,0.769230769,209.6503497,4.317433845,10
+"Terry Jones, Michael Palin, Graham Chapman",Terry Gilliam,0.003335557,0.909090909,209.6503497,10.95230153,10
+"Terry Jones, Michael Palin, Terry Gilliam",Graham Chapman,0.003335557,0.769230769,209.6503497,4.317433845,10
+"Terry Jones, Graham Chapman","Michael Palin, Terry Gilliam",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Terry Jones, Terry Gilliam","Michael Palin, Graham Chapman",0.003335557,0.769230769,209.6503497,4.317433845,10
+"Michael Palin, Graham Chapman","Terry Jones, Terry Gilliam",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Michael Palin, Terry Gilliam","Terry Jones, Graham Chapman",0.003335557,0.769230769,209.6503497,4.317433845,10
+Graham Chapman,"Terry Jones, Michael Palin, Terry Gilliam",0.003335557,0.909090909,209.6503497,10.95230153,10
+Terry Gilliam,"Terry Jones, Michael Palin, Graham Chapman",0.003335557,0.769230769,209.6503497,4.317433845,10
+"Terry Jones, John Cleese, Eric Idle",Graham Chapman,0.003335557,0.769230769,209.6503497,4.317433845,10
+"Terry Jones, Graham Chapman","John Cleese, Eric Idle",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Terry Jones, John Cleese","Graham Chapman, Eric Idle",0.003335557,0.769230769,209.6503497,4.317433845,10
+"Graham Chapman, Eric Idle","Terry Jones, John Cleese",0.003335557,0.909090909,209.6503497,10.95230153,10
+"John Cleese, Eric Idle","Terry Jones, Graham Chapman",0.003335557,0.769230769,209.6503497,4.317433845,10
+Graham Chapman,"Terry Jones, John Cleese, Eric Idle",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Michael Palin, John Cleese, Eric Idle",Graham Chapman,0.003335557,0.769230769,209.6503497,4.317433845,10
+"Michael Palin, Graham Chapman","John Cleese, Eric Idle",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Michael Palin, John Cleese","Graham Chapman, Eric Idle",0.003335557,0.769230769,209.6503497,4.317433845,10
+"Graham Chapman, Eric Idle","Michael Palin, John Cleese",0.003335557,0.909090909,209.6503497,10.95230153,10
+"John Cleese, Eric Idle","Michael Palin, Graham Chapman",0.003335557,0.769230769,209.6503497,4.317433845,10
+Graham Chapman,"Michael Palin, John Cleese, Eric Idle",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Terry Jones, Michael Palin, John Cleese",Graham Chapman,0.003335557,0.769230769,209.6503497,4.317433845,10
+"Terry Jones, Graham Chapman","Michael Palin, John Cleese",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Terry Jones, John Cleese","Michael Palin, Graham Chapman",0.003335557,0.769230769,209.6503497,4.317433845,10
+"Michael Palin, Graham Chapman","Terry Jones, John Cleese",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Michael Palin, John Cleese","Terry Jones, Graham Chapman",0.003335557,0.769230769,209.6503497,4.317433845,10
+Graham Chapman,"Terry Jones, Michael Palin, John Cleese",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Terry Gilliam, Terry Jones, Michael Palin, Eric Idle",Graham Chapman,0.003335557,0.769230769,209.6503497,4.317433845,10
+"Terry Jones, Michael Palin, Graham Chapman, Eric Idle",Terry Gilliam,0.003335557,0.909090909,209.6503497,10.95230153,10
+"Terry Gilliam, Michael Palin, Eric Idle","Terry Jones, Graham Chapman",0.003335557,0.769230769,209.6503497,4.317433845,10
+"Michael Palin, Graham Chapman, Eric Idle","Terry Jones, Terry Gilliam",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Terry Gilliam, Terry Jones, Eric Idle","Michael Palin, Graham Chapman",0.003335557,0.769230769,209.6503497,4.317433845,10
+"Terry Jones, Graham Chapman, Eric Idle","Michael Palin, Terry Gilliam",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Terry Jones, Michael Palin, Terry Gilliam","Graham Chapman, Eric Idle",0.003335557,0.769230769,209.6503497,4.317433845,10
+"Terry Jones, Michael Palin, Graham Chapman","Terry Gilliam, Eric Idle",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Terry Gilliam, Eric Idle","Terry Jones, Michael Palin, Graham Chapman",0.003335557,0.769230769,209.6503497,4.317433845,10
+"Graham Chapman, Eric Idle","Terry Jones, Michael Palin, Terry Gilliam",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Michael Palin, Terry Gilliam","Terry Jones, Graham Chapman, Eric Idle",0.003335557,0.769230769,209.6503497,4.317433845,10
+"Michael Palin, Graham Chapman","Terry Gilliam, Terry Jones, Eric Idle",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Terry Jones, Terry Gilliam","Michael Palin, Graham Chapman, Eric Idle",0.003335557,0.769230769,209.6503497,4.317433845,10
+"Terry Jones, Graham Chapman","Terry Gilliam, Michael Palin, Eric Idle",0.003335557,0.909090909,209.6503497,10.95230153,10
+Terry Gilliam,"Terry Jones, Michael Palin, Graham Chapman, Eric Idle",0.003335557,0.769230769,209.6503497,4.317433845,10
+Graham Chapman,"Terry Gilliam, Terry Jones, Michael Palin, Eric Idle",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Terry Jones, Michael Palin, John Cleese, Eric Idle",Graham Chapman,0.003335557,0.769230769,209.6503497,4.317433845,10
+"Michael Palin, John Cleese, Eric Idle","Terry Jones, Graham Chapman",0.003335557,0.769230769,209.6503497,4.317433845,10
+"Michael Palin, Graham Chapman, Eric Idle","Terry Jones, John Cleese",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Terry Jones, John Cleese, Eric Idle","Michael Palin, Graham Chapman",0.003335557,0.769230769,209.6503497,4.317433845,10
+"Terry Jones, Graham Chapman, Eric Idle","Michael Palin, John Cleese",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Terry Jones, Michael Palin, John Cleese","Graham Chapman, Eric Idle",0.003335557,0.769230769,209.6503497,4.317433845,10
+"Terry Jones, Michael Palin, Graham Chapman","John Cleese, Eric Idle",0.003335557,0.909090909,209.6503497,10.95230153,10
+"John Cleese, Eric Idle","Terry Jones, Michael Palin, Graham Chapman",0.003335557,0.769230769,209.6503497,4.317433845,10
+"Graham Chapman, Eric Idle","Terry Jones, Michael Palin, John Cleese",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Michael Palin, John Cleese","Terry Jones, Graham Chapman, Eric Idle",0.003335557,0.769230769,209.6503497,4.317433845,10
+"Michael Palin, Graham Chapman","Terry Jones, John Cleese, Eric Idle",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Terry Jones, John Cleese","Michael Palin, Graham Chapman, Eric Idle",0.003335557,0.769230769,209.6503497,4.317433845,10
+"Terry Jones, Graham Chapman","Michael Palin, John Cleese, Eric Idle",0.003335557,0.909090909,209.6503497,10.95230153,10
+Graham Chapman,"Terry Jones, Michael Palin, John Cleese, Eric Idle",0.003335557,0.909090909,209.6503497,10.95230153,10
+"Graham Chapman, John Cleese",Terry Gilliam,0.003002001,0.9,207.5538462,9.956637759,9
+Terry Gilliam,"Graham Chapman, John Cleese",0.003002001,0.692307692,207.5538462,3.23915944,9
+"John Cleese, Graham Chapman, Eric Idle",Terry Gilliam,0.003002001,0.9,207.5538462,9.956637759,9
+"Graham Chapman, Terry Gilliam","John Cleese, Eric Idle",0.003002001,0.9,207.5538462,9.956637759,9
+"Eric Idle, Terry Gilliam","Graham Chapman, John Cleese",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Graham Chapman, John Cleese","Eric Idle, Terry Gilliam",0.003002001,0.9,207.5538462,9.956637759,9
+"John Cleese, Eric Idle","Graham Chapman, Terry Gilliam",0.003002001,0.692307692,207.5538462,3.23915944,9
+Terry Gilliam,"John Cleese, Graham Chapman, Eric Idle",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Terry Jones, Graham Chapman, John Cleese",Terry Gilliam,0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Jones, Terry Gilliam","Graham Chapman, John Cleese",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Graham Chapman, Terry Gilliam","Terry Jones, John Cleese",0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Jones, John Cleese","Graham Chapman, Terry Gilliam",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Graham Chapman, John Cleese","Terry Jones, Terry Gilliam",0.003002001,0.9,207.5538462,9.956637759,9
+Terry Gilliam,"Terry Jones, Graham Chapman, John Cleese",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Michael Palin, Graham Chapman, John Cleese",Terry Gilliam,0.003002001,0.9,207.5538462,9.956637759,9
+"Michael Palin, Terry Gilliam","Graham Chapman, John Cleese",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Graham Chapman, Terry Gilliam","Michael Palin, John Cleese",0.003002001,0.9,207.5538462,9.956637759,9
+"Michael Palin, John Cleese","Graham Chapman, Terry Gilliam",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Graham Chapman, John Cleese","Michael Palin, Terry Gilliam",0.003002001,0.9,207.5538462,9.956637759,9
+Terry Gilliam,"Michael Palin, Graham Chapman, John Cleese",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Terry Jones, John Cleese, Graham Chapman, Eric Idle",Terry Gilliam,0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Jones, John Cleese, Eric Idle","Graham Chapman, Terry Gilliam",0.003002001,0.692307692,207.5538462,3.23915944,9
+"John Cleese, Graham Chapman, Eric Idle","Terry Jones, Terry Gilliam",0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Gilliam, Terry Jones, Eric Idle","Graham Chapman, John Cleese",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Terry Gilliam, Graham Chapman, Eric Idle","Terry Jones, John Cleese",0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Jones, Graham Chapman, John Cleese","Terry Gilliam, Eric Idle",0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Jones, Graham Chapman, Terry Gilliam","John Cleese, Eric Idle",0.003002001,0.9,207.5538462,9.956637759,9
+"John Cleese, Eric Idle","Terry Jones, Graham Chapman, Terry Gilliam",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Terry Gilliam, Eric Idle","Terry Jones, Graham Chapman, John Cleese",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Terry Jones, John Cleese","Terry Gilliam, Graham Chapman, Eric Idle",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Graham Chapman, John Cleese","Terry Gilliam, Terry Jones, Eric Idle",0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Jones, Terry Gilliam","John Cleese, Graham Chapman, Eric Idle",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Graham Chapman, Terry Gilliam","Terry Jones, John Cleese, Eric Idle",0.003002001,0.9,207.5538462,9.956637759,9
+Terry Gilliam,"Terry Jones, John Cleese, Graham Chapman, Eric Idle",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Michael Palin, John Cleese, Graham Chapman, Eric Idle",Terry Gilliam,0.003002001,0.9,207.5538462,9.956637759,9
+"Michael Palin, John Cleese, Eric Idle","Graham Chapman, Terry Gilliam",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Terry Gilliam, Michael Palin, Eric Idle","Graham Chapman, John Cleese",0.003002001,0.692307692,207.5538462,3.23915944,9
+"John Cleese, Graham Chapman, Eric Idle","Michael Palin, Terry Gilliam",0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Gilliam, Graham Chapman, Eric Idle","Michael Palin, John Cleese",0.003002001,0.9,207.5538462,9.956637759,9
+"Michael Palin, Graham Chapman, John Cleese","Terry Gilliam, Eric Idle",0.003002001,0.9,207.5538462,9.956637759,9
+"Michael Palin, Graham Chapman, Terry Gilliam","John Cleese, Eric Idle",0.003002001,0.9,207.5538462,9.956637759,9
+"John Cleese, Eric Idle","Michael Palin, Graham Chapman, Terry Gilliam",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Terry Gilliam, Eric Idle","Michael Palin, Graham Chapman, John Cleese",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Michael Palin, John Cleese","Terry Gilliam, Graham Chapman, Eric Idle",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Michael Palin, Terry Gilliam","John Cleese, Graham Chapman, Eric Idle",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Graham Chapman, John Cleese","Terry Gilliam, Michael Palin, Eric Idle",0.003002001,0.9,207.5538462,9.956637759,9
+"Graham Chapman, Terry Gilliam","Michael Palin, John Cleese, Eric Idle",0.003002001,0.9,207.5538462,9.956637759,9
+Terry Gilliam,"Michael Palin, John Cleese, Graham Chapman, Eric Idle",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Terry Jones, Michael Palin, Graham Chapman, John Cleese",Terry Gilliam,0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Jones, Michael Palin, John Cleese","Graham Chapman, Terry Gilliam",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Michael Palin, Graham Chapman, John Cleese","Terry Jones, Terry Gilliam",0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Jones, Michael Palin, Terry Gilliam","Graham Chapman, John Cleese",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Michael Palin, Graham Chapman, Terry Gilliam","Terry Jones, John Cleese",0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Jones, Graham Chapman, John Cleese","Michael Palin, Terry Gilliam",0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Jones, Graham Chapman, Terry Gilliam","Michael Palin, John Cleese",0.003002001,0.9,207.5538462,9.956637759,9
+"Michael Palin, John Cleese","Terry Jones, Graham Chapman, Terry Gilliam",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Michael Palin, Terry Gilliam","Terry Jones, Graham Chapman, John Cleese",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Terry Jones, John Cleese","Michael Palin, Graham Chapman, Terry Gilliam",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Graham Chapman, John Cleese","Terry Jones, Michael Palin, Terry Gilliam",0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Jones, Terry Gilliam","Michael Palin, Graham Chapman, John Cleese",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Graham Chapman, Terry Gilliam","Terry Jones, Michael Palin, John Cleese",0.003002001,0.9,207.5538462,9.956637759,9
+Terry Gilliam,"Terry Jones, Michael Palin, Graham Chapman, John Cleese",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Eric Idle, Michael Palin, John Cleese, Terry Jones, Graham Chapman",Terry Gilliam,0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Jones, Michael Palin, John Cleese, Eric Idle","Graham Chapman, Terry Gilliam",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Michael Palin, John Cleese, Graham Chapman, Eric Idle","Terry Jones, Terry Gilliam",0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Gilliam, Terry Jones, Michael Palin, Eric Idle","Graham Chapman, John Cleese",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Terry Gilliam, Michael Palin, Graham Chapman, Eric Idle","Terry Jones, John Cleese",0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Jones, John Cleese, Graham Chapman, Eric Idle","Michael Palin, Terry Gilliam",0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Gilliam, Terry Jones, Graham Chapman, Eric Idle","Michael Palin, John Cleese",0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Jones, Michael Palin, Graham Chapman, John Cleese","Terry Gilliam, Eric Idle",0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Jones, Michael Palin, Graham Chapman, Terry Gilliam","John Cleese, Eric Idle",0.003002001,0.9,207.5538462,9.956637759,9
+"Michael Palin, John Cleese, Eric Idle","Terry Jones, Graham Chapman, Terry Gilliam",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Terry Gilliam, Michael Palin, Eric Idle","Terry Jones, Graham Chapman, John Cleese",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Terry Jones, John Cleese, Eric Idle","Michael Palin, Graham Chapman, Terry Gilliam",0.003002001,0.692307692,207.5538462,3.23915944,9
+"John Cleese, Graham Chapman, Eric Idle","Terry Jones, Michael Palin, Terry Gilliam",0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Gilliam, Terry Jones, Eric Idle","Michael Palin, Graham Chapman, John Cleese",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Terry Gilliam, Graham Chapman, Eric Idle","Terry Jones, Michael Palin, John Cleese",0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Jones, Michael Palin, John Cleese","Terry Gilliam, Graham Chapman, Eric Idle",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Michael Palin, Graham Chapman, John Cleese","Terry Gilliam, Terry Jones, Eric Idle",0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Jones, Michael Palin, Terry Gilliam","John Cleese, Graham Chapman, Eric Idle",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Michael Palin, Graham Chapman, Terry Gilliam","Terry Jones, John Cleese, Eric Idle",0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Jones, Graham Chapman, John Cleese","Terry Gilliam, Michael Palin, Eric Idle",0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Jones, Graham Chapman, Terry Gilliam","Michael Palin, John Cleese, Eric Idle",0.003002001,0.9,207.5538462,9.956637759,9
+"John Cleese, Eric Idle","Terry Jones, Michael Palin, Graham Chapman, Terry Gilliam",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Terry Gilliam, Eric Idle","Terry Jones, Michael Palin, Graham Chapman, John Cleese",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Michael Palin, John Cleese","Terry Gilliam, Terry Jones, Graham Chapman, Eric Idle",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Michael Palin, Terry Gilliam","Terry Jones, John Cleese, Graham Chapman, Eric Idle",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Terry Jones, John Cleese","Terry Gilliam, Michael Palin, Graham Chapman, Eric Idle",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Graham Chapman, John Cleese","Terry Gilliam, Terry Jones, Michael Palin, Eric Idle",0.003002001,0.9,207.5538462,9.956637759,9
+"Terry Jones, Terry Gilliam","Michael Palin, John Cleese, Graham Chapman, Eric Idle",0.003002001,0.692307692,207.5538462,3.23915944,9
+"Graham Chapman, Terry Gilliam","Terry Jones, Michael Palin, John Cleese, Eric Idle",0.003002001,0.9,207.5538462,9.956637759,9
+Terry Gilliam,"Eric Idle, Michael Palin, John Cleese, Terry Jones, Graham Chapman",0.003002001,0.692307692,207.5538462,3.23915944,9
+Kappei Yamaguchi,Cho,0.002001334,0.545454545,204.4090909,2.19412942,6
+Cho,Kappei Yamaguchi,0.002001334,0.75,204.4090909,3.985323549,6
+"John Cleese, Terry Gilliam",Graham Chapman,0.003002001,0.75,204.4090909,3.985323549,9
+Graham Chapman,"John Cleese, Terry Gilliam",0.003002001,0.818181818,204.4090909,5.477985324,9
+"John Cleese, Eric Idle, Terry Gilliam",Graham Chapman,0.003002001,0.75,204.4090909,3.985323549,9
+"John Cleese, Terry Gilliam","Graham Chapman, Eric Idle",0.003002001,0.75,204.4090909,3.985323549,9
+"Graham Chapman, Eric Idle","John Cleese, Terry Gilliam",0.003002001,0.818181818,204.4090909,5.477985324,9
+Graham Chapman,"John Cleese, Eric Idle, Terry Gilliam",0.003002001,0.818181818,204.4090909,5.477985324,9
+"Terry Jones, John Cleese, Terry Gilliam",Graham Chapman,0.003002001,0.75,204.4090909,3.985323549,9
+"John Cleese, Terry Gilliam","Terry Jones, Graham Chapman",0.003002001,0.75,204.4090909,3.985323549,9
+"Terry Jones, Graham Chapman","John Cleese, Terry Gilliam",0.003002001,0.818181818,204.4090909,5.477985324,9
+Graham Chapman,"Terry Jones, John Cleese, Terry Gilliam",0.003002001,0.818181818,204.4090909,5.477985324,9
+"Michael Palin, John Cleese, Terry Gilliam",Graham Chapman,0.003002001,0.75,204.4090909,3.985323549,9
+"John Cleese, Terry Gilliam","Michael Palin, Graham Chapman",0.003002001,0.75,204.4090909,3.985323549,9
+"Michael Palin, Graham Chapman","John Cleese, Terry Gilliam",0.003002001,0.818181818,204.4090909,5.477985324,9
+Graham Chapman,"Michael Palin, John Cleese, Terry Gilliam",0.003002001,0.818181818,204.4090909,5.477985324,9
+"Terry Gilliam, Terry Jones, John Cleese, Eric Idle",Graham Chapman,0.003002001,0.75,204.4090909,3.985323549,9
+"Terry Gilliam, John Cleese, Eric Idle","Terry Jones, Graham Chapman",0.003002001,0.75,204.4090909,3.985323549,9
+"Terry Jones, Graham Chapman, Eric Idle","Terry Gilliam, John Cleese",0.003002001,0.818181818,204.4090909,5.477985324,9
+"Terry Gilliam, Terry Jones, John Cleese","Graham Chapman, Eric Idle",0.003002001,0.75,204.4090909,3.985323549,9
+"Graham Chapman, Eric Idle","Terry Gilliam, Terry Jones, John Cleese",0.003002001,0.818181818,204.4090909,5.477985324,9
+"Terry Gilliam, John Cleese","Terry Jones, Graham Chapman, Eric Idle",0.003002001,0.75,204.4090909,3.985323549,9
+"Terry Jones, Graham Chapman","Terry Gilliam, John Cleese, Eric Idle",0.003002001,0.818181818,204.4090909,5.477985324,9
+Graham Chapman,"Terry Gilliam, Terry Jones, John Cleese, Eric Idle",0.003002001,0.818181818,204.4090909,5.477985324,9
+"Terry Gilliam, Michael Palin, John Cleese, Eric Idle",Graham Chapman,0.003002001,0.75,204.4090909,3.985323549,9
+"Michael Palin, Graham Chapman, Eric Idle","Terry Gilliam, John Cleese",0.003002001,0.818181818,204.4090909,5.477985324,9
+"Terry Gilliam, John Cleese, Eric Idle","Michael Palin, Graham Chapman",0.003002001,0.75,204.4090909,3.985323549,9
+"Terry Gilliam, Michael Palin, John Cleese","Graham Chapman, Eric Idle",0.003002001,0.75,204.4090909,3.985323549,9
+"Graham Chapman, Eric Idle","Terry Gilliam, Michael Palin, John Cleese",0.003002001,0.818181818,204.4090909,5.477985324,9
+"Michael Palin, Graham Chapman","Terry Gilliam, John Cleese, Eric Idle",0.003002001,0.818181818,204.4090909,5.477985324,9
+"Terry Gilliam, John Cleese","Michael Palin, Graham Chapman, Eric Idle",0.003002001,0.75,204.4090909,3.985323549,9
+Graham Chapman,"Terry Gilliam, Michael Palin, John Cleese, Eric Idle",0.003002001,0.818181818,204.4090909,5.477985324,9
+"Terry Gilliam, Terry Jones, Michael Palin, John Cleese",Graham Chapman,0.003002001,0.75,204.4090909,3.985323549,9
+"Terry Gilliam, Michael Palin, John Cleese","Terry Jones, Graham Chapman",0.003002001,0.75,204.4090909,3.985323549,9
+"Terry Jones, Michael Palin, Graham Chapman","Terry Gilliam, John Cleese",0.003002001,0.818181818,204.4090909,5.477985324,9
+"Terry Gilliam, Terry Jones, John Cleese","Michael Palin, Graham Chapman",0.003002001,0.75,204.4090909,3.985323549,9
+"Michael Palin, Graham Chapman","Terry Gilliam, Terry Jones, John Cleese",0.003002001,0.818181818,204.4090909,5.477985324,9
+"Terry Gilliam, John Cleese","Terry Jones, Michael Palin, Graham Chapman",0.003002001,0.75,204.4090909,3.985323549,9
+"Terry Jones, Graham Chapman","Terry Gilliam, Michael Palin, John Cleese",0.003002001,0.818181818,204.4090909,5.477985324,9
+Graham Chapman,"Terry Gilliam, Terry Jones, Michael Palin, John Cleese",0.003002001,0.818181818,204.4090909,5.477985324,9
+"Eric Idle, Michael Palin, John Cleese, Terry Jones, Terry Gilliam",Graham Chapman,0.003002001,0.75,204.4090909,3.985323549,9
+"Terry Gilliam, Michael Palin, John Cleese, Eric Idle","Terry Jones, Graham Chapman",0.003002001,0.75,204.4090909,3.985323549,9
+"Terry Jones, Michael Palin, Graham Chapman, Eric Idle","Terry Gilliam, John Cleese",0.003002001,0.818181818,204.4090909,5.477985324,9
+"Terry Gilliam, Terry Jones, John Cleese, Eric Idle","Michael Palin, Graham Chapman",0.003002001,0.75,204.4090909,3.985323549,9
+"Terry Gilliam, Terry Jones, Michael Palin, John Cleese","Graham Chapman, Eric Idle",0.003002001,0.75,204.4090909,3.985323549,9
+"Michael Palin, Graham Chapman, Eric Idle","Terry Gilliam, Terry Jones, John Cleese",0.003002001,0.818181818,204.4090909,5.477985324,9
+"Terry Gilliam, John Cleese, Eric Idle","Terry Jones, Michael Palin, Graham Chapman",0.003002001,0.75,204.4090909,3.985323549,9
+"Terry Jones, Graham Chapman, Eric Idle","Terry Gilliam, Michael Palin, John Cleese",0.003002001,0.818181818,204.4090909,5.477985324,9
+"Terry Gilliam, Michael Palin, John Cleese","Terry Jones, Graham Chapman, Eric Idle",0.003002001,0.75,204.4090909,3.985323549,9
+"Terry Jones, Michael Palin, Graham Chapman","Terry Gilliam, John Cleese, Eric Idle",0.003002001,0.818181818,204.4090909,5.477985324,9
+"Terry Gilliam, Terry Jones, John Cleese","Michael Palin, Graham Chapman, Eric Idle",0.003002001,0.75,204.4090909,3.985323549,9
+"Graham Chapman, Eric Idle","Terry Gilliam, Terry Jones, Michael Palin, John Cleese",0.003002001,0.818181818,204.4090909,5.477985324,9
+"Michael Palin, Graham Chapman","Terry Gilliam, Terry Jones, John Cleese, Eric Idle",0.003002001,0.818181818,204.4090909,5.477985324,9
+"Terry Gilliam, John Cleese","Terry Jones, Michael Palin, Graham Chapman, Eric Idle",0.003002001,0.75,204.4090909,3.985323549,9
+"Terry Jones, Graham Chapman","Terry Gilliam, Michael Palin, John Cleese, Eric Idle",0.003002001,0.818181818,204.4090909,5.477985324,9
+Graham Chapman,"Eric Idle, Michael Palin, John Cleese, Terry Jones, Terry Gilliam",0.003002001,0.818181818,204.4090909,5.477985324,9
+Graham Chapman,Eric Idle,0.003669113,1,199.8666667,inf,11
+Eric Idle,Graham Chapman,0.003669113,0.733333333,199.8666667,3.736240827,11
+Michael Palin,Graham Chapman,0.003669113,0.733333333,199.8666667,3.736240827,11
+Graham Chapman,Michael Palin,0.003669113,1,199.8666667,inf,11
+Eric Idle,Terry Gilliam,0.004336224,0.866666667,199.8666667,7.467478319,13
+Terry Gilliam,Eric Idle,0.004336224,1,199.8666667,inf,13
+Michael Palin,Terry Gilliam,0.004336224,0.866666667,199.8666667,7.467478319,13
+Terry Gilliam,Michael Palin,0.004336224,1,199.8666667,inf,13
+Terry Jones,Eric Idle,0.00466978,1,199.8666667,inf,14
+Eric Idle,Terry Jones,0.00466978,0.933333333,199.8666667,14.9299533,14
+Carol Cleveland,Eric Idle,0.002001334,1,199.8666667,inf,6
+Terry Jones,Michael Palin,0.00466978,1,199.8666667,inf,14
+Michael Palin,Terry Jones,0.00466978,0.933333333,199.8666667,14.9299533,14
+Carol Cleveland,Michael Palin,0.002001334,1,199.8666667,inf,6
+Carol Cleveland,John Cleese,0.002001334,1,199.8666667,inf,6
+"Graham Chapman, Terry Gilliam",Eric Idle,0.003335557,1,199.8666667,inf,10
+Eric Idle,"Graham Chapman, Terry Gilliam",0.003335557,0.666666667,199.8666667,2.989993329,10
+"Graham Chapman, Terry Gilliam",Michael Palin,0.003335557,1,199.8666667,inf,10
+Michael Palin,"Graham Chapman, Terry Gilliam",0.003335557,0.666666667,199.8666667,2.989993329,10
+"Terry Jones, Graham Chapman",Eric Idle,0.003669113,1,199.8666667,inf,11
+Eric Idle,"Terry Jones, Graham Chapman",0.003669113,0.733333333,199.8666667,3.736240827,11
+"Michael Palin, Graham Chapman",Eric Idle,0.003669113,1,199.8666667,inf,11
+"Graham Chapman, Eric Idle",Michael Palin,0.003669113,1,199.8666667,inf,11
+Michael Palin,"Graham Chapman, Eric Idle",0.003669113,0.733333333,199.8666667,3.736240827,11
+Eric Idle,"Michael Palin, Graham Chapman",0.003669113,0.733333333,199.8666667,3.736240827,11
+"Graham Chapman, John Cleese",Eric Idle,0.003335557,1,199.8666667,inf,10
+Eric Idle,"Graham Chapman, John Cleese",0.003335557,0.666666667,199.8666667,2.989993329,10
+"Terry Jones, Graham Chapman",Michael Palin,0.003669113,1,199.8666667,inf,11
+Michael Palin,"Terry Jones, Graham Chapman",0.003669113,0.733333333,199.8666667,3.736240827,11
+"Graham Chapman, John Cleese",Michael Palin,0.003335557,1,199.8666667,inf,10
+Michael Palin,"Graham Chapman, John Cleese",0.003335557,0.666666667,199.8666667,2.989993329,10
+"Terry Jones, Terry Gilliam",Eric Idle,0.004336224,1,199.8666667,inf,13
+Eric Idle,"Terry Jones, Terry Gilliam",0.004336224,0.866666667,199.8666667,7.467478319,13
+"Michael Palin, Terry Gilliam",Eric Idle,0.004336224,1,199.8666667,inf,13
+"Terry Gilliam, Eric Idle",Michael Palin,0.004336224,1,199.8666667,inf,13
+Michael Palin,"Terry Gilliam, Eric Idle",0.004336224,0.866666667,199.8666667,7.467478319,13
+Eric Idle,"Michael Palin, Terry Gilliam",0.004336224,0.866666667,199.8666667,7.467478319,13
+"Carol Cleveland, Terry Gilliam",Eric Idle,0.002001334,1,199.8666667,inf,6
+"John Cleese, Terry Gilliam",Eric Idle,0.004002668,1,199.8666667,inf,12
+Eric Idle,"John Cleese, Terry Gilliam",0.004002668,0.8,199.8666667,4.979986658,12
+"Terry Jones, Terry Gilliam",Michael Palin,0.004336224,1,199.8666667,inf,13
+Michael Palin,"Terry Jones, Terry Gilliam",0.004336224,0.866666667,199.8666667,7.467478319,13
+"Carol Cleveland, Terry Gilliam",Michael Palin,0.002001334,1,199.8666667,inf,6
+"John Cleese, Terry Gilliam",Michael Palin,0.004002668,1,199.8666667,inf,12
+Michael Palin,"John Cleese, Terry Gilliam",0.004002668,0.8,199.8666667,4.979986658,12
+"Carol Cleveland, Terry Gilliam",John Cleese,0.002001334,1,199.8666667,inf,6
+"Terry Jones, Michael Palin",Eric Idle,0.00466978,1,199.8666667,inf,14
+"Terry Jones, Eric Idle",Michael Palin,0.00466978,1,199.8666667,inf,14
+Michael Palin,"Terry Jones, Eric Idle",0.00466978,0.933333333,199.8666667,14.9299533,14
+Eric Idle,"Terry Jones, Michael Palin",0.00466978,0.933333333,199.8666667,14.9299533,14
+"Carol Cleveland, Terry Jones",Eric Idle,0.002001334,1,199.8666667,inf,6
+"Terry Jones, John Cleese",Eric Idle,0.004336224,1,199.8666667,inf,13
+Eric Idle,"Terry Jones, John Cleese",0.004336224,0.866666667,199.8666667,7.467478319,13
+"Carol Cleveland, Michael Palin",Eric Idle,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, Eric Idle",Michael Palin,0.002001334,1,199.8666667,inf,6
+"Michael Palin, John Cleese",Eric Idle,0.004336224,1,199.8666667,inf,13
+"John Cleese, Eric Idle",Michael Palin,0.004336224,1,199.8666667,inf,13
+Michael Palin,"John Cleese, Eric Idle",0.004336224,0.866666667,199.8666667,7.467478319,13
+Eric Idle,"Michael Palin, John Cleese",0.004336224,0.866666667,199.8666667,7.467478319,13
+"Carol Cleveland, Eric Idle",John Cleese,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, John Cleese",Eric Idle,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, Terry Jones",Michael Palin,0.002001334,1,199.8666667,inf,6
+"Terry Jones, John Cleese",Michael Palin,0.004336224,1,199.8666667,inf,13
+Michael Palin,"Terry Jones, John Cleese",0.004336224,0.866666667,199.8666667,7.467478319,13
+"Carol Cleveland, Terry Jones",John Cleese,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, Michael Palin",John Cleese,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, John Cleese",Michael Palin,0.002001334,1,199.8666667,inf,6
+"Andrea Libman, Alessandro Juliani",Vincent Tong,0.002001334,1,199.8666667,inf,6
+"Terry Jones, Graham Chapman, Terry Gilliam",Eric Idle,0.003335557,1,199.8666667,inf,10
+Eric Idle,"Terry Jones, Graham Chapman, Terry Gilliam",0.003335557,0.666666667,199.8666667,2.989993329,10
+"Michael Palin, Graham Chapman, Terry Gilliam",Eric Idle,0.003335557,1,199.8666667,inf,10
+"Terry Gilliam, Graham Chapman, Eric Idle",Michael Palin,0.003335557,1,199.8666667,inf,10
+Michael Palin,"Terry Gilliam, Graham Chapman, Eric Idle",0.003335557,0.666666667,199.8666667,2.989993329,10
+Eric Idle,"Michael Palin, Graham Chapman, Terry Gilliam",0.003335557,0.666666667,199.8666667,2.989993329,10
+"John Cleese, Graham Chapman, Terry Gilliam",Eric Idle,0.003002001,1,199.8666667,inf,9
+Eric Idle,"John Cleese, Graham Chapman, Terry Gilliam",0.003002001,0.6,199.8666667,2.492494997,9
+"Terry Jones, Graham Chapman, Terry Gilliam",Michael Palin,0.003335557,1,199.8666667,inf,10
+Michael Palin,"Terry Jones, Graham Chapman, Terry Gilliam",0.003335557,0.666666667,199.8666667,2.989993329,10
+"John Cleese, Graham Chapman, Terry Gilliam",Michael Palin,0.003002001,1,199.8666667,inf,9
+Michael Palin,"John Cleese, Graham Chapman, Terry Gilliam",0.003002001,0.6,199.8666667,2.492494997,9
+"Terry Jones, Michael Palin, Graham Chapman",Eric Idle,0.003669113,1,199.8666667,inf,11
+"Terry Jones, Graham Chapman, Eric Idle",Michael Palin,0.003669113,1,199.8666667,inf,11
+Michael Palin,"Terry Jones, Graham Chapman, Eric Idle",0.003669113,0.733333333,199.8666667,3.736240827,11
+Eric Idle,"Terry Jones, Michael Palin, Graham Chapman",0.003669113,0.733333333,199.8666667,3.736240827,11
+"Terry Jones, Graham Chapman, John Cleese",Eric Idle,0.003335557,1,199.8666667,inf,10
+Eric Idle,"Terry Jones, Graham Chapman, John Cleese",0.003335557,0.666666667,199.8666667,2.989993329,10
+"Michael Palin, Graham Chapman, John Cleese",Eric Idle,0.003335557,1,199.8666667,inf,10
+"John Cleese, Graham Chapman, Eric Idle",Michael Palin,0.003335557,1,199.8666667,inf,10
+Michael Palin,"John Cleese, Graham Chapman, Eric Idle",0.003335557,0.666666667,199.8666667,2.989993329,10
+Eric Idle,"Michael Palin, Graham Chapman, John Cleese",0.003335557,0.666666667,199.8666667,2.989993329,10
+"Terry Jones, Graham Chapman, John Cleese",Michael Palin,0.003335557,1,199.8666667,inf,10
+Michael Palin,"Terry Jones, Graham Chapman, John Cleese",0.003335557,0.666666667,199.8666667,2.989993329,10
+"Terry Jones, Michael Palin, Terry Gilliam",Eric Idle,0.004336224,1,199.8666667,inf,13
+"Terry Gilliam, Terry Jones, Eric Idle",Michael Palin,0.004336224,1,199.8666667,inf,13
+Michael Palin,"Terry Gilliam, Terry Jones, Eric Idle",0.004336224,0.866666667,199.8666667,7.467478319,13
+Eric Idle,"Terry Jones, Michael Palin, Terry Gilliam",0.004336224,0.866666667,199.8666667,7.467478319,13
+"Carol Cleveland, Terry Jones, Terry Gilliam",Eric Idle,0.002001334,1,199.8666667,inf,6
+"Terry Jones, John Cleese, Terry Gilliam",Eric Idle,0.004002668,1,199.8666667,inf,12
+Eric Idle,"Terry Jones, John Cleese, Terry Gilliam",0.004002668,0.8,199.8666667,4.979986658,12
+"Carol Cleveland, Michael Palin, Terry Gilliam",Eric Idle,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, Terry Gilliam, Eric Idle",Michael Palin,0.002001334,1,199.8666667,inf,6
+"Michael Palin, John Cleese, Terry Gilliam",Eric Idle,0.004002668,1,199.8666667,inf,12
+"John Cleese, Eric Idle, Terry Gilliam",Michael Palin,0.004002668,1,199.8666667,inf,12
+Michael Palin,"John Cleese, Eric Idle, Terry Gilliam",0.004002668,0.8,199.8666667,4.979986658,12
+Eric Idle,"Michael Palin, John Cleese, Terry Gilliam",0.004002668,0.8,199.8666667,4.979986658,12
+"Carol Cleveland, Eric Idle, Terry Gilliam",John Cleese,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, John Cleese, Terry Gilliam",Eric Idle,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, Terry Jones, Terry Gilliam",Michael Palin,0.002001334,1,199.8666667,inf,6
+"Terry Jones, John Cleese, Terry Gilliam",Michael Palin,0.004002668,1,199.8666667,inf,12
+Michael Palin,"Terry Jones, John Cleese, Terry Gilliam",0.004002668,0.8,199.8666667,4.979986658,12
+"Carol Cleveland, Terry Jones, Terry Gilliam",John Cleese,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, Michael Palin, Terry Gilliam",John Cleese,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, John Cleese, Terry Gilliam",Michael Palin,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, Terry Jones, Michael Palin",Eric Idle,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, Terry Jones, Eric Idle",Michael Palin,0.002001334,1,199.8666667,inf,6
+"Terry Jones, Michael Palin, John Cleese",Eric Idle,0.004336224,1,199.8666667,inf,13
+"Terry Jones, John Cleese, Eric Idle",Michael Palin,0.004336224,1,199.8666667,inf,13
+Michael Palin,"Terry Jones, John Cleese, Eric Idle",0.004336224,0.866666667,199.8666667,7.467478319,13
+Eric Idle,"Terry Jones, Michael Palin, John Cleese",0.004336224,0.866666667,199.8666667,7.467478319,13
+"Carol Cleveland, Terry Jones, Eric Idle",John Cleese,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, Terry Jones, John Cleese",Eric Idle,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, Michael Palin, Eric Idle",John Cleese,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, Michael Palin, John Cleese",Eric Idle,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, John Cleese, Eric Idle",Michael Palin,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, Terry Jones, Michael Palin",John Cleese,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, Terry Jones, John Cleese",Michael Palin,0.002001334,1,199.8666667,inf,6
+"Terry Gilliam, Terry Jones, Graham Chapman, Eric Idle",Michael Palin,0.003335557,1,199.8666667,inf,10
+"Terry Jones, Michael Palin, Graham Chapman, Terry Gilliam",Eric Idle,0.003335557,1,199.8666667,inf,10
+Eric Idle,"Terry Jones, Michael Palin, Graham Chapman, Terry Gilliam",0.003335557,0.666666667,199.8666667,2.989993329,10
+Michael Palin,"Terry Gilliam, Terry Jones, Graham Chapman, Eric Idle",0.003335557,0.666666667,199.8666667,2.989993329,10
+"Terry Gilliam, Terry Jones, Graham Chapman, John Cleese",Eric Idle,0.003002001,1,199.8666667,inf,9
+Eric Idle,"Terry Gilliam, Terry Jones, Graham Chapman, John Cleese",0.003002001,0.6,199.8666667,2.492494997,9
+"Terry Gilliam, John Cleese, Graham Chapman, Eric Idle",Michael Palin,0.003002001,1,199.8666667,inf,9
+"Terry Gilliam, Michael Palin, Graham Chapman, John Cleese",Eric Idle,0.003002001,1,199.8666667,inf,9
+Eric Idle,"Terry Gilliam, Michael Palin, Graham Chapman, John Cleese",0.003002001,0.6,199.8666667,2.492494997,9
+Michael Palin,"Terry Gilliam, John Cleese, Graham Chapman, Eric Idle",0.003002001,0.6,199.8666667,2.492494997,9
+"Terry Gilliam, Terry Jones, Graham Chapman, John Cleese",Michael Palin,0.003002001,1,199.8666667,inf,9
+Michael Palin,"Terry Gilliam, Terry Jones, Graham Chapman, John Cleese",0.003002001,0.6,199.8666667,2.492494997,9
+"Terry Jones, John Cleese, Graham Chapman, Eric Idle",Michael Palin,0.003335557,1,199.8666667,inf,10
+"Terry Jones, Michael Palin, Graham Chapman, John Cleese",Eric Idle,0.003335557,1,199.8666667,inf,10
+Eric Idle,"Terry Jones, Michael Palin, Graham Chapman, John Cleese",0.003335557,0.666666667,199.8666667,2.989993329,10
+Michael Palin,"Terry Jones, John Cleese, Graham Chapman, Eric Idle",0.003335557,0.666666667,199.8666667,2.989993329,10
+"Carol Cleveland, Terry Jones, Terry Gilliam, Eric Idle",Michael Palin,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, Terry Jones, Michael Palin, Terry Gilliam",Eric Idle,0.002001334,1,199.8666667,inf,6
+"Terry Gilliam, Terry Jones, John Cleese, Eric Idle",Michael Palin,0.004002668,1,199.8666667,inf,12
+"Terry Gilliam, Terry Jones, Michael Palin, John Cleese",Eric Idle,0.004002668,1,199.8666667,inf,12
+Eric Idle,"Terry Gilliam, Terry Jones, Michael Palin, John Cleese",0.004002668,0.8,199.8666667,4.979986658,12
+Michael Palin,"Terry Gilliam, Terry Jones, John Cleese, Eric Idle",0.004002668,0.8,199.8666667,4.979986658,12
+"Carol Cleveland, Terry Jones, Terry Gilliam, Eric Idle",John Cleese,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, Terry Jones, Terry Gilliam, John Cleese",Eric Idle,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, Michael Palin, Eric Idle, Terry Gilliam",John Cleese,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, Terry Gilliam, John Cleese, Eric Idle",Michael Palin,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, Michael Palin, John Cleese, Terry Gilliam",Eric Idle,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, Terry Jones, Michael Palin, Terry Gilliam",John Cleese,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, Terry Jones, Terry Gilliam, John Cleese",Michael Palin,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, Terry Jones, Michael Palin, Eric Idle",John Cleese,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, Terry Jones, John Cleese, Eric Idle",Michael Palin,0.002001334,1,199.8666667,inf,6
+"Carol Cleveland, Terry Jones, Michael Palin, John Cleese",Eric Idle,0.002001334,1,199.8666667,inf,6
+"Eric Idle, John Cleese, Terry Jones, Terry Gilliam, Graham Chapman",Michael Palin,0.003002001,1,199.8666667,inf,9
+"Michael Palin, John Cleese, Terry Jones, Terry Gilliam, Graham Chapman",Eric Idle,0.003002001,1,199.8666667,inf,9
+Eric Idle,"Michael Palin, John Cleese, Terry Jones, Terry Gilliam, Graham Chapman",0.003002001,0.6,199.8666667,2.492494997,9
+Michael Palin,"Eric Idle, John Cleese, Terry Jones, Terry Gilliam, Graham Chapman",0.003002001,0.6,199.8666667,2.492494997,9
+"Eric Idle, Michael Palin, Carol Cleveland, Terry Jones, Terry Gilliam",John Cleese,0.002001334,1,199.8666667,inf,6
+"Eric Idle, John Cleese, Carol Cleveland, Terry Jones, Terry Gilliam",Michael Palin,0.002001334,1,199.8666667,inf,6
+"Michael Palin, John Cleese, Carol Cleveland, Terry Jones, Terry Gilliam",Eric Idle,0.002001334,1,199.8666667,inf,6
+John Dunsworth,Mike Smith,0.002001334,0.857142857,197.6703297,6.969646431,6
+"Vincent Tong, Alessandro Juliani",Andrea Libman,0.002001334,0.857142857,197.6703297,6.969646431,6
+"Brian Drummond, Ian James Corlett",Andrea Libman,0.002001334,0.857142857,197.6703297,6.969646431,6
+"Robb Wells, John Dunsworth",Mike Smith,0.002001334,0.857142857,197.6703297,6.969646431,6
+John Dunsworth,"Robb Wells, Mike Smith",0.002001334,0.857142857,197.6703297,6.969646431,6
+"John Dunsworth, John Paul Tremblay",Mike Smith,0.002001334,0.857142857,197.6703297,6.969646431,6
+John Dunsworth,"Mike Smith, John Paul Tremblay",0.002001334,0.857142857,197.6703297,6.969646431,6
+"Robb Wells, John Dunsworth, John Paul Tremblay",Mike Smith,0.002001334,0.857142857,197.6703297,6.969646431,6
+"Robb Wells, John Dunsworth","Mike Smith, John Paul Tremblay",0.002001334,0.857142857,197.6703297,6.969646431,6
+"John Dunsworth, John Paul Tremblay","Robb Wells, Mike Smith",0.002001334,0.857142857,197.6703297,6.969646431,6
+John Dunsworth,"Robb Wells, Mike Smith, John Paul Tremblay",0.002001334,0.857142857,197.6703297,6.969646431,6
+Fortune Feimster,London Hughes,0.002001334,0.5,187.375,1.994663109,6
+London Hughes,Fortune Feimster,0.002001334,0.75,187.375,3.983989326,6
+"Shah Rukh Khan, Karan Johar",Rani Mukerji,0.002001334,1,187.375,inf,6
+Michael Palin,Eric Idle,0.00466978,0.933333333,186.5422222,14.92494997,14
+Eric Idle,Michael Palin,0.00466978,0.933333333,186.5422222,14.92494997,14
+Terry Jones,John Cleese,0.004336224,0.928571429,185.5904762,13.9299533,13
+John Cleese,Terry Jones,0.004336224,0.866666667,185.5904762,7.464976651,13
+"Terry Jones, Eric Idle",John Cleese,0.004336224,0.928571429,185.5904762,13.9299533,13
+John Cleese,"Terry Jones, Eric Idle",0.004336224,0.866666667,185.5904762,7.464976651,13
+"Michael Palin, Eric Idle",John Cleese,0.004336224,0.928571429,185.5904762,13.9299533,13
+John Cleese,"Michael Palin, Eric Idle",0.004336224,0.866666667,185.5904762,7.464976651,13
+"Terry Jones, Michael Palin",John Cleese,0.004336224,0.928571429,185.5904762,13.9299533,13
+John Cleese,"Terry Jones, Michael Palin",0.004336224,0.866666667,185.5904762,7.464976651,13
+"Terry Jones, Michael Palin, Eric Idle",John Cleese,0.004336224,0.928571429,185.5904762,13.9299533,13
+John Cleese,"Terry Jones, Michael Palin, Eric Idle",0.004336224,0.866666667,185.5904762,7.464976651,13
+Terry Gilliam,John Cleese,0.004002668,0.923076923,184.4923077,12.93495664,12
+John Cleese,Terry Gilliam,0.004002668,0.8,184.4923077,4.978318879,12
+"Eric Idle, Terry Gilliam",John Cleese,0.004002668,0.923076923,184.4923077,12.93495664,12
+John Cleese,"Eric Idle, Terry Gilliam",0.004002668,0.8,184.4923077,4.978318879,12
+"Terry Jones, Terry Gilliam",John Cleese,0.004002668,0.923076923,184.4923077,12.93495664,12
+John Cleese,"Terry Jones, Terry Gilliam",0.004002668,0.8,184.4923077,4.978318879,12
+"Michael Palin, Terry Gilliam",John Cleese,0.004002668,0.923076923,184.4923077,12.93495664,12
+John Cleese,"Michael Palin, Terry Gilliam",0.004002668,0.8,184.4923077,4.978318879,12
+"Terry Jones, Eric Idle, Terry Gilliam",John Cleese,0.004002668,0.923076923,184.4923077,12.93495664,12
+John Cleese,"Terry Jones, Eric Idle, Terry Gilliam",0.004002668,0.8,184.4923077,4.978318879,12
+"Michael Palin, Eric Idle, Terry Gilliam",John Cleese,0.004002668,0.923076923,184.4923077,12.93495664,12
+John Cleese,"Michael Palin, Eric Idle, Terry Gilliam",0.004002668,0.8,184.4923077,4.978318879,12
+"Terry Jones, Michael Palin, Terry Gilliam",John Cleese,0.004002668,0.923076923,184.4923077,12.93495664,12
+John Cleese,"Terry Jones, Michael Palin, Terry Gilliam",0.004002668,0.8,184.4923077,4.978318879,12
+"Terry Gilliam, Terry Jones, Michael Palin, Eric Idle",John Cleese,0.004002668,0.923076923,184.4923077,12.93495664,12
+John Cleese,"Terry Gilliam, Terry Jones, Michael Palin, Eric Idle",0.004002668,0.8,184.4923077,4.978318879,12
+Ian James Corlett,Lee Tockar,0.002001334,0.545454545,181.6969697,2.193395597,6
+Lee Tockar,Ian James Corlett,0.002001334,0.666666667,181.6969697,2.988992662,6
+Graham Chapman,John Cleese,0.003335557,0.909090909,181.6969697,10.94496331,10
+John Cleese,Graham Chapman,0.003335557,0.666666667,181.6969697,2.988992662,10
+"Graham Chapman, Eric Idle",John Cleese,0.003335557,0.909090909,181.6969697,10.94496331,10
+John Cleese,"Graham Chapman, Eric Idle",0.003335557,0.666666667,181.6969697,2.988992662,10
+"Terry Jones, Graham Chapman",John Cleese,0.003335557,0.909090909,181.6969697,10.94496331,10
+John Cleese,"Terry Jones, Graham Chapman",0.003335557,0.666666667,181.6969697,2.988992662,10
+"Michael Palin, Graham Chapman",John Cleese,0.003335557,0.909090909,181.6969697,10.94496331,10
+John Cleese,"Michael Palin, Graham Chapman",0.003335557,0.666666667,181.6969697,2.988992662,10
+"Jackie Sandler, Jared Sandler",Rob Schneider,0.002001334,0.666666667,181.6969697,2.988992662,6
+Rob Schneider,"Jackie Sandler, Jared Sandler",0.002001334,0.545454545,181.6969697,2.193395597,6
+"Terry Jones, Graham Chapman, Eric Idle",John Cleese,0.003335557,0.909090909,181.6969697,10.94496331,10
+John Cleese,"Terry Jones, Graham Chapman, Eric Idle",0.003335557,0.666666667,181.6969697,2.988992662,10
+"Michael Palin, Graham Chapman, Eric Idle",John Cleese,0.003335557,0.909090909,181.6969697,10.94496331,10
+John Cleese,"Michael Palin, Graham Chapman, Eric Idle",0.003335557,0.666666667,181.6969697,2.988992662,10
+"Terry Jones, Michael Palin, Graham Chapman",John Cleese,0.003335557,0.909090909,181.6969697,10.94496331,10
+John Cleese,"Terry Jones, Michael Palin, Graham Chapman",0.003335557,0.666666667,181.6969697,2.988992662,10
+"Terry Jones, Michael Palin, Graham Chapman, Eric Idle",John Cleese,0.003335557,0.909090909,181.6969697,10.94496331,10
+John Cleese,"Terry Jones, Michael Palin, Graham Chapman, Eric Idle",0.003335557,0.666666667,181.6969697,2.988992662,10
+"Graham Chapman, Terry Gilliam",John Cleese,0.003002001,0.9,179.88,9.949966644,9
+John Cleese,"Graham Chapman, Terry Gilliam",0.003002001,0.6,179.88,2.491661107,9
+"Shah Rukh Khan, Rani Mukerji",Kajol,0.002001334,0.6,179.88,2.491661107,6
+Kajol,"Shah Rukh Khan, Rani Mukerji",0.002001334,0.6,179.88,2.491661107,6
+"Graham Chapman, Eric Idle, Terry Gilliam",John Cleese,0.003002001,0.9,179.88,9.949966644,9
+John Cleese,"Graham Chapman, Eric Idle, Terry Gilliam",0.003002001,0.6,179.88,2.491661107,9
+"Terry Jones, Graham Chapman, Terry Gilliam",John Cleese,0.003002001,0.9,179.88,9.949966644,9
+John Cleese,"Terry Jones, Graham Chapman, Terry Gilliam",0.003002001,0.6,179.88,2.491661107,9
+"Michael Palin, Graham Chapman, Terry Gilliam",John Cleese,0.003002001,0.9,179.88,9.949966644,9
+John Cleese,"Michael Palin, Graham Chapman, Terry Gilliam",0.003002001,0.6,179.88,2.491661107,9
+"Terry Gilliam, Terry Jones, Graham Chapman, Eric Idle",John Cleese,0.003002001,0.9,179.88,9.949966644,9
+John Cleese,"Terry Gilliam, Terry Jones, Graham Chapman, Eric Idle",0.003002001,0.6,179.88,2.491661107,9
+"Terry Gilliam, Michael Palin, Graham Chapman, Eric Idle",John Cleese,0.003002001,0.9,179.88,9.949966644,9
+John Cleese,"Terry Gilliam, Michael Palin, Graham Chapman, Eric Idle",0.003002001,0.6,179.88,2.491661107,9
+"Terry Jones, Michael Palin, Graham Chapman, Terry Gilliam",John Cleese,0.003002001,0.9,179.88,9.949966644,9
+John Cleese,"Terry Jones, Michael Palin, Graham Chapman, Terry Gilliam",0.003002001,0.6,179.88,2.491661107,9
+"Eric Idle, Michael Palin, Terry Jones, Terry Gilliam, Graham Chapman",John Cleese,0.003002001,0.9,179.88,9.949966644,9
+John Cleese,"Eric Idle, Michael Palin, Terry Jones, Terry Gilliam, Graham Chapman",0.003002001,0.6,179.88,2.491661107,9
+Adam Sandler,Jared Sandler,0.00233489,0.583333333,174.8833333,2.391994663,7
+Jared Sandler,Adam Sandler,0.00233489,0.7,174.8833333,3.319991105,7
+Alessandro Juliani,Vincent Tong,0.00233489,0.875,174.8833333,7.959973316,7
+Eric Idle,John Cleese,0.004336224,0.866666667,173.2177778,7.462474983,13
+John Cleese,Eric Idle,0.004336224,0.866666667,173.2177778,7.462474983,13
+Michael Palin,John Cleese,0.004336224,0.866666667,173.2177778,7.462474983,13
+John Cleese,Michael Palin,0.004336224,0.866666667,173.2177778,7.462474983,13
+Alessandro Juliani,Andrea Libman,0.002001334,0.75,172.9615385,3.982655103,6
+Elyse Maloway,Vincent Tong,0.002001334,0.857142857,171.3142857,6.964976651,6
+Diana Kaarina,Vincent Tong,0.002001334,0.857142857,171.3142857,6.964976651,6
+Adam Sandler,Jackie Sandler,0.002668446,0.666666667,166.5555556,2.987991995,7
+Jackie Sandler,Adam Sandler,0.002668446,0.666666667,166.5555556,2.987991995,7
+"Jackie Sandler, Jared Sandler",Adam Sandler,0.002001334,0.666666667,166.5555556,2.987991995,6
+Adam Sandler,"Jackie Sandler, Jared Sandler",0.002001334,0.5,166.5555556,1.993995997,6
+Rob Schneider,Jared Sandler,0.002001334,0.545454545,163.5272727,2.192661775,6
+Jared Sandler,Rob Schneider,0.002001334,0.6,163.5272727,2.490827218,6
+Kappei Yamaguchi,Hiroaki Hirata,0.002001334,0.545454545,163.5272727,2.192661775,6
+Hiroaki Hirata,Kappei Yamaguchi,0.002001334,0.6,163.5272727,2.490827218,6
+London Hughes,David Spade,0.002001334,0.75,160.6071429,3.981320881,6
+"Kajol, Shah Rukh Khan",Rani Mukerji,0.002001334,0.857142857,160.6071429,6.962641761,6
+Joross Gamboa,Cathy Garcia-Molina,0.00233489,0.636363636,158.9848485,2.738992662,7
+Cathy Garcia-Molina,Joross Gamboa,0.00233489,0.583333333,158.9848485,2.391194129,7
+Jackie Sandler,Rob Schneider,0.00233489,0.583333333,158.9848485,2.391194129,7
+Rob Schneider,Jackie Sandler,0.00233489,0.636363636,158.9848485,2.738992662,7
+Brian Drummond,Ian James Corlett,0.00233489,0.583333333,158.9848485,2.391194129,7
+Ian James Corlett,Brian Drummond,0.00233489,0.636363636,158.9848485,2.738992662,7
+Raúl Campos,Jan Suter,0.006337558,0.95,149.9,19.87324883,19
+Jan Suter,Raúl Campos,0.006337558,1,149.9,inf,19
+Ian James Corlett,Erin Mathews,0.002001334,0.545454545,148.661157,2.191927952,6
+Erin Mathews,Ian James Corlett,0.002001334,0.545454545,148.661157,2.191927952,6
+Andrea Libman,Ian James Corlett,0.00233489,0.538461538,146.7552448,2.158716922,7
+Ian James Corlett,Andrea Libman,0.00233489,0.636363636,146.7552448,2.738075384,7
+Andrea Libman,Erin Mathews,0.00233489,0.538461538,146.7552448,2.158716922,7
+Erin Mathews,Andrea Libman,0.00233489,0.636363636,146.7552448,2.738075384,7
+"Shah Rukh Khan, Rani Mukerji",Karan Johar,0.002001334,0.6,138.3692308,2.48915944,6
+Adam Sandler,Rob Schneider,0.002001334,0.5,136.2727273,1.992661775,6
+Rob Schneider,Adam Sandler,0.002001334,0.545454545,136.2727273,2.191194129,6
+Andrea Libman,Brian Drummond,0.00233489,0.538461538,134.525641,2.157994218,7
+Brian Drummond,Andrea Libman,0.00233489,0.583333333,134.525641,2.389593062,7
+Kathleen Barr,Vincent Tong,0.002001334,0.666666667,133.2444444,2.984989993,6
+"Kajol, Rani Mukerji",Shah Rukh Khan,0.002001334,1,130.3478261,inf,6
+"Karan Johar, Rani Mukerji",Shah Rukh Khan,0.002001334,1,130.3478261,inf,6
+Erin Mathews,Vincent Tong,0.00233489,0.636363636,127.1878788,2.736240827,7
+Kajol,Rani Mukerji,0.002001334,0.6,112.425,2.486657772,6
+Jackie Sandler,David Spade,0.002001334,0.5,107.0714286,1.99066044,6
+Fortune Feimster,David Spade,0.002001334,0.5,107.0714286,1.99066044,6
+Brian Drummond,Ashleigh Ball,0.002001334,0.5,99.93333333,1.989993329,6
+Juhi Chawla,Shah Rukh Khan,0.00233489,0.7,91.24347826,3.307760729,7
+Kajol,Shah Rukh Khan,0.00233489,0.7,91.24347826,3.307760729,7
+Kana Hanazawa,Takahiro Sakurai,0.00233489,0.636363636,90.84848485,2.730737158,7
+Anurag Kashyap,Nawazuddin Siddiqui,0.002001334,0.545454545,86.06698565,2.186057372,6
+Rani Mukerji,Shah Rukh Khan,0.003335557,0.625,81.4673913,2.646208584,10
+Mamoru Miyano,Takahiro Sakurai,0.00233489,0.538461538,76.87179487,2.151489882,7

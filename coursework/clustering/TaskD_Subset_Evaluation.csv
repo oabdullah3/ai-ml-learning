@@ -1,0 +1,43 @@
+============================================================,,,
+ EVALUATION FOR: SUBSET 1 (MAGNITUDE AND DIMENSIONALITY) ,,,
+============================================================,,,
+,,,
+METHOD: Single Link (MIN),,,
+Assigned Cluster,Label 1,Label 2,Label 3
+1,70,68,70
+2,0,1,0
+3,0,1,0
+,,,
+METHOD: Complete Link (MAX),,,
+Assigned Cluster,Label 1,Label 2,Label 3
+1,7,68,0
+2,11,0,66
+3,52,2,4
+,,,
+METHOD: Group Average,,,
+Assigned Cluster,Label 1,Label 2,Label 3
+1,63,2,70
+2,7,21,0
+3,0,47,0
+,,,
+============================================================,,,
+ EVALUATION FOR: SUBSET 2 (DIMENSIONLESS FORM AND PROPORTION) ,,,
+============================================================,,,
+,,,
+METHOD: Single Link (MIN),,,
+Assigned Cluster,Label 1,Label 2,Label 3
+1,0,0,2
+2,69,70,68
+3,1,0,0
+,,,
+METHOD: Complete Link (MAX),,,
+Assigned Cluster,Label 1,Label 2,Label 3
+1,62,43,22
+2,0,1,29
+3,8,26,19
+,,,
+METHOD: Group Average,,,
+Assigned Cluster,Label 1,Label 2,Label 3
+1,0,0,2
+2,58,53,8
+3,12,17,60

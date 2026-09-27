@@ -1,0 +1,890 @@
+itemset,support,num_movies,is_maximal
+"crime, action, thriller, european, drama",0.008338893,25,TRUE
+"history, documentation",0.00700467,21,TRUE
+"comedy, Raúl Campos, Jan Suter",0.006337558,19,TRUE
+"animation, action, comedy, fantasy, scifi, drama, family",0.006004003,18,TRUE
+"comedy, Fred Armisen",0.005670447,17,TRUE
+"history, drama, war, action",0.005670447,17,TRUE
+"comedy, reality",0.005003336,15,TRUE
+"crime, comedy, action, thriller, drama",0.005003336,15,TRUE
+"crime, action, thriller, scifi, drama",0.005003336,15,TRUE
+"comedy, Marcus Raboy",0.00466978,14,TRUE
+"Nassar, drama",0.00466978,14,TRUE
+"sport, drama, romance",0.00466978,14,TRUE
+"Maya Rudolph, comedy",0.004336224,13,TRUE
+"sport, drama, comedy",0.004336224,13,TRUE
+"comedy, Dave Chappelle",0.004002668,12,TRUE
+"comedy, Jay Chapman",0.004002668,12,TRUE
+"Barack Obama, documentation",0.004002668,12,TRUE
+"comedy, Kevin Hart",0.004002668,12,TRUE
+"comedy, Chris Parnell",0.004002668,12,TRUE
+"drama, thriller, action, war",0.004002668,12,TRUE
+"drama, comedy, crime, romance",0.004002668,12,TRUE
+"crime, action, romance, thriller, drama",0.004002668,12,TRUE
+"comedy, Vir Das",0.003669113,11,TRUE
+"drama, Youssef Chahine",0.003669113,11,TRUE
+"drama, Irrfan Khan",0.003669113,11,TRUE
+"Jeff Dunham, comedy",0.003669113,11,TRUE
+"comedy, Chris Rock",0.003669113,11,TRUE
+"comedy, Mike Epps",0.003669113,11,TRUE
+"documentation, european",0.003669113,11,TRUE
+"comedy, documentation, Ryan Polito",0.003669113,11,TRUE
+"Michelle Buteau, comedy",0.003335557,10,TRUE
+"Paul Rudd, comedy",0.003335557,10,TRUE
+"drama, Aditi Rao Hydari",0.003335557,10,TRUE
+"comedy, Natasha Lyonne",0.003335557,10,TRUE
+"comedy, Matt Walsh",0.003335557,10,TRUE
+"Kevin James, comedy",0.003335557,10,TRUE
+"comedy, Snoop Dogg",0.003335557,10,TRUE
+"drama, Arjun Rampal",0.003335557,10,TRUE
+"comedy, Lance Bangs",0.003335557,10,TRUE
+"drama, Kay Kay Menon",0.003335557,10,TRUE
+"comedy, Patton Oswalt",0.003335557,10,TRUE
+"drama, reality",0.003335557,10,TRUE
+"drama, comedy, Om Puri",0.003335557,10,TRUE
+"animation, Vincent Tong, family",0.003335557,10,TRUE
+"drama, crime, documentation",0.003335557,10,TRUE
+"drama, comedy, Boman Irani, romance",0.003335557,10,TRUE
+"history, drama, war, romance",0.003335557,10,TRUE
+"history, drama, thriller, war",0.003335557,10,TRUE
+"animation, fantasy, comedy, Tara Strong, family",0.003335557,10,TRUE
+"animation, comedy, romance, fantasy, family",0.003335557,10,TRUE
+"comedy, fantasy, romance, scifi, drama",0.003335557,10,TRUE
+"fantasy, romance, thriller, scifi, drama",0.003335557,10,TRUE
+"comedy, Tiffany Haddish",0.003002001,9,TRUE
+"comedy, David Cross",0.003002001,9,TRUE
+"comedy, Will Forte",0.003002001,9,TRUE
+"Terry Crews, comedy",0.003002001,9,TRUE
+"drama, Lee Kyung-young",0.003002001,9,TRUE
+"Manav Kaul, drama",0.003002001,9,TRUE
+"drama, Lee Jung-eun",0.003002001,9,TRUE
+"documentation, Donald Trump",0.003002001,9,TRUE
+"comedy, Jason Schwartzman",0.003002001,9,TRUE
+"Ken Jeong, comedy",0.003002001,9,TRUE
+"comedy, Keith David",0.003002001,9,TRUE
+"Iliza Shlesinger, comedy",0.003002001,9,TRUE
+"comedy, John Mulaney",0.003002001,9,TRUE
+"Andrew Bachelor, comedy",0.003002001,9,TRUE
+"drama, Ranvir Shorey",0.003002001,9,TRUE
+"drama, Vidya Balan",0.003002001,9,TRUE
+"Rajpal Yadav, comedy",0.003002001,9,TRUE
+"drama, Dalip Tahil",0.003002001,9,TRUE
+"Prakash Raj, drama",0.003002001,9,TRUE
+"Kulbhushan Kharbanda, drama",0.003002001,9,TRUE
+"comedy, Ricky Gervais",0.003002001,9,TRUE
+"animation, Koichi Yamadera, action",0.003002001,9,TRUE
+"Maaya Sakamoto, drama, animation",0.003002001,9,TRUE
+"drama, animation, Kensho Ono",0.003002001,9,TRUE
+"drama, Hrithik Roshan, romance",0.003002001,9,TRUE
+"drama, Amitabh Bachchan, action",0.003002001,9,TRUE
+"drama, Amitabh Bachchan, romance",0.003002001,9,TRUE
+"drama, comedy, history",0.003002001,9,TRUE
+"Maaya Sakamoto, fantasy, animation, action",0.003002001,9,TRUE
+"fantasy, animation, action, Jun Fukuyama",0.003002001,9,TRUE
+"comedy, crime, action, romance",0.003002001,9,TRUE
+"history, drama, action, romance",0.003002001,9,TRUE
+"drama, thriller, scifi, european",0.003002001,9,TRUE
+"Grey DeLisle, animation, action, comedy, family",0.003002001,9,TRUE
+"Kevin Michael Richardson, animation, action, comedy, family",0.003002001,9,TRUE
+"animation, action, fantasy, thriller, scifi, drama, horror",0.003002001,9,TRUE
+"Ahn Nae-sang, drama",0.002668446,7,TRUE
+"drama, Sung Dong-il",0.002668446,7,TRUE
+"Wu Kang-ren, drama",0.002668446,7,TRUE
+"drama, Kunle Afolayan",0.002668446,7,TRUE
+"Bill Burr, comedy",0.002668446,7,TRUE
+"animation, Kenichi Suzumura",0.002668446,7,TRUE
+"Neil Patrick Harris, comedy",0.002668446,7,TRUE
+"comedy, Loretta Devine",0.002668446,7,TRUE
+"drama, Bea Alonzo",0.002668446,7,TRUE
+"Rie Kugimiya, animation",0.002668446,7,TRUE
+"comedy, Bayoumi Fouad",0.002668446,7,TRUE
+"drama, Idris Elba",0.002668446,7,TRUE
+"drama, Kim Won-hae",0.002668446,7,TRUE
+"comedy, Keegan-Michael Key",0.002668446,7,TRUE
+"comedy, Andy Richter",0.002668446,7,TRUE
+"drama, Seema Pahwa",0.002668446,7,TRUE
+"comedy, Lam Suet",0.002668446,7,TRUE
+"drama, Jesse Plemons",0.002668446,7,TRUE
+"drama, Brad Pitt",0.002668446,7,TRUE
+"drama, Keanu Reeves",0.002668446,7,TRUE
+"drama, Michiel Huisman",0.002668446,7,TRUE
+"Jerry Seinfeld, comedy",0.002668446,7,TRUE
+"action, Michael Papajohn",0.002668446,7,TRUE
+"comedy, Troy Miller",0.002668446,7,TRUE
+"documentation, Snoop Dogg",0.002668446,7,TRUE
+"Adil Hussain, drama",0.002668446,7,TRUE
+"Nassar, action",0.002668446,7,TRUE
+"comedy, Molly Shannon",0.002668446,7,TRUE
+"comedy, Jon Lovitz",0.002668446,7,TRUE
+"Marc Maron, comedy",0.002668446,7,TRUE
+"comedy, Eric André",0.002668446,7,TRUE
+"Kangana Ranaut, drama",0.002668446,7,TRUE
+"Nat Faxon, comedy",0.002668446,7,TRUE
+"drama, Sachin Khedekar",0.002668446,7,TRUE
+"comedy, Sharat Saxena",0.002668446,7,TRUE
+"thriller, Ajay Devgn",0.002668446,7,TRUE
+"comedy, Jeff Ross",0.002668446,7,TRUE
+"Vijay Raaz, drama",0.002668446,7,TRUE
+"crime, Paresh Rawal",0.002668446,7,TRUE
+"drama, Danish Husain",0.002668446,7,TRUE
+"David Koechner, comedy",0.002668446,7,TRUE
+"comedy, Danny Trejo",0.002668446,7,TRUE
+"R. Madhavan, drama",0.002668446,7,TRUE
+"sport, animation",0.002668446,7,TRUE
+"comedy, war",0.002668446,7,TRUE
+"war, documentation",0.002668446,7,TRUE
+"animation, action, Minako Kotobuki",0.002668446,7,TRUE
+"animation, action, Katsuyuki Konishi",0.002668446,7,TRUE
+"drama, comedy, Johnny Lever",0.002668446,7,TRUE
+"drama, Akshay Kumar, action",0.002668446,7,TRUE
+"drama, comedy, Akshay Kumar",0.002668446,7,TRUE
+"Kareena Kapoor Khan, action, drama",0.002668446,7,TRUE
+"drama, Anil Kapoor, romance",0.002668446,7,TRUE
+"drama, thriller, Naseeruddin Shah",0.002668446,7,TRUE
+"Aamir Khan, drama, romance",0.002668446,7,TRUE
+"drama, Farhan Akhtar, romance",0.002668446,7,TRUE
+"comedy, Ranbir Kapoor, romance",0.002668446,7,TRUE
+"Rishi Kapoor, comedy, drama",0.002668446,7,TRUE
+"drama, Preity Zinta, romance",0.002668446,7,TRUE
+"drama, action, Murali Sharma",0.002668446,7,TRUE
+"Rajkummar Rao, drama, crime",0.002668446,7,TRUE
+"Michela Luci, family, animation",0.002668446,7,TRUE
+"sport, comedy, family",0.002668446,7,TRUE
+"sport, drama, family",0.002668446,7,TRUE
+"fantasy, animation, action, Rikiya Koyama",0.002668446,7,TRUE
+"drama, comedy, Anupam Kher, romance",0.002668446,7,TRUE
+"drama, crime, thriller, Nawazuddin Siddiqui",0.002668446,7,TRUE
+"fantasy, animation, action, Ikue Otani",0.002668446,7,TRUE
+"fantasy, Toshiyuki Morikawa, action, animation",0.002668446,7,TRUE
+"Kareena Kapoor Khan, comedy, drama, romance",0.002668446,7,TRUE
+"Takehito Koyasu, animation, action, scifi",0.002668446,7,TRUE
+"sport, drama, thriller, action",0.002668446,7,TRUE
+"drama, horror, scifi, romance",0.002668446,7,TRUE
+"animation, action, comedy, Fred Tatasciore, family",0.002668446,7,TRUE
+"comedy, action, romance, thriller, drama",0.002668446,7,TRUE
+"crime, action, fantasy, scifi, drama",0.002668446,7,TRUE
+"crime, action, thriller, scifi, fantasy",0.002668446,7,TRUE
+"animation, comedy, european, fantasy, family",0.002668446,7,TRUE
+"animation, action, fantasy, romance, scifi, drama",0.002668446,7,TRUE
+"crime, action, fantasy, thriller, drama, horror",0.002668446,7,TRUE
+"John Cleese, comedy, Terry Gilliam, Terry Jones, Michael Palin, Graham Chapman, Eric Idle",0.002668446,7,TRUE
+"animation, Kazuyuki Okitsu",0.00233489,7,TRUE
+"Mahesh Manjrekar, drama",0.00233489,7,TRUE
+"Will Ferrell, comedy",0.00233489,7,TRUE
+"drama, Vanessa Hudgens",0.00233489,7,TRUE
+"comedy, Gabriel Iglesias",0.00233489,7,TRUE
+"Jim Gaffigan, comedy",0.00233489,7,TRUE
+"comedy, Rajesh Sharma",0.00233489,7,TRUE
+"drama, Yogi Babu",0.00233489,7,TRUE
+"drama, Raghubir Yadav",0.00233489,7,TRUE
+"comedy, Amy Poehler",0.00233489,7,TRUE
+"drama, Lily Collins",0.00233489,7,TRUE
+"documentation, Jane Fonda",0.00233489,7,TRUE
+"Jeon Bae-soo, drama",0.00233489,7,TRUE
+"drama, Vijay Sethupathi",0.00233489,7,TRUE
+"drama, Bayoumi Fouad",0.00233489,7,TRUE
+"Colin Quinn, comedy",0.00233489,7,TRUE
+"comedy, Sarah Silverman",0.00233489,7,TRUE
+"comedy, Lauren Lapkus",0.00233489,7,TRUE
+"drama, Samuel L. Jackson",0.00233489,7,TRUE
+"drama, Anthony Mackie",0.00233489,7,TRUE
+"drama, Naomi Watts",0.00233489,7,TRUE
+"comedy, Pepe Herrera",0.00233489,7,TRUE
+"comedy, DeRay Davis",0.00233489,7,TRUE
+"drama, Keegan-Michael Key",0.00233489,7,TRUE
+"comedy, Nick Kroll",0.00233489,7,TRUE
+"comedy, Fortune Feimster",0.00233489,7,TRUE
+"drama, Helena Bonham Carter",0.00233489,7,TRUE
+"drama, Ramsey Nouah",0.00233489,7,TRUE
+"Keanu Reeves, romance",0.00233489,7,TRUE
+"action, Scott Adkins",0.00233489,7,TRUE
+"Michael Jai White, action",0.00233489,7,TRUE
+"drama, Michael Papajohn",0.00233489,7,TRUE
+"thriller, Shah Rukh Khan",0.00233489,7,TRUE
+"comedy, Spike Jonze",0.00233489,7,TRUE
+"Britt McKillip, animation",0.00233489,7,TRUE
+"drama, Bill Camp",0.00233489,7,TRUE
+"thriller, Jude Law",0.00233489,7,TRUE
+"animation, Kisho Taniyama",0.00233489,7,TRUE
+"Nassar, comedy",0.00233489,7,TRUE
+"drama, Rohini",0.00233489,7,TRUE
+"comedy, Jack Black",0.00233489,7,TRUE
+"comedy, Will Arnett",0.00233489,7,TRUE
+"comedy, Steve Buscemi",0.00233489,7,TRUE
+"drama, Amy Adams",0.00233489,7,TRUE
+"Gulshan Grover, action",0.00233489,7,TRUE
+"comedy, Tony Hale",0.00233489,7,TRUE
+"action, Katrina Kaif",0.00233489,7,TRUE
+"drama, Madhuri Dixit",0.00233489,7,TRUE
+"crime, Sharat Saxena",0.00233489,7,TRUE
+"comedy, Manoj Joshi",0.00233489,7,TRUE
+"drama, Gajraj Rao",0.00233489,7,TRUE
+"action, Jackie Shroff",0.00233489,7,TRUE
+"Vikrant Massey, drama",0.00233489,7,TRUE
+"Jim Jefferies, comedy",0.00233489,7,TRUE
+"thriller, Emraan Hashmi",0.00233489,7,TRUE
+"drama, Dia Mirza",0.00233489,7,TRUE
+"Tusshar Kapoor, comedy",0.00233489,7,TRUE
+"drama, Tusshar Kapoor",0.00233489,7,TRUE
+"drama, Nana Patekar",0.00233489,7,TRUE
+"drama, Vipin Sharma",0.00233489,7,TRUE
+"drama, Asri Welas",0.00233489,7,TRUE
+"comedy, Shannon Hartman",0.00233489,7,TRUE
+"drama, Kim Hye-eun",0.00233489,7,TRUE
+"Yılmaz Erdoğan, drama",0.00233489,7,TRUE
+"comedy, Johnny Knoxville",0.00233489,7,TRUE
+"animation, Yoshitsugu Matsuoka",0.00233489,7,TRUE
+"animation, Tatsuhisa Suzuki",0.00233489,7,TRUE
+"comedy, Margaret Cho",0.00233489,7,TRUE
+"Ben Stiller, comedy",0.00233489,7,TRUE
+"comedy, Pete Davidson",0.00233489,7,TRUE
+"thriller, Frank Grillo",0.00233489,7,TRUE
+"action, Jean-Claude Van Damme",0.00233489,7,TRUE
+"drama, Isiah Whitlock Jr.",0.00233489,7,TRUE
+"western, comedy",0.00233489,7,TRUE
+"thriller, documentation",0.00233489,7,TRUE
+"drama, Manisha Koirala, romance",0.00233489,7,TRUE
+"comedy, Daisuke Ono, animation",0.00233489,7,TRUE
+"drama, comedy, Cathy Garcia-Molina",0.00233489,7,TRUE
+"comedy, Cathy Garcia-Molina, romance",0.00233489,7,TRUE
+"drama, Om Puri, romance",0.00233489,7,TRUE
+"drama, Kathryn Bernardo, romance",0.00233489,7,TRUE
+"drama, animation, Koichi Yamadera",0.00233489,7,TRUE
+"animation, Ian James Corlett, family",0.00233489,7,TRUE
+"comedy, animation, Junichi Suwabe",0.00233489,7,TRUE
+"Megumi Han, animation, action",0.00233489,7,TRUE
+"drama, Megumi Han, animation",0.00233489,7,TRUE
+"Sora Amamiya, action, animation",0.00233489,7,TRUE
+"drama, animation, Mariya Ise",0.00233489,7,TRUE
+"crime, thriller, Boman Irani",0.00233489,7,TRUE
+"drama, Johnny Lever, romance",0.00233489,7,TRUE
+"crime, action, Akshay Kumar",0.00233489,7,TRUE
+"Kareena Kapoor Khan, crime, action",0.00233489,7,TRUE
+"animation, Erin Mathews, Vincent Tong",0.00233489,7,TRUE
+"fantasy, animation, Vincent Tong",0.00233489,7,TRUE
+"drama, Saif Ali Khan, romance",0.00233489,7,TRUE
+"drama, comedy, Anil Kapoor",0.00233489,7,TRUE
+"Aamir Khan, drama, comedy",0.00233489,7,TRUE
+"Sonam Kapoor, drama, comedy",0.00233489,7,TRUE
+"drama, comedy, Ranbir Kapoor",0.00233489,7,TRUE
+"drama, comedy, Abhishek Bachchan",0.00233489,7,TRUE
+"drama, action, Mithun Chakraborty",0.00233489,7,TRUE
+"drama, Murali Sharma, romance",0.00233489,7,TRUE
+"comedy, Ratna Pathak, romance",0.00233489,7,TRUE
+"drama, Dulquer Salmaan, romance",0.00233489,7,TRUE
+"drama, comedy, Abhay Deol",0.00233489,7,TRUE
+"crime, Amitabh Bachchan, action",0.00233489,7,TRUE
+"drama, comedy, Brijendra Kala",0.00233489,7,TRUE
+"drama, animation, Takehito Koyasu",0.00233489,7,TRUE
+"comedy, crime, family",0.00233489,7,TRUE
+"drama, scifi, music",0.00233489,7,TRUE
+"fantasy, scifi, european",0.00233489,7,TRUE
+"fantasy, animation, action, Saori Hayami",0.00233489,7,TRUE
+"animation, action, Saori Hayami, scifi",0.00233489,7,TRUE
+"fantasy, animation, action, Daisuke Ono",0.00233489,7,TRUE
+"Takahiro Sakurai, animation, horror, action",0.00233489,7,TRUE
+"comedy, Dee Bradley Baker, family, animation",0.00233489,7,TRUE
+"Megumi Hayashibara, animation, action, scifi",0.00233489,7,TRUE
+"drama, comedy, Juhi Chawla, romance",0.00233489,7,TRUE
+"drama, animation, action, Akio Otsuka",0.00233489,7,TRUE
+"Brian Drummond, comedy, family, animation",0.00233489,7,TRUE
+"animation, action, scifi, Reina Ueda",0.00233489,7,TRUE
+"animation, action, Koji Yusa, scifi",0.00233489,7,TRUE
+"Romi Park, fantasy, animation, action",0.00233489,7,TRUE
+"fantasy, animation, action, Satsuki Yukino",0.00233489,7,TRUE
+"fantasy, Miyuki Sawashiro, action, animation",0.00233489,7,TRUE
+"drama, comedy, Deepika Padukone, romance",0.00233489,7,TRUE
+"fantasy, animation, Kazuki Yao, action",0.00233489,7,TRUE
+"Satish Shah, drama, comedy, romance",0.00233489,7,TRUE
+"drama, comedy, Paresh Rawal, romance",0.00233489,7,TRUE
+"animation, action, Yuichi Nakamura, scifi",0.00233489,7,TRUE
+"Hochu Otsuka, fantasy, animation, action",0.00233489,7,TRUE
+"animation, Yoshimasa Hosoya, scifi, action",0.00233489,7,TRUE
+"history, drama, thriller, action",0.00233489,7,TRUE
+"drama, horror, action, romance",0.00233489,7,TRUE
+"western, thriller, action, drama",0.00233489,7,TRUE
+"thriller, action, scifi, european",0.00233489,7,TRUE
+"comedy, horror, family, animation",0.00233489,7,TRUE
+"animation, horror, scifi, family",0.00233489,7,TRUE
+"comedy, crime, thriller, romance",0.00233489,7,TRUE
+"drama, comedy, european, romance",0.00233489,7,TRUE
+"drama, comedy, music, romance",0.00233489,7,TRUE
+"history, drama, crime, thriller",0.00233489,7,TRUE
+"drama, crime, thriller, war",0.00233489,7,TRUE
+"western, crime, thriller, drama",0.00233489,7,TRUE
+"drama, european, thriller, romance",0.00233489,7,TRUE
+"animation, action, comedy, Tom Kenny, family",0.00233489,7,TRUE
+"Grey DeLisle, animation, comedy, fantasy, family",0.00233489,7,TRUE
+"animation, action, Kari Wahlgren, comedy, family",0.00233489,7,TRUE
+"animation, comedy, Kari Wahlgren, fantasy, family",0.00233489,7,TRUE
+"animation, action, comedy, Tara Strong, family",0.00233489,7,TRUE
+"animation, action, scifi, drama, Junichi Suwabe",0.00233489,7,TRUE
+"Carlos Alazraqui, animation, comedy, fantasy, family",0.00233489,7,TRUE
+"animation, action, Kenjiro Tsuda, scifi, drama",0.00233489,7,TRUE
+"Kevin Michael Richardson, animation, comedy, fantasy, family",0.00233489,7,TRUE
+"crime, animation, action, scifi, fantasy",0.00233489,7,TRUE
+"crime, animation, action, thriller, scifi",0.00233489,7,TRUE
+"animation, action, war, scifi, drama",0.00233489,7,TRUE
+"comedy, action, thriller, fantasy, horror",0.00233489,7,TRUE
+"crime, action, thriller, scifi, horror",0.00233489,7,TRUE
+"action, romance, thriller, scifi, drama",0.00233489,7,TRUE
+"animation, comedy, romance, scifi, family",0.00233489,7,TRUE
+"animation, comedy, romance, scifi, fantasy",0.00233489,7,TRUE
+"comedy, fantasy, romance, drama, family",0.00233489,7,TRUE
+"fantasy, romance, thriller, drama, horror",0.00233489,7,TRUE
+"animation, fantasy, action, Yuki Kaji, drama, horror",0.00233489,7,TRUE
+"Kazuhiko Inoue, Chie Nakamura, Junko Takeuchi, animation, action, fantasy",0.00233489,7,TRUE
+"animation, action, comedy, romance, drama, family",0.00233489,7,TRUE
+"animation, action, fantasy, comedy, thriller, scifi, drama",0.00233489,7,TRUE
+"Martin Sheen, drama",0.002001334,6,TRUE
+"drama, Jung Hae-in",0.002001334,6,TRUE
+"comedy, Sung Dong-il",0.002001334,6,TRUE
+"Aditya Srivastava, drama",0.002001334,6,TRUE
+"Mugihito, animation",0.002001334,6,TRUE
+"drama, Tantoo Cardinal",0.002001334,6,TRUE
+"Toby Huss, drama",0.002001334,6,TRUE
+"Lee Tockar, Ian James Corlett",0.002001334,6,TRUE
+"comedy, Bobby Cannavale",0.002001334,6,TRUE
+"Joel McHale, comedy",0.002001334,6,TRUE
+"comedy, Kimiko Glenn",0.002001334,6,TRUE
+"comedy, Momona Tamada",0.002001334,6,TRUE
+"drama, Matthew Modine",0.002001334,6,TRUE
+"thriller, John Malkovich",0.002001334,6,TRUE
+"Wanda Sykes, comedy",0.002001334,6,TRUE
+"Paco Tous, european",0.002001334,6,TRUE
+"thriller, Paco Tous",0.002001334,6,TRUE
+"thriller, Cheon Ho-jin",0.002001334,6,TRUE
+"drama, Jagapati Babu",0.002001334,6,TRUE
+"Priyanka Chopra Jonas, action",0.002001334,6,TRUE
+"crime, Priyanka Chopra Jonas",0.002001334,6,TRUE
+"Tiffany Haddish, documentation",0.002001334,6,TRUE
+"drama, Chadwick Boseman",0.002001334,6,TRUE
+"Samuthirakani, drama",0.002001334,6,TRUE
+"Steven Yeun, action",0.002001334,6,TRUE
+"Steven Yeun, scifi",0.002001334,6,TRUE
+"drama, Rajit Kapoor",0.002001334,6,TRUE
+"Vennela Kishore, drama",0.002001334,6,TRUE
+"Vennela Kishore, romance",0.002001334,6,TRUE
+"drama, Najwa Nimri",0.002001334,6,TRUE
+"drama, Rajesh Sharma",0.002001334,6,TRUE
+"Molly Ringwald, romance",0.002001334,6,TRUE
+"Yogi Babu, action",0.002001334,6,TRUE
+"Dennis Padilla, romance",0.002001334,6,TRUE
+"Nicole Byer, comedy",0.002001334,6,TRUE
+"John Lloyd Cruz, romance",0.002001334,6,TRUE
+"Brett Gelman, comedy",0.002001334,6,TRUE
+"comedy, Jane Fonda",0.002001334,6,TRUE
+"Justin G. Dyck, romance",0.002001334,6,TRUE
+"drama, Leonardo DiCaprio",0.002001334,6,TRUE
+"Pedro Casablanc, european",0.002001334,6,TRUE
+"drama, Enrique Gil",0.002001334,6,TRUE
+"Mae Cruz-Alviar, romance",0.002001334,6,TRUE
+"Kanta Sato, Nobuyuki Suzuki",0.002001334,6,TRUE
+"drama, Giancarlo Esposito",0.002001334,6,TRUE
+"drama, David Oyelowo",0.002001334,6,TRUE
+"Ken Marino, comedy",0.002001334,6,TRUE
+"comedy, David Wain",0.002001334,6,TRUE
+"action, Chris Hemsworth",0.002001334,6,TRUE
+"drama, Liam Neeson",0.002001334,6,TRUE
+"Stanley Tucci, drama",0.002001334,6,TRUE
+"thriller, Lee Kyung-young",0.002001334,6,TRUE
+"comedy, J.K. Simmons",0.002001334,6,TRUE
+"drama, Niña Dolino",0.002001334,6,TRUE
+"action, Yayan Ruhian",0.002001334,6,TRUE
+"comedy, Mark Ruffalo",0.002001334,6,TRUE
+"drama, Lee Nicholas Harris",0.002001334,6,TRUE
+"thriller, Anthony Mackie",0.002001334,6,TRUE
+"animation, John DiMaggio",0.002001334,6,TRUE
+"comedy, Kumail Nanjiani",0.002001334,6,TRUE
+"drama, Morgan Freeman",0.002001334,6,TRUE
+"thriller, Morgan Freeman",0.002001334,6,TRUE
+"drama, Danny Denzongpa",0.002001334,6,TRUE
+"Debi Derryberry, family",0.002001334,6,TRUE
+"comedy, Katt Williams",0.002001334,6,TRUE
+"Kate Berlant, comedy",0.002001334,6,TRUE
+"action, Keita Machida",0.002001334,6,TRUE
+"comedy, Lily Tomlin",0.002001334,6,TRUE
+"Rajiv Gupta, drama",0.002001334,6,TRUE
+"drama, Mark Duplass",0.002001334,6,TRUE
+"comedy, Aziz Ansari",0.002001334,6,TRUE
+"Jennifer Jason Leigh, drama",0.002001334,6,TRUE
+"drama, Demián Bichir",0.002001334,6,TRUE
+"Bruce Dern, drama",0.002001334,6,TRUE
+"comedy, Steve Zahn",0.002001334,6,TRUE
+"drama, Sandra Bullock",0.002001334,6,TRUE
+"comedy, Jane Krakowski",0.002001334,6,TRUE
+"Pankaj Tripathi, comedy",0.002001334,6,TRUE
+"Pankaj Tripathi, crime",0.002001334,6,TRUE
+"comedy, Steven Brill",0.002001334,6,TRUE
+"Oprah Winfrey, documentation",0.002001334,6,TRUE
+"Norm Macdonald, comedy",0.002001334,6,TRUE
+"comedy, Fernando Ayllón",0.002001334,6,TRUE
+"animation, JP Karliak",0.002001334,6,TRUE
+"comedy, Seema Pahwa",0.002001334,6,TRUE
+"drama, Lam Suet",0.002001334,6,TRUE
+"drama, Adipati Dolken",0.002001334,6,TRUE
+"drama, Lung Shao-Hua",0.002001334,6,TRUE
+"drama, Ali Fazal",0.002001334,6,TRUE
+"drama, Richard Mofe-Damijo",0.002001334,6,TRUE
+"comedy, Nawazuddin Siddiqui",0.002001334,6,TRUE
+"drama, Lillete Dubey",0.002001334,6,TRUE
+"animation, Eric Peterson",0.002001334,6,TRUE
+"comedy, Kelsey Grammer",0.002001334,6,TRUE
+"comedy, Victoria Justice",0.002001334,6,TRUE
+"drama, Jennifer Ehle",0.002001334,6,TRUE
+"Iqbaal Dhiafakhri Ramadhan, drama",0.002001334,6,TRUE
+"Sylvester Stallone, action",0.002001334,6,TRUE
+"Song Young-chang, action",0.002001334,6,TRUE
+"action, Thomas Rosales Jr.",0.002001334,6,TRUE
+"drama, Kanwaljit Singh",0.002001334,6,TRUE
+"Park Byung-eun, drama",0.002001334,6,TRUE
+"comedy, Zoe Saldaña",0.002001334,6,TRUE
+"drama, Zoe Saldaña",0.002001334,6,TRUE
+"drama, Alec Baldwin",0.002001334,6,TRUE
+"Andrea Libman, Ashleigh Ball",0.002001334,6,TRUE
+"Brian Drummond, Ashleigh Ball",0.002001334,6,TRUE
+"animation, Chinatsu Akasaki",0.002001334,6,TRUE
+"animation, Cassandra Lee Morris",0.002001334,6,TRUE
+"comedy, Kenan Thompson",0.002001334,6,TRUE
+"Belén Cuesta, european",0.002001334,6,TRUE
+"comedy, Mike Myers",0.002001334,6,TRUE
+"Adam DeVine, comedy",0.002001334,6,TRUE
+"Amanda Seyfried, drama",0.002001334,6,TRUE
+"Kareena Kapoor Khan, Shah Rukh Khan",0.002001334,6,TRUE
+"Shah Rukh Khan, action",0.002001334,6,TRUE
+"thriller, Johnny Lever",0.002001334,6,TRUE
+"Snoop Dogg, music",0.002001334,6,TRUE
+"Shizuka Itoh, animation",0.002001334,6,TRUE
+"Tabu, comedy",0.002001334,6,TRUE
+"drama, Kyle Chandler",0.002001334,6,TRUE
+"drama, J. C. MacKenzie",0.002001334,6,TRUE
+"comedy, Seth Rogen",0.002001334,6,TRUE
+"comedy, Jimmy Carr",0.002001334,6,TRUE
+"Bruce Willis, action",0.002001334,6,TRUE
+"Sam Vincent, animation",0.002001334,6,TRUE
+"comedy, Melissa McCarthy",0.002001334,6,TRUE
+"action, Sathyaraj",0.002001334,6,TRUE
+"drama, Sathyaraj",0.002001334,6,TRUE
+"drama, Christian Bale",0.002001334,6,TRUE
+"animation, Rina Sato",0.002001334,6,TRUE
+"action, Kanta Sato",0.002001334,6,TRUE
+"comedy, Diedrich Bader",0.002001334,6,TRUE
+"Ramón Barea, european",0.002001334,6,TRUE
+"Kareena Kapoor Khan, thriller",0.002001334,6,TRUE
+"drama, Kirron Kher",0.002001334,6,TRUE
+"Kirron Kher, romance",0.002001334,6,TRUE
+"drama, Reza Rahadian",0.002001334,6,TRUE
+"comedy, Andy Samberg",0.002001334,6,TRUE
+"comedy, Nick Offerman",0.002001334,6,TRUE
+"Leslie Small, comedy",0.002001334,6,TRUE
+"action, Keith David",0.002001334,6,TRUE
+"Frank Welker, action",0.002001334,6,TRUE
+"Blossom Chukwujekwu, comedy",0.002001334,6,TRUE
+"drama, Randeep Hooda",0.002001334,6,TRUE
+"drama, Imtiaz Ali",0.002001334,6,TRUE
+"action, Hrithik Roshan",0.002001334,6,TRUE
+"drama, Shraddha Kapoor",0.002001334,6,TRUE
+"drama, John Ortiz",0.002001334,6,TRUE
+"Adam Scott, comedy",0.002001334,6,TRUE
+"animation, Kohsuke Toriumi",0.002001334,6,TRUE
+"Makrand Deshpande, drama",0.002001334,6,TRUE
+"Wataru Ichinose, action",0.002001334,6,TRUE
+"thriller, Katrina Kaif",0.002001334,6,TRUE
+"comedy, Vidya Balan",0.002001334,6,TRUE
+"thriller, Vidya Balan",0.002001334,6,TRUE
+"drama, Emile Hirsch",0.002001334,6,TRUE
+"drama, Ila Arun",0.002001334,6,TRUE
+"drama, Henry Thomas",0.002001334,6,TRUE
+"Ben Schwartz, comedy",0.002001334,6,TRUE
+"comedy, Jack Whitehall",0.002001334,6,TRUE
+"Sharat Saxena, romance",0.002001334,6,TRUE
+"Manoj Joshi, romance",0.002001334,6,TRUE
+"Jang Hyun-sung, drama",0.002001334,6,TRUE
+"drama, Amrish Puri",0.002001334,6,TRUE
+"Rajpal Yadav, drama",0.002001334,6,TRUE
+"crime, Abhishek Bachchan",0.002001334,6,TRUE
+"thriller, Abhishek Bachchan",0.002001334,6,TRUE
+"Dalip Tahil, thriller",0.002001334,6,TRUE
+"Prakash Raj, action",0.002001334,6,TRUE
+"crime, Murali Sharma",0.002001334,6,TRUE
+"drama, Amrita Rao",0.002001334,6,TRUE
+"comedy, Darshan Jariwala",0.002001334,6,TRUE
+"drama, Darshan Jariwala",0.002001334,6,TRUE
+"drama, Prakash Belawadi",0.002001334,6,TRUE
+"drama, Mahie Gill",0.002001334,6,TRUE
+"Tinnu Anand, romance",0.002001334,6,TRUE
+"drama, Akhilendra Mishra",0.002001334,6,TRUE
+"drama, Arjun Kapoor",0.002001334,6,TRUE
+"comedy, Manobala",0.002001334,6,TRUE
+"documentation, Richard Nixon",0.002001334,6,TRUE
+"drama, Shahana Goswami",0.002001334,6,TRUE
+"Shakti Kapoor, comedy",0.002001334,6,TRUE
+"Kate Siegel, horror",0.002001334,6,TRUE
+"drama, Mani Ratnam",0.002001334,6,TRUE
+"Vijay Raaz, comedy",0.002001334,6,TRUE
+"thriller, Radhika Apte",0.002001334,6,TRUE
+"Chandan Roy Sanyal, drama",0.002001334,6,TRUE
+"Segun Arinze, drama",0.002001334,6,TRUE
+"drama, Neha Dhupia",0.002001334,6,TRUE
+"Kalki Koechlin, drama",0.002001334,6,TRUE
+"drama, Ashutosh Gowariker",0.002001334,6,TRUE
+"drama, Shefali Shah",0.002001334,6,TRUE
+"Paresh Rawal, action",0.002001334,6,TRUE
+"thriller, Paresh Rawal",0.002001334,6,TRUE
+"thriller, Amitabh Bachchan",0.002001334,6,TRUE
+"Ronald Reagan, documentation",0.002001334,6,TRUE
+"drama, You Chea-myung",0.002001334,6,TRUE
+"drama, Seo Jeong-yeon",0.002001334,6,TRUE
+"action, Taichi Saotome",0.002001334,6,TRUE
+"comedy, John Cho",0.002001334,6,TRUE
+"drama, Rajat Kapoor",0.002001334,6,TRUE
+"drama, Siddharth",0.002001334,6,TRUE
+"Shuntaro Yanagi, action",0.002001334,6,TRUE
+"drama, Shuntaro Yanagi",0.002001334,6,TRUE
+"drama, Jay Duplass",0.002001334,6,TRUE
+"Dave Bautista, action",0.002001334,6,TRUE
+"drama, Johnny Otto",0.002001334,6,TRUE
+"comedy, Rich Sommer",0.002001334,6,TRUE
+"comedy, Cem Yılmaz",0.002001334,6,TRUE
+"Kate Micucci, comedy",0.002001334,6,TRUE
+"Mike Birbiglia, comedy",0.002001334,6,TRUE
+"drama, Ritchie Montgomery",0.002001334,6,TRUE
+"animation, Julie Lemieux",0.002001334,6,TRUE
+"comedy, Jeff Tremaine",0.002001334,6,TRUE
+"animation, Misaki Kuno",0.002001334,6,TRUE
+"drama, Noah Centineo",0.002001334,6,TRUE
+"Noah Centineo, romance",0.002001334,6,TRUE
+"comedy, Tituss Burgess",0.002001334,6,TRUE
+"Masaki Terasoma, animation",0.002001334,6,TRUE
+"action, Danny Trejo",0.002001334,6,TRUE
+"animation, Houko Kuwashima",0.002001334,6,TRUE
+"drama, Ahn Suk-hwan",0.002001334,6,TRUE
+"action, Frank Grillo",0.002001334,6,TRUE
+"drama, Lakeith Stanfield",0.002001334,6,TRUE
+"Tracy Morgan, comedy",0.002001334,6,TRUE
+"comedy, George Lopez",0.002001334,6,TRUE
+"drama, Yeom Hye-ran",0.002001334,6,TRUE
+"Natasha Leggero, comedy",0.002001334,6,TRUE
+"animation, Ryohei Kimura",0.002001334,6,TRUE
+"animation, Asami Seto",0.002001334,6,TRUE
+"action, Masataka Kubota",0.002001334,6,TRUE
+"animation, Mikako Komatsu",0.002001334,6,TRUE
+"scifi, Mikako Komatsu",0.002001334,6,TRUE
+"Yuuichirou Umehara, animation",0.002001334,6,TRUE
+"animation, Shuuichi Ikeda",0.002001334,6,TRUE
+"comedy, Alfred Molina",0.002001334,6,TRUE
+"drama, Alfred Molina",0.002001334,6,TRUE
+"drama, Scoot McNairy",0.002001334,6,TRUE
+"animation, history",0.002001334,6,TRUE
+"sport, crime",0.002001334,6,TRUE
+"sport, european",0.002001334,6,TRUE
+"fantasy, history",0.002001334,6,TRUE
+"history, scifi",0.002001334,6,TRUE
+"drama, comedy, Saurabh Shukla",0.002001334,6,TRUE
+"comedy, Saurabh Shukla, romance",0.002001334,6,TRUE
+"animation, Kathleen Barr, Vincent Tong",0.002001334,6,TRUE
+"animation, Kathleen Barr, family",0.002001334,6,TRUE
+"Elyse Maloway, Vincent Tong, animation",0.002001334,6,TRUE
+"drama, animation, Kana Hanazawa",0.002001334,6,TRUE
+"fantasy, animation, Kana Hanazawa",0.002001334,6,TRUE
+"drama, thriller, Dean Norris",0.002001334,6,TRUE
+"Haruka Tomatsu, fantasy, animation",0.002001334,6,TRUE
+"drama, animation, Daisuke Namikawa",0.002001334,6,TRUE
+"Soma Saito, action, animation",0.002001334,6,TRUE
+"drama, animation, Koki Uchiyama",0.002001334,6,TRUE
+"Koki Uchiyama, animation, scifi",0.002001334,6,TRUE
+"drama, thriller, Priyanka Chopra Jonas",0.002001334,6,TRUE
+"scifi, Wataru Takagi, animation",0.002001334,6,TRUE
+"Steven Yeun, animation, comedy",0.002001334,6,TRUE
+"Taapsee Pannu, drama, thriller",0.002001334,6,TRUE
+"drama, action, Anupam Kher",0.002001334,6,TRUE
+"drama, Hiroshi Kamiya, animation",0.002001334,6,TRUE
+"fantasy, Hiroshi Kamiya, animation",0.002001334,6,TRUE
+"thriller, Takahiro Sakurai, animation",0.002001334,6,TRUE
+"animation, Kari Wahlgren, scifi",0.002001334,6,TRUE
+"drama, action, Om Puri",0.002001334,6,TRUE
+"drama, crime, Om Puri",0.002001334,6,TRUE
+"Yuko Kaida, action, animation",0.002001334,6,TRUE
+"drama, Suhasini Mulay, romance",0.002001334,6,TRUE
+"thriller, crime, Pedro Casablanc",0.002001334,6,TRUE
+"Enrique Gil, Liza Soberano, romance",0.002001334,6,TRUE
+"Daniel Padilla, Kathryn Bernardo, drama",0.002001334,6,TRUE
+"drama, comedy, Kathryn Bernardo",0.002001334,6,TRUE
+"animation, James Arnold Taylor, family",0.002001334,6,TRUE
+"Jackie Sandler, comedy, Jonathan Loughran",0.002001334,6,TRUE
+"animation, action, Dee Bradley Baker",0.002001334,6,TRUE
+"action, Dee Bradley Baker, family",0.002001334,6,TRUE
+"fantasy, animation, Dee Bradley Baker",0.002001334,6,TRUE
+"comedy, animation, Maria Bamford",0.002001334,6,TRUE
+"animation, action, Mark Hamill",0.002001334,6,TRUE
+"drama, animation, Tara Strong",0.002001334,6,TRUE
+"Ai Kayano, fantasy, animation",0.002001334,6,TRUE
+"animation, action, Mayumi Tanaka",0.002001334,6,TRUE
+"comedy, Dan Patrick, Adam Sandler",0.002001334,6,TRUE
+"comedy, Adam Sandler, Rob Schneider",0.002001334,6,TRUE
+"Jackie Sandler, comedy, Dan Patrick",0.002001334,6,TRUE
+"Allen Covert, Jackie Sandler, comedy",0.002001334,6,TRUE
+"Jackie Sandler, comedy, David Spade",0.002001334,6,TRUE
+"Pankaj Tripathi, drama, action",0.002001334,6,TRUE
+"Brian Drummond, Andrea Libman, Ian James Corlett",0.002001334,6,TRUE
+"Erin Mathews, Ian James Corlett, Andrea Libman",0.002001334,6,TRUE
+"animation, Andrea Libman, Ian James Corlett",0.002001334,6,TRUE
+"Brian Drummond, animation, Ian James Corlett",0.002001334,6,TRUE
+"comedy, Ian James Corlett, animation",0.002001334,6,TRUE
+"fantasy, animation, Ian James Corlett",0.002001334,6,TRUE
+"drama, comedy, Sheeba Chaddha",0.002001334,6,TRUE
+"Anurag Kashyap, drama, Nawazuddin Siddiqui",0.002001334,6,TRUE
+"drama, action, Nawazuddin Siddiqui",0.002001334,6,TRUE
+"David Spade, Fortune Feimster, London Hughes",0.002001334,6,TRUE
+"Nobunaga Shimazaki, animation, action",0.002001334,6,TRUE
+"Toru Furuya, animation, action",0.002001334,6,TRUE
+"comedy, Shah Rukh Khan, Juhi Chawla",0.002001334,6,TRUE
+"drama, Luis Tosar, european",0.002001334,6,TRUE
+"Toshiyuki Morikawa, action, scifi",0.002001334,6,TRUE
+"Michela Luci, Jamie Watson, animation",0.002001334,6,TRUE
+"drama, thriller, Gary Oldman",0.002001334,6,TRUE
+"Toru Okawa, animation, action",0.002001334,6,TRUE
+"fantasy, animation, Shin-ichiro Miki",0.002001334,6,TRUE
+"Ken Narita, action, animation",0.002001334,6,TRUE
+"fantasy, animation, Ashleigh Ball",0.002001334,6,TRUE
+"Brian Drummond, animation, Andrea Libman",0.002001334,6,TRUE
+"Erin Mathews, Andrea Libman, animation",0.002001334,6,TRUE
+"Brian Drummond, fantasy, animation",0.002001334,6,TRUE
+"comedy, Trevor Devall, animation",0.002001334,6,TRUE
+"drama, animation, Fumiko Orikasa",0.002001334,6,TRUE
+"drama, animation, Koji Yusa",0.002001334,6,TRUE
+"drama, comedy, Kajol",0.002001334,6,TRUE
+"crime, action, Boman Irani",0.002001334,6,TRUE
+"drama, action, Boman Irani",0.002001334,6,TRUE
+"thriller, action, Boman Irani",0.002001334,6,TRUE
+"drama, thriller, Boman Irani",0.002001334,6,TRUE
+"crime, action, Johnny Lever",0.002001334,6,TRUE
+"drama, crime, Johnny Lever",0.002001334,6,TRUE
+"drama, comedy, Sanjay Mishra",0.002001334,6,TRUE
+"Romi Park, animation, scifi",0.002001334,6,TRUE
+"Nana Mizuki, animation, action",0.002001334,6,TRUE
+"drama, animation, Aoi Yuki",0.002001334,6,TRUE
+"fantasy, animation, Aoi Yuki",0.002001334,6,TRUE
+"Tabu, thriller, drama",0.002001334,6,TRUE
+"thriller, action, Shea Whigham",0.002001334,6,TRUE
+"thriller, action, Noomi Rapace",0.002001334,6,TRUE
+"Kareena Kapoor Khan, drama, Rani Mukerji",0.002001334,6,TRUE
+"Atsuko Tanaka, action, animation",0.002001334,6,TRUE
+"Tomokazu Seki, fantasy, animation",0.002001334,6,TRUE
+"animation, Kensho Ono, action",0.002001334,6,TRUE
+"comedy, action, Akshay Kumar",0.002001334,6,TRUE
+"comedy, crime, Akshay Kumar",0.002001334,6,TRUE
+"Kareena Kapoor Khan, crime, drama",0.002001334,6,TRUE
+"fantasy, animation, Erin Mathews",0.002001334,6,TRUE
+"drama, thriller, Mario Casas",0.002001334,6,TRUE
+"animation, Diana Kaarina, Vincent Tong",0.002001334,6,TRUE
+"Saif Ali Khan, thriller, action",0.002001334,6,TRUE
+"Saif Ali Khan, crime, thriller",0.002001334,6,TRUE
+"drama, Saif Ali Khan, thriller",0.002001334,6,TRUE
+"drama, comedy, Supriya Pathak",0.002001334,6,TRUE
+"crime, action, Anil Kapoor",0.002001334,6,TRUE
+"thriller, action, Anil Kapoor",0.002001334,6,TRUE
+"drama, crime, Anil Kapoor",0.002001334,6,TRUE
+"fantasy, animation, Satoshi Hino",0.002001334,6,TRUE
+"animation, action, Lena Headey",0.002001334,6,TRUE
+"action, Lena Headey, scifi",0.002001334,6,TRUE
+"drama, thriller, Ana Wagener",0.002001334,6,TRUE
+"comedy, Katrina Kaif, romance",0.002001334,6,TRUE
+"drama, Katrina Kaif, romance",0.002001334,6,TRUE
+"drama, Karisma Kapoor, romance",0.002001334,6,TRUE
+"drama, Ranbir Kapoor, romance",0.002001334,6,TRUE
+"drama, Sharat Saxena, action",0.002001334,6,TRUE
+"drama, Himani Shivpuri, romance",0.002001334,6,TRUE
+"drama, Sanjay Kapoor, romance",0.002001334,6,TRUE
+"drama, action, Abhishek Bachchan",0.002001334,6,TRUE
+"drama, Abhishek Bachchan, romance",0.002001334,6,TRUE
+"drama, action, Sanjay Dutt",0.002001334,6,TRUE
+"drama, comedy, Sanjay Dutt",0.002001334,6,TRUE
+"drama, thriller, Sanjay Dutt",0.002001334,6,TRUE
+"drama, Alia Bhatt, romance",0.002001334,6,TRUE
+"drama, thriller, Murali Sharma",0.002001334,6,TRUE
+"drama, action, Suniel Shetty",0.002001334,6,TRUE
+"drama, comedy, Suniel Shetty",0.002001334,6,TRUE
+"drama, comedy, Konkona Sen Sharma",0.002001334,6,TRUE
+"drama, crime, Tinnu Anand",0.002001334,6,TRUE
+"drama, comedy, Ritesh Deshmukh",0.002001334,6,TRUE
+"Rajkummar Rao, drama, comedy",0.002001334,6,TRUE
+"drama, comedy, Manoj Pahwa",0.002001334,6,TRUE
+"Jay Karas, comedy, documentation",0.002001334,6,TRUE
+"thriller, action, John Abraham",0.002001334,6,TRUE
+"drama, comedy, John Abraham",0.002001334,6,TRUE
+"drama, thriller, John Abraham",0.002001334,6,TRUE
+"drama, thriller, Manoj Bajpayee",0.002001334,6,TRUE
+"drama, crime, Radhika Apte",0.002001334,6,TRUE
+"drama, comedy, Amitabh Bachchan",0.002001334,6,TRUE
+"drama, crime, Amitabh Bachchan",0.002001334,6,TRUE
+"fantasy, animation, Kenjiro Tsuda",0.002001334,6,TRUE
+"thriller, horror, Javier Botet",0.002001334,6,TRUE
+"comedy, Brijendra Kala, romance",0.002001334,6,TRUE
+"thriller, Mamoru Miyano, animation",0.002001334,6,TRUE
+"animation, action, Masakazu Morita",0.002001334,6,TRUE
+"Tetsu Inada, action, animation",0.002001334,6,TRUE
+"drama, Tetsu Inada, animation",0.002001334,6,TRUE
+"Ron Funches, comedy, animation",0.002001334,6,TRUE
+"drama, animation, Kaito Ishikawa",0.002001334,6,TRUE
+"fantasy, animation, Yoshimasa Hosoya",0.002001334,6,TRUE
+"animation, action, Takayuki Sugo",0.002001334,6,TRUE
+"animation, action, Mao Ichimichi",0.002001334,6,TRUE
+"history, comedy, action",0.002001334,6,TRUE
+"history, crime, action",0.002001334,6,TRUE
+"history, action, european",0.002001334,6,TRUE
+"animation, scifi, music",0.002001334,6,TRUE
+"comedy, documentation, music",0.002001334,6,TRUE
+"comedy, scifi, european",0.002001334,6,TRUE
+"sport, comedy, romance",0.002001334,6,TRUE
+"drama, documentation, romance",0.002001334,6,TRUE
+"drama, family, european",0.002001334,6,TRUE
+"drama, thriller, music",0.002001334,6,TRUE
+"thriller, history, european",0.002001334,6,TRUE
+"fantasy, scifi, music",0.002001334,6,TRUE
+"Lee Tockar, action, animation, comedy",0.002001334,6,TRUE
+"Lee Tockar, action, family, animation",0.002001334,6,TRUE
+"drama, animation, action, Rikiya Koyama",0.002001334,6,TRUE
+"Takahiro Sakurai, animation, Yuki Kaji, action",0.002001334,6,TRUE
+"drama, comedy, Priyanka Chopra Jonas, romance",0.002001334,6,TRUE
+"drama, comedy, Kim Mi-kyeong, romance",0.002001334,6,TRUE
+"drama, animation, action, Saori Hayami",0.002001334,6,TRUE
+"animation, action, Daisuke Ono, scifi",0.002001334,6,TRUE
+"fantasy, animation, Daisuke Ono, scifi",0.002001334,6,TRUE
+"drama, comedy, Shahid Kapoor, romance",0.002001334,6,TRUE
+"Grey DeLisle, animation, action, scifi",0.002001334,6,TRUE
+"fantasy, animation, action, Kari Wahlgren",0.002001334,6,TRUE
+"Joross Gamboa, drama, Cathy Garcia-Molina, romance",0.002001334,6,TRUE
+"Joross Gamboa, drama, comedy, romance",0.002001334,6,TRUE
+"thriller, crime, Om Puri, action",0.002001334,6,TRUE
+"fantasy, animation, action, Kumiko Watanabe",0.002001334,6,TRUE
+"fantasy, animation, action, Yuriko Yamaguchi",0.002001334,6,TRUE
+"Daniel Padilla, comedy, Kathryn Bernardo, romance",0.002001334,6,TRUE
+"Ai Kayano, animation, action, scifi",0.002001334,6,TRUE
+"Ai Kayano, drama, animation, scifi",0.002001334,6,TRUE
+"drama, animation, Natsuki Hanae, scifi",0.002001334,6,TRUE
+"fantasy, animation, Natsuki Hanae, scifi",0.002001334,6,TRUE
+"fantasy, animation, Koichi Yamadera, family",0.002001334,6,TRUE
+"Jackie Sandler, comedy, Jared Sandler, Adam Sandler",0.002001334,6,TRUE
+"Jackie Sandler, comedy, Jared Sandler, Rob Schneider",0.002001334,6,TRUE
+"Alessandro Juliani, animation, Andrea Libman, Vincent Tong",0.002001334,6,TRUE
+"fantasy, animation, Tomokazu Sugita, action",0.002001334,6,TRUE
+"animation, Tomokazu Sugita, scifi, action",0.002001334,6,TRUE
+"drama, comedy, Kim Sun-young, romance",0.002001334,6,TRUE
+"drama, animation, fantasy, Minako Kotobuki",0.002001334,6,TRUE
+"drama, Shah Rukh Khan, Juhi Chawla, romance",0.002001334,6,TRUE
+"thriller, crime, Luis Tosar, action",0.002001334,6,TRUE
+"Maaya Sakamoto, animation, action, scifi",0.002001334,6,TRUE
+"animation, action, scifi, Megumi Ogata",0.002001334,6,TRUE
+"comedy, Andrea Libman, family, animation",0.002001334,6,TRUE
+"fantasy, animation, Andrea Libman, family",0.002001334,6,TRUE
+"Brian Drummond, comedy, action, animation",0.002001334,6,TRUE
+"Hiroki Yasumoto, drama, animation, action",0.002001334,6,TRUE
+"Hiroki Yasumoto, fantasy, animation, action",0.002001334,6,TRUE
+"Hiroki Yasumoto, animation, action, scifi",0.002001334,6,TRUE
+"Hiroki Yasumoto, drama, animation, scifi",0.002001334,6,TRUE
+"animation, action, scifi, Yoko Hikasa",0.002001334,6,TRUE
+"fantasy, animation, action, Fumiko Orikasa",0.002001334,6,TRUE
+"fantasy, animation, action, Kazuya Nakai",0.002001334,6,TRUE
+"Shannon Chan-Kent, comedy, family, animation",0.002001334,6,TRUE
+"animation, action, scifi, Mariya Ise",0.002001334,6,TRUE
+"drama, comedy, Salman Khan, romance",0.002001334,6,TRUE
+"comedy, Jeff Bennett, family, animation",0.002001334,6,TRUE
+"Frank Welker, comedy, family, animation",0.002001334,6,TRUE
+"drama, comedy, Naseeruddin Shah, romance",0.002001334,6,TRUE
+"Kentaro Ito, fantasy, animation, action",0.002001334,6,TRUE
+"comedy, animation, family, Simon Greenall",0.002001334,6,TRUE
+"animation, action, Kappei Yamaguchi, Hiroaki Hirata",0.002001334,6,TRUE
+"comedy, action, Kappei Yamaguchi, animation",0.002001334,6,TRUE
+"Debra Wilson, comedy, fantasy, family",0.002001334,6,TRUE
+"Kazuki Yao, animation, action, drama",0.002001334,6,TRUE
+"fantasy, animation, action, Hiroaki Hirata",0.002001334,6,TRUE
+"drama, comedy, Imran Khan, romance",0.002001334,6,TRUE
+"drama, crime, action, Ajay Devgn",0.002001334,6,TRUE
+"animation, action, Fred Tatasciore, scifi",0.002001334,6,TRUE
+"drama, Fred Tatasciore, action, family",0.002001334,6,TRUE
+"crime, action, Kenjiro Tsuda, animation",0.002001334,6,TRUE
+"Takehito Koyasu, fantasy, animation, action",0.002001334,6,TRUE
+"fantasy, animation, Takehito Koyasu, scifi",0.002001334,6,TRUE
+"fantasy, animation, action, Mamoru Miyano",0.002001334,6,TRUE
+"drama, animation, scifi, Mamoru Miyano",0.002001334,6,TRUE
+"Hochu Otsuka, animation, action, scifi",0.002001334,6,TRUE
+"drama, animation, Yoshimasa Hosoya, action",0.002001334,6,TRUE
+"drama, animation, action, music",0.002001334,6,TRUE
+"western, crime, action, drama",0.002001334,6,TRUE
+"war, drama, action, european",0.002001334,6,TRUE
+"war, drama, action, romance",0.002001334,6,TRUE
+"war, thriller, action, european",0.002001334,6,TRUE
+"horror, scifi, action, romance",0.002001334,6,TRUE
+"fantasy, animation, horror, family",0.002001334,6,TRUE
+"drama, comedy, crime, horror",0.002001334,6,TRUE
+"drama, comedy, crime, scifi",0.002001334,6,TRUE
+"comedy, crime, horror, thriller",0.002001334,6,TRUE
+"comedy, crime, scifi, thriller",0.002001334,6,TRUE
+"fantasy, comedy, thriller, romance",0.002001334,6,TRUE
+"comedy, thriller, scifi, romance",0.002001334,6,TRUE
+"history, drama, war, european",0.002001334,6,TRUE
+"drama, thriller, war, european",0.002001334,6,TRUE
+"drama, scifi, family, romance",0.002001334,6,TRUE
+"fantasy, scifi, family, romance",0.002001334,6,TRUE
+"thriller, horror, scifi, romance",0.002001334,6,TRUE
+"animation, Takahiro Sakurai, action, scifi, Kana Hanazawa",0.002001334,6,TRUE
+"animation, fantasy, Yuki Kaji, scifi, drama",0.002001334,6,TRUE
+"Jackie Sandler, comedy, Jared Sandler, Chris Titone, Sadie Sandler",0.002001334,6,TRUE
+"animation, Takahiro Sakurai, action, scifi, Junichi Suwabe",0.002001334,6,TRUE
+"animation, Takahiro Sakurai, action, scifi, Mamoru Miyano",0.002001334,6,TRUE
+"animation, Takahiro Sakurai, action, fantasy, drama",0.002001334,6,TRUE
+"animation, Takahiro Sakurai, action, scifi, drama",0.002001334,6,TRUE
+"Grey DeLisle, animation, action, fantasy, family",0.002001334,6,TRUE
+"Grey DeLisle, animation, comedy, scifi, family",0.002001334,6,TRUE
+"Jackie Sandler, comedy, Sadie Sandler, Sunny Sandler, Adam Sandler",0.002001334,6,TRUE
+"animation, action, scifi, fantasy, Junichi Suwabe",0.002001334,6,TRUE
+"animation, fantasy, scifi, drama, Junichi Suwabe",0.002001334,6,TRUE
+"animation, action, comedy, Ashleigh Ball, family",0.002001334,6,TRUE
+"animation, comedy, Ashleigh Ball, scifi, family",0.002001334,6,TRUE
+"Shah Rukh Khan, romance, Rani Mukerji, drama, Kajol",0.002001334,6,TRUE
+"Shah Rukh Khan, romance, Karan Johar, Rani Mukerji, drama",0.002001334,6,TRUE
+"Shah Rukh Khan, comedy, romance, Rani Mukerji, drama",0.002001334,6,TRUE
+"animation, action, Jun Fukuyama, scifi, drama",0.002001334,6,TRUE
+"animation, action, Jun Fukuyama, scifi, horror",0.002001334,6,TRUE
+"animation, action, Cho, Kappei Yamaguchi, fantasy",0.002001334,6,TRUE
+"Carlos Alazraqui, animation, action, comedy, fantasy",0.002001334,6,TRUE
+"animation, action, comedy, fantasy, Fred Tatasciore",0.002001334,6,TRUE
+"animation, action, fantasy, drama, Fred Tatasciore",0.002001334,6,TRUE
+"animation, comedy, fantasy, Fred Tatasciore, family",0.002001334,6,TRUE
+"crime, animation, action, comedy, drama",0.002001334,6,TRUE
+"animation, action, comedy, european, family",0.002001334,6,TRUE
+"crime, animation, action, fantasy, drama",0.002001334,6,TRUE
+"crime, animation, action, scifi, drama",0.002001334,6,TRUE
+"crime, animation, action, thriller, drama",0.002001334,6,TRUE
+"animation, action, romance, fantasy, family",0.002001334,6,TRUE
+"crime, comedy, action, scifi, fantasy",0.002001334,6,TRUE
+"comedy, action, music, drama, family",0.002001334,6,TRUE
+"comedy, action, fantasy, drama, horror",0.002001334,6,TRUE
+"comedy, action, european, fantasy, family",0.002001334,6,TRUE
+"comedy, action, romance, scifi, fantasy",0.002001334,6,TRUE
+"crime, action, scifi, fantasy, horror",0.002001334,6,TRUE
+"action, thriller, european, drama, horror",0.002001334,6,TRUE
+"action, thriller, scifi, drama, family",0.002001334,6,TRUE
+"fantasy, action, romance, thriller, drama",0.002001334,6,TRUE
+"animation, fantasy, comedy, drama, horror",0.002001334,6,TRUE
+"animation, comedy, thriller, fantasy, horror",0.002001334,6,TRUE
+"crime, animation, thriller, scifi, drama",0.002001334,6,TRUE
+"animation, fantasy, romance, drama, family",0.002001334,6,TRUE
+"comedy, fantasy, thriller, drama, horror",0.002001334,6,TRUE
+"comedy, thriller, scifi, drama, horror",0.002001334,6,TRUE
+"fantasy, thriller, european, drama, horror",0.002001334,6,TRUE
+"animation, action, Yuki Kaji, scifi, fantasy, horror",0.002001334,6,TRUE
+"Chie Nakamura, Junko Takeuchi, animation, action, Showtaro Morikubo, fantasy",0.002001334,6,TRUE
+"John Paul Tremblay, comedy, Robb Wells, Mike Smith, John Dunsworth, Patrick Roach",0.002001334,6,TRUE
+"animation, action, comedy, Eric Bauza, fantasy, family",0.002001334,6,TRUE
+"animation, action, fantasy, comedy, romance, drama",0.002001334,6,TRUE
+"animation, action, comedy, scifi, drama, horror",0.002001334,6,TRUE
+"animation, action, comedy, romance, scifi, drama",0.002001334,6,TRUE
+"animation, action, comedy, music, fantasy, family",0.002001334,6,TRUE
+"animation, action, comedy, scifi, fantasy, horror",0.002001334,6,TRUE
+"animation, fantasy, comedy, music, drama, family",0.002001334,6,TRUE
+"crime, fantasy, thriller, scifi, drama, horror",0.002001334,6,TRUE
+"Carol Cleveland, John Cleese, comedy, Terry Jones, Terry Gilliam, Michael Palin, Eric Idle",0.002001334,6,TRUE
+"documentation, John Cleese, comedy, Terry Gilliam, Terry Jones, Michael Palin, Eric Idle",0.002001334,6,TRUE
+"animation, action, comedy, fantasy, thriller, drama, family",0.002001334,6,TRUE

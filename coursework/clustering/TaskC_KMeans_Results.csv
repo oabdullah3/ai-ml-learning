@@ -1,0 +1,10 @@
+CLUSTERING: K-MEANS (K=3),,,
+Assigned Cluster,Label 1,Label 2,Label 3
+1,2,65,0
+2,6,0,66
+3,62,5,4
+,,,
+CLUSTERING: K-MEANS (K=2),,,
+Assigned Cluster,Label 1,Label 2,Label 3
+1,9,68,0
+2,61,2,70

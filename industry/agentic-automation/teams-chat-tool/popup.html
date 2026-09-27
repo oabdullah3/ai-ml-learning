@@ -1,0 +1,879 @@
+<!doctype html>
+<html>
+<head>
+	<title>MS Teams Chat Transcript</title>
+	<script src="vendor/html2canvas.min.js"></script>
+	<script src="vendor/jspdf.umd.min.js"></script>
+	<script src="popup.js"></script>
+	<style>
+		/* Added view-results-btn styling */
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #e0e0e0;
+            background-color: #1e1e2e;
+            width: 380px;
+        }
+
+        /* ---- Header ---- */
+        .header {
+            background: #2b2b3d;
+            padding: 14px 16px;
+            border-bottom: 1px solid #3a3a52;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .header img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .header h1 {
+            font-size: 15px;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        /* ---- Structural Spacing & Layout ---- */
+        #options {
+            padding: 16px;
+            display: block;
+        }
+
+        .chat-target {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            margin-bottom: 16px;
+            padding: 10px 12px;
+            border: 1px solid #6264a7; 
+            border-radius: 8px;
+            background: #1e1e2e; 
+            font-size: 12px;
+            color: #e0e0e0; 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15); 
+        }
+
+        /* ---- UI Cards & Hierarchy ---- */
+        .ui-card {
+            background: #232334; 
+            border: 1px solid #3a3a52;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #3a3a52;
+            padding-bottom: 12px;
+            margin-bottom: 16px;
+        }
+
+        .card-header h2 {
+            font-size: 14px;
+            font-weight: 700;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-right: 4px;
+        }
+
+        /* The connected-line visual for steps */
+        /* The extraction steps layout (line and indent removed) */
+        .extraction-step {
+            margin-bottom: 24px; /* Slightly increased to cleanly separate the steps now that the line is gone */
+        }
+
+        .extraction-step.last-step {
+            margin-bottom: 0;
+        }
+
+        .step-header {
+            font-size: 13px;
+            font-weight: 700;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .sub-section {
+            margin-bottom: 20px;
+        }
+
+        .sub-section:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Items inside extraction steps */
+        .loaded-session,
+        .btn-group,
+        .custom-range,
+        .sort-group {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            margin-bottom: 0; 
+        }
+
+        .action-group {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            margin-bottom: 0; 
+        }
+
+        /* ---- Options panel buttons ---- */
+        #options button {
+            display: block;
+            width: 100%;
+            padding: 10px 14px;
+            border: 1px solid #3a3a52;
+            border-radius: 8px;
+            background: #2b2b3d;
+            color: #e0e0e0;
+            font-size: 14px;
+            font-family: inherit;
+            cursor: pointer;
+            text-align: left;
+            transition: background 0.15s, border-color 0.15s;
+        }
+
+        #options button:hover {
+            background: #35354d;
+            border-color: #6264a7;
+        }
+
+        #options button:active {
+            background: #3f3f5a;
+        }
+
+        #options button.selected {
+            border-color: #7f82d1;
+            background: #3a3a56;
+        }
+
+        #options button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            border-color: #3a3a52;
+            background: #232334;
+            color: #8888a8;
+        }
+
+        /* ---- Section Labels ---- */
+        .section-label {
+            font-size: 12px;
+            font-weight: 600;
+            color: #8888a8;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+
+        .section-label-row {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 8px;
+        }
+
+        .section-label-row .section-label {
+            margin-bottom: 0; 
+        }
+
+        /* ---- Sort toggle ---- */
+        .sort-group {
+            background: #2b2b3d;
+            border: 1px solid #3a3a52;
+            border-radius: 8px;
+            overflow: hidden;
+            flex-direction: row; 
+        }
+
+        .sort-group label {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px 0;
+            font-size: 13px;
+            color: #8888a8;
+            cursor: pointer;
+            transition: background 0.15s, color 0.15s;
+            gap: 6px;
+        }
+
+        .sort-group label:first-child {
+            border-right: 1px solid #3a3a52;
+        }
+
+        .sort-group input[type="radio"] {
+            display: none;
+        }
+
+        .sort-group input[type="radio"]:checked + span {
+            color: #fff;
+        }
+
+        .sort-group label:has(input:checked) {
+            background: #3a3a56;
+            color: #fff;
+        }
+
+        /* ---- Custom Range ---- */
+        .custom-range {
+            padding: 10px;
+            border: 1px solid #3a3a52;
+            border-radius: 8px;
+            background: #2b2b3d; 
+            transition: background 0.15s, border-color 0.15s;
+        }
+
+        .custom-range.selected {
+            border-color: #7f82d1;
+            background: #3a3a56;
+        }
+
+        .custom-range-row {
+            display: flex;
+            gap: 8px;
+        }
+
+        .custom-range-field {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .custom-range-field label {
+            font-size: 11px;
+            color: #9fa1c6;
+            text-transform: uppercase;
+        }
+
+        .custom-range-field input {
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid #3a3a52;
+            background: #1e1e2e;
+            color: #e0e0e0;
+            font-family: inherit;
+        }
+
+        /* ---- Misc UI Elements ---- */
+        .helper-text {
+            margin-top: 8px;
+            font-size: 12px;
+            color: #b5b6d6;
+        }
+
+        .loaded-session-empty {
+            padding: 10px 14px;
+            border: 1px dashed #3a3a52;
+            border-radius: 8px;
+            color: #b5b6d6;
+            background: #232334;
+            font-size: 13px;
+            text-align: center;
+        }
+
+        .error-text {
+            margin-top: 8px;
+            font-size: 12px;
+            color: #ff8a80;
+            display: none;
+        }
+
+        /* ---- Status / spinner ---- */
+        #status {
+            padding: 40px 16px;
+            text-align: center;
+            color: #8888a8;
+        }
+
+        #status .spinner {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            border: 3px solid #3a3a52;
+            border-top-color: #6264a7;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin-bottom: 12px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        #status p {
+            font-size: 13px;
+        }
+
+        #status button {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 10px 14px;
+            border: 1px solid #3a3a52;
+            border-radius: 8px;
+            background: #2b2b3d;
+            color: #e0e0e0;
+            font-size: 14px;
+            font-family: inherit;
+            cursor: pointer;
+            text-align: center;
+            transition: background 0.15s, border-color 0.15s;
+        }
+
+        #status button:hover {
+            background: #35354d;
+            border-color: #6264a7;
+        }
+
+        #status button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        /* ---- Toolbar ---- */
+        .toolbar {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 6px;
+            padding: 10px 16px;
+            background: #2b2b3d;
+            border-bottom: 1px solid #3a3a52;
+        }
+
+        .toolbar button {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding: 6px 8px;
+            border: 1px solid #3a3a52;
+            border-radius: 6px;
+            background: #1e1e2e;
+            color: #e0e0e0;
+            font-size: 12px;
+            font-family: inherit;
+            cursor: pointer;
+            transition: background 0.15s, border-color 0.15s;
+        }
+
+        .toolbar button:disabled {
+            opacity: 0.45;
+            cursor: not-allowed;
+            filter: grayscale(1);
+        }
+
+        .toolbar button:hover {
+            background: #35354d;
+            border-color: #6264a7;
+        }
+
+        .toolbar button:active {
+            background: #3f3f5a;
+        }
+
+        .toolbar button svg {
+            width: 14px;
+            height: 14px;
+            fill: none;
+            stroke: currentColor;
+            stroke-width: 2;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        .toolbar .toast {
+            flex-basis: 100%;
+            text-align: center;
+            margin-top: 4px;
+            font-size: 12px;
+            color: #b5b6d6;
+            transition: opacity 0.3s;
+            opacity: 0;
+            max-height: 0;
+            margin-top: 0;
+            overflow: hidden;
+        }
+
+        .toolbar .toast.show {
+            opacity: 1;
+            max-height: 20px;
+            margin-top: 4px;
+        }
+
+        /* ---- Chat results ---- */
+        #chat {
+            padding: 14px 16px 16px;
+            color: #242424;
+            background:
+                radial-gradient(circle at top left, rgba(98, 100, 167, 0.08), transparent 32%),
+                linear-gradient(180deg, #ffffff 0%, #fbfbfe 100%);
+        }
+
+        .results-summary-card {
+            margin-bottom: 12px;
+            padding: 14px 16px 16px;
+            border: 1px solid rgba(98, 100, 167, 0.18);
+            border-radius: 16px;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(247, 248, 252, 0.98));
+            box-shadow: 0 12px 30px rgba(18, 24, 40, 0.08);
+            backdrop-filter: blur(10px);
+        }
+
+        .results-summary-top {
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+
+        .results-summary-copy {
+            min-width: 0;
+        }
+
+        .results-summary-eyebrow {
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #6264a7;
+            margin-bottom: 6px;
+        }
+
+        .results-summary-title {
+            margin: 0;
+            font-size: 18px;
+            line-height: 1.2;
+            color: #1f2330;
+            word-break: break-word;
+        }
+
+        .results-summary-subtitle {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: 10px;
+        }
+
+        .results-summary-badge {
+            flex: 0 0 auto;
+            padding: 8px 12px;
+            border-radius: 999px;
+            background: linear-gradient(135deg, #6264a7, #4d8cff);
+            color: #fff;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.01em;
+            white-space: nowrap;
+            box-shadow: 0 8px 18px rgba(82, 108, 255, 0.22);
+        }
+
+        .results-chip {
+            display: inline-flex;
+            align-items: center;
+            padding: 5px 10px;
+            border-radius: 999px;
+            background: rgba(98, 100, 167, 0.08);
+            border: 1px solid rgba(98, 100, 167, 0.14);
+            color: #38405a;
+            font-size: 11px;
+            line-height: 1.3;
+        }
+
+        .results-chip-mode {
+            background: rgba(77, 140, 255, 0.12);
+            border-color: rgba(77, 140, 255, 0.18);
+            color: #2357c6;
+            font-weight: 700;
+        }
+
+        .results-meta-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 10px 14px;
+            margin-top: 8px;
+        }
+
+        .results-meta-item {
+            padding: 10px 12px;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.72);
+            border: 1px solid rgba(98, 100, 167, 0.12);
+        }
+
+        .results-meta-label {
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #6a728a;
+            margin-bottom: 4px;
+        }
+
+        .results-meta-value {
+            font-size: 13px;
+            line-height: 1.4;
+            color: #1f2330;
+            word-break: break-word;
+        }
+
+        #transcript {
+            margin-top: 1em;
+            font-family: Arial, sans-serif;
+        }
+
+        @media (max-width: 520px) {
+            .results-summary-top {
+                flex-direction: column;
+            }
+
+            .results-summary-badge {
+                align-self: flex-start;
+            }
+
+            .results-meta-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        #transcript section {
+            padding-left: 1em;
+            border-left: 2px solid #ccc;
+        }
+
+        #chat hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 1em 0;
+        }
+
+        .selector-diag, .partial-banner {
+            margin: 5px 0 12px 0;
+            padding: 8px 10px;
+            border: 1px solid #6264a7;
+            background: #f5f5f5;
+            color: #6264a7;
+            border-radius: 6px;
+            font-size: 12px;
+            line-height: 1.4;
+        }
+
+        .divider {
+            text-align: center;
+            padding: 5px 0;
+            color: #616161;
+            font-size: 12px;
+        }
+
+        div[aria-label*="Mention"] {
+            display: inline;
+            font-weight: bold;
+        }
+
+        blockquote {
+            border-left: 3px solid #6264a7;
+            margin: 0.5em 0;
+            padding: 0.25em 0.75em;
+            background: #f5f5f5;
+            border-radius: 4px;
+        }
+
+        #instructions-text {
+            margin-top: -6px;
+            margin-bottom: 7px;
+        }
+
+        /* ---- Info icons and tooltips ---- */
+        .info-wrapper {
+            display: inline-flex;
+            align-items: center;
+            position: relative;
+            margin-left: 4px;
+            vertical-align: middle;
+            margin-bottom: 0; 
+        }
+
+        .info-icon {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: #6264a7;
+            color: #fff;
+            font-size: 10px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            cursor: help;
+            line-height: 1;
+            flex-shrink: 0;
+        }
+
+        /* Standard configuration: Fits perfectly for left-aligned text headers */
+        .info-tooltip {
+            position: absolute;
+            bottom: calc(100% + 8px);
+            left: -20px; 
+            background: #1e1e2e;
+            border: 1px solid #6264a7;
+            border-radius: 8px;
+            padding: 10px 12px;
+            font-size: 12px;
+            color: #e0e0e0;
+            width: 260px;
+            line-height: 1.5;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.2s, visibility 0.2s;
+            text-align: left;
+            white-space: normal;
+        }
+
+        .info-tooltip::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 21px; /* Anchors the arrow perfectly below the icon */
+            border: 6px solid transparent;
+            border-top-color: #6264a7;
+        }
+
+        /* NEW: Centered configuration (Bbulletproof for middle-of-the-screen labels) */
+        .info-tooltip.tooltip-center {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .info-tooltip.tooltip-center::after {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .info-wrapper:hover .info-tooltip,
+        .info-wrapper:focus-within .info-tooltip {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* Warning text for loading screen */
+        .warning-text {
+            margin-top: 8px;
+            font-size: 12px;
+            color: #ffab40;
+            background: rgba(255, 171, 64, 0.1);
+            padding: 8px 10px;
+            border-radius: 6px;
+            border: 1px solid rgba(255, 171, 64, 0.3);
+        }
+
+		#selectionSummary {
+            padding: 8px 12px;
+            background: rgba(98, 100, 167, 0.15);
+            border: 1px dashed #6264a7;
+            border-radius: 6px;
+            color: #c8c9e8;
+            font-size: 13px;
+            text-align: center;
+            font-weight: 600;
+            margin-bottom: 4px; 
+        }
+	</style>
+</head>
+
+<body>
+	<div class="header">
+		<img src="icons/chat-32.png" alt="">
+		<h1 id="title">Chat Transcript</h1>
+	</div>
+	<div id="options">
+		
+        <div id="chatTarget" class="chat-target">Target chat: Current Teams chat</div>
+
+		<div class="ui-card">
+			<div class="section-label-row">
+				<div class="section-label">Loaded session</div>
+				<span class="info-wrapper">
+					<span class="info-icon">&#8505</span>
+					<span id="loadedSessionTooltip" class="info-tooltip tooltip-center">Access previously captured data instantly. No new extraction required.</span>
+				</span>
+			</div>
+			<div class="loaded-session">
+				<button id="viewResultsBtn" class="view-results-btn" data-label="View recently loaded messages">
+					View recently loaded messages
+				</button>
+                <div id="loadedSessionEmpty" class="loaded-session-empty" style="display:none;">No recent extractions yet</div>
+			</div>
+		</div>
+
+		<div class="ui-card">
+			<div class="card-header">
+				<h2>New Extraction</h2>
+				<span class="info-wrapper">
+					<span class="info-icon">&#8505</span>
+					<span class="info-tooltip tooltip-center">Select a time range and sort order, then click "Start Extraction" to capture messages from the current chat session. Depending on the chat size, this may take a few moments.</span>
+				</span>
+			</div>
+
+			<div class="extraction-step">
+                <div class="step-header">
+					Step 1: Selection Options
+					<span class="info-wrapper">
+                        <span class="info-icon">&#8505</span>
+                        <span class="info-tooltip tooltip-center">Only one extraction option (Visible Messages, Quick Time Range, or Custom Date Range) can be selected at a time from the three choices below. Choosing one option clears the others.</span>
+                    </span>
+				</div>
+                
+                <div class="sub-section">
+                    <div class="section-label-row">
+                        <div class="section-label">Visible Messages</div>
+                        <span class="info-wrapper">
+                            <span class="info-icon">&#8505</span>
+                            <span class="info-tooltip tooltip-center">Do not confuse this with "View recently loaded messages". This extracts messages inside the DOM that you can currently see on your screen. Quick way to capture messages on your screen.</span>
+                        </span>
+                    </div>
+                    <div class="btn-group">
+                        <button class="range-btn selected" data-days="-1" data-label="Visible Messages">Visible Messages</button>
+                    </div>
+                </div>
+
+                <div class="sub-section">
+                    <div class="section-label-row">
+                        <div class="section-label">Time Range</div>
+                        <span class="info-wrapper">
+                            <span class="info-icon">&#8505</span>
+                            <span class="info-tooltip">The extraction end date for all the quick options below is today's date. The start date will depend on the selected quick option calculated from today's date.</span>
+                        </span>
+                    </div>
+                    <div class="btn-group">
+                        <button class="range-btn" data-days="1" data-label="Last 24 hours">Last 24 hours</button>
+                        <button class="range-btn" data-days="7" data-label="Last 7 days">Last 7 days</button>
+                        <button class="range-btn" data-days="30" data-label="Last 30 days">Last 30 days</button>
+                        <button class="range-btn" data-days="90" data-label="Last 3 months">Last 3 months</button>
+                        <button class="range-btn" data-days="0" data-label="All messages">All messages</button>
+                    </div>
+                </div>
+
+                <div class="sub-section">
+                    <div class="section-label-row">
+                        <div class="section-label">Custom Date Range</div>
+                        <span class="info-wrapper">
+                            <span class="info-icon">&#8505</span>
+                            <span class="info-tooltip tooltip-center">The start and end date can be anything. The tool will first scroll to one end of the range and then extract from that end to the other end.</span>
+                        </span>
+                    </div>
+                    <div class="custom-range">
+                        <div class="custom-range-row">
+                            <div class="custom-range-field">
+                                <label for="startDateInput">Start Date</label>
+                                <input id="startDateInput" type="date">
+                            </div>
+                            <div class="custom-range-field">
+                                <label for="endDateInput">End Date</label>
+                                <input id="endDateInput" type="date">
+                            </div>
+                        </div>
+                        <div id="rangeError" class="error-text">Start date must be earlier than or equal to end date.</div>
+                    </div>
+                </div>
+			</div>
+
+            <div class="extraction-step">
+                <div class="step-header">
+                    Step 2: Sort Order
+                    <span class="info-wrapper">
+                        <span class="info-icon">&#8505</span>
+                        <span class="info-tooltip tooltip-center">Sort order determines the direction of message extraction. "Oldest First" starts from the beginning of the conversation; "Newest First" starts from the most recent messages.</span>
+                    </span>
+                </div>
+				<div class="sort-group">
+					<label>
+						<input type="radio" name="sort" value="oldest" checked>
+						<span>Oldest First</span>
+					</label>
+					<label>
+						<input type="radio" name="sort" value="newest">
+						<span>Newest First</span>
+					</label>
+				</div>
+			</div>
+
+            <div class="extraction-step last-step">
+                <div class="step-header">
+                    Step 3: Action
+                    <span class="info-wrapper">
+                        <span class="info-icon">&#8505</span>
+                        <span class="info-tooltip tooltip-center">The extraction will not start unless this button is clicked. Make sure you have selected your desired time range and sort order before starting.</span>
+                    </span>
+                </div>
+				<div class="action-group">
+					<div id="selectionSummary">Selected: Visible Messages</div>
+					<button id="startBtn" class="start-btn" data-label="Start Extraction">Start Extraction</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="status" style="display:none;">
+		<div class="spinner"></div>
+		<p id="progressText">Loading...</p>
+		<div id="extractionWarning" class="warning-text">
+			<strong>Note:</strong> If extraction is stopped, partial results will not be persisted and cannot be retrieved again.
+		</div>
+		<button id="stop-extraction-btn" class="start-btn" role="button" aria-label="Stop extraction" style="display:none;">Stop extraction</button>
+	</div>
+	<div id="toolbar" class="toolbar" style="display:none;">
+		<button id="backBtn" title="Back to options" aria-label="Back to options">
+			<svg viewBox="0 0 24 24"><path d="M19 12H6"/><path d="M12 5l-7 7 7 7"/></svg>
+			Back
+		</button>
+		<button id="imageOnlyBtn" title="Show images only" aria-label="Show images only">
+			<svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="14" rx="2"/><circle cx="10" cy="11" r="2"/><path d="M6 17l4-4 3 3 3-3 2 2"/></svg>
+			Images only
+		</button>
+		<button id="copyBtn" title="Copy to clipboard">
+			<svg viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+			Copy
+		</button>
+		<button id="mdBtn" title="Export as Markdown">
+			<svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+			MD
+		</button>
+		<button id="csvBtn" title="Export as CSV">
+			<svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+			CSV
+		</button>
+		<button id="pdfBtn" title="Export as PDF">
+			<svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M8 13h3"/><path d="M8 17h2"/><path d="M14 17v-4h2a2 2 0 1 1 0 4z"/></svg>
+			PDF
+		</button>
+		<span id="toast" class="toast"></span>
+	</div>
+	<div id="chat" style="display:none;"></div>
+</body>
+
+</html>

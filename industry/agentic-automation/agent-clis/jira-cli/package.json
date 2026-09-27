@@ -1,0 +1,21 @@
+{
+  "name": "agent-jira-cli",
+  "version": "0.1.23",
+  "files": [
+    "bin/",
+    "src/",
+    "README.md"
+  ],
+  "description": "Deterministic Jira CLI for AI agents",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "agent-jira-cli": "bin/jira-cli.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node bin/jira-cli.js"
+  }
+}

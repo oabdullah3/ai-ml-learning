@@ -1,0 +1,44 @@
+============================================================
+ EVALUATION FOR: SUBSET 1 (MAGNITUDE AND DIMENSIONALITY) 
+============================================================
+
+METHOD: Single Link (MIN)
+Assigned Cluster,1,2,3
+1,69,69,70
+2,1,0,0
+3,0,1,0
+
+METHOD: Complete Link (MAX)
+Assigned Cluster,1,2,3
+1,2,59,0
+2,36,11,0
+3,32,0,70
+
+METHOD: Group Average
+Assigned Cluster,1,2,3
+1,2,59,0
+2,11,0,65
+3,57,11,5
+
+============================================================
+ EVALUATION FOR: SUBSET 2 (DIMENSIONLESS FORM AND PROPORTION) 
+============================================================
+
+METHOD: Single Link (MIN)
+Assigned Cluster,1,2,3
+1,0,0,2
+2,69,70,68
+3,1,0,0
+
+METHOD: Complete Link (MAX)
+Assigned Cluster,1,2,3
+1,11,0,62
+2,2,66,0
+3,57,4,8
+
+METHOD: Group Average
+Assigned Cluster,1,2,3
+1,1,0,2
+2,2,68,0
+3,67,2,68
+

@@ -1,0 +1,24 @@
+{
+  "name": "agent-confluence-cli",
+  "version": "0.1.27",
+  "files": [
+    "bin/",
+    "src/",
+    "README.md"
+  ],
+  "description": "Deterministic Confluence CLI for AI agents",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "agent-confluence-cli": "bin/conf-cli.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "markdown-it": "^14.0.0"
+  },
+  "scripts": {
+    "start": "node bin/conf-cli.js"
+  }
+}

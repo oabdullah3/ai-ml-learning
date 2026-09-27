@@ -1,0 +1,45 @@
+# ── Python ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# ── Node ────────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# ── R ───────────────────────────────────────────────────────────────────
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# ── Editor / OS ─────────────────────────────────────────────────────────
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+~$*
+
+# ── Tool state / logs ───────────────────────────────────────────────────
+log_payloads/
+.kilo/
+.openclaw/
+.qwen/
+.claude/
+.agents/
+.obsidian/
+
+# ── Local secrets & data (never commit) ─────────────────────────────────
+*.pem
+*.key
+*.xlsx
+raw_data*.csv
+node_attribute_List.csv
+Network_Attribute_List*.csv
