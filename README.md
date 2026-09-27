@@ -2,7 +2,7 @@
 
 A curated collection of coursework and industry projects spanning classical ML, natural-language processing, network science, and production-grade automation tooling.
 
-Built by **Omer Abdullah**, Computer Science undergraduate.
+Built by **Me** in for different purposes, projects, tasks.
 
 ---
 
